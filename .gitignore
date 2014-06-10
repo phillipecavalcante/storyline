@@ -1,5 +1,5 @@
 # Xcode
-storyline.xcodeproj/
+*.xcodeproj/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
