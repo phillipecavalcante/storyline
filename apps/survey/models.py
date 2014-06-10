@@ -27,6 +27,20 @@ class Profile(models.Model):
         (G, 'Graduate'),
     )
     
+    AGE_CHOICES = (
+        (N, 'Neither/Other'),
+        ('ONE', '14 to 18'),
+        ('TWO', '19 to 23'),
+        ('THR', '24 to 28'),
+        ('FOU', '29 to 33'),
+        ('FIV', '34 to 38'),
+        ('SIX', '39 to 43'),
+        ('SEV', '44 to 48'),
+        ('EIG', '49 to 53'),
+        ('NIN', '54 to 58'),
+        ('TEN', '59 or more'),
+    )
+    
     user = models.OneToOneField(User)
     
     agreed = models.BooleanField(default=False)
@@ -39,5 +53,11 @@ class Profile(models.Model):
     edu = models.CharField(
                             max_length=1,
                             choices=EDU_CHOICES,
+                            default=N
+                            )
+
+    age = models.CharField(
+                            max_length=3,
+                            choices=AGE_CHOICES,
                             default=N
                             )
