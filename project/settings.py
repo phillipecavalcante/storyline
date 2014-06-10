@@ -47,9 +47,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'storyline.urls'
+ROOT_URLCONF = 'project.urls'
 
-WSGI_APPLICATION = 'storyline.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 
 # Database
