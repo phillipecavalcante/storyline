@@ -36,6 +36,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.webdesign',
+    # third-party
+    'captcha',
+    # apps
     'apps.survey',
 )
 
@@ -97,3 +101,7 @@ STATICFILES_DIRS = (
 TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
+
+RECAPTCHA_PUBLIC_KEY = '6LdOrPQSAAAAAFkys695MjBfX_9WGMtu-w74uyn3'
+RECAPTCHA_PRIVATE_KEY = '6LdOrPQSAAAAAJ31TyU0qKER1FlQEh8oTbKcnXGj'
+RECAPTCHA_USE_SSL = True
