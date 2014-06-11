@@ -19,7 +19,10 @@ class SubscribeView(View):
         data = {'form' : form}
         
         if form.is_valid():
+            
+            user_email = request.POST.get('email')
+            user_agreed = request.POST.get('agreed')
+            
             return render(request, 'survey/subscribe.html')
         else:
-            data.update({'x':'fasdfs'})
             return render(request, 'survey/subscribe.html', data)
