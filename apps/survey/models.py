@@ -61,3 +61,8 @@ class Profile(models.Model):
                             choices=AGE_CHOICES,
                             default=N
                             )
+
+class Ticket(models.Model):
+
+    email = models.EmailField()
+    token = models.CharField(max_length=255)
