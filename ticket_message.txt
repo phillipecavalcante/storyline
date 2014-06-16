@@ -1,0 +1,12 @@
+Olá
+
+Você está recebendo este e-mail porque solicitou um ticket para participar do survey Storyline.
+
+Você vai precisar deste código para criar uma conta de participação:
+
+<token>
+
+Se você não solicitou o ticket para participar do survey, por favor, despreze este email.
+
+Atenciosamente,
+Phillipe Cavalcante

@@ -10,11 +10,14 @@ from django.shortcuts import redirect
 from django.core.urlresolvers import reverse
 from django.core.mail import send_mail
 
-from smtplib import SMTPSenderRefused
+from smtplib import SMTPException
 from passlib.hash import sha512_crypt
 
-from apps.survey.forms import SignupForm, SigninForm, ActivateForm, EmailForm, TicketForm
+from apps.survey.forms import SignupForm, SigninForm, EmailForm, TicketForm
 from apps.survey.models import Profile, Ticket
+
+from project import settings
+from os.path import join
 
 # Create your views here.
 
@@ -34,55 +37,61 @@ class TicketView(View):
         if form.is_valid():
             
             user_email = request.POST.get('email')
-            user_token = sha512_crypt.encrypt(user_email)
-            
+
             # get or create ticket
             try:
+            
                 ticket = Ticket.objects.get(email=user_email)
-                msg = "Um ticket já foi enviado para %s. Por favor, digite outro e-mail." % str(user_email)
-                messages.error(request, msg, extra_tags='danger')
-                return redirect(reverse('survey:ticket'))
+            
             except Ticket.DoesNotExist:
-                ticket = Ticket(email=user_email, token=user_token)
-                ticket.save()
-
-            # send mail
-            subject = "Storyline ticket"
-            message = """
-Olá
-
-Você está recebendo este e-mail porque solicitou um ticket para participar do survey Storyline.
-
-Você vai precisar deste código para criar uma conta de participação:
-
-<token>
-
-Se você não solicitou o ticket para participar do survey, por favor, despreze este email.
-
-Atenciosamente,
-Phillipe Cavalcante
-""".replace("<token>", user_token)
             
-            try:
-            
-                send_mail(
-                            subject,
-                            message,
-                            'noreply-storyline@outlook.com',
-                            [user_email],
-                            fail_silently=False
-                        )
-            except:
-                msg = "Não foi possível enviar um e-mail para %s. Por favor, tente mais tarde." % str(user_email)
-                messages.error(request, msg, extra_tags='danger')
-                return render(request, 'survey/ticket.html', data)
+                user_token = sha512_crypt.encrypt(user_email)
+
+                try:
+                
+                    ticket = Ticket(email=user_email, token=user_token)
+                
+                except Exception:
+                
+                    msg = "Não foi possível gerar um ticket. Por favor, tente mais tarde."
+                    messages.error(request, msg, extra_tags='danger')
                     
-            return redirect(reverse('survey:signup'))
-        else:
-            msg = "Ops! Verifique se o e-mail está correto."
-            messages.error(request, msg, extra_tags='danger')
-            return redirect(reverse('survey:ticket'))
+                    return render(request, 'survey:ticket', data)
+                
+                else:
+                
+                    # send mail
+                    subject = "Storyline ticket"
+                    message = open(join(settings.BASE_DIR,"ticket_message.txt")).read().replace("<token>", user_token)
+                    
+                    storyline_email = settings.EMAIL_HOST_USER
+                    
+                    if send_mail(subject, message, storyline_email, [user_email], fail_silently=True) == 0:
+                    
+                        msg = "Não foi possível enviar um e-mail para %s. Por favor, tente mais tarde." % str(user_email)
+                        messages.error(request, msg, extra_tags='danger')
+                        
+                        return render(request, 'survey/ticket.html', data)
+                    
+                    else:
+                    
+                        ticket.save()
+                        return redirect(reverse('survey:signup'))
+                        
+            else:
+            
+                msg = "Um ticket já foi enviado para %s. Use outro e-mail." % str(user_email)
+                messages.error(request, msg, extra_tags='danger')
+                
+                return redirect(reverse('survey:ticket'))
+                
+        else: # if form is invalid
         
+            msg = "Ops! Verifique se algum campo do formulário não foi preenchido."
+            messages.error(request, msg, extra_tags='danger')
+            
+            return render(request,'survey/ticket.html', data)
+
 class SignupView(View):
     
     def get(self, request):
@@ -179,39 +188,39 @@ class SigninView(View):
             messages.error(request, "O formulário não foi preenchido corretamente.", extra_tags='danger')
             return render(request, 'survey/signin.html', data)
 
-class ActivateView(View):
-    
-    def get(self, request):
-        data = {'form' : ActivateForm()}
-        return render(request, 'survey/activate.html', data)
-
-    def post(self, request):
-        
-        form = ActivateForm(request.POST)
-        data = {'form' : form}
-
-        if form.is_valid():
-            
-            user_email = request.POST.get('email')
-            user_activation_key = request.POST.get('activation_key')
-            
-            try:
-                user = User.objects.get(email=user_email)
-            except User.DoesNotExist:
-                messsages.error(request, "Email não cadastrado.")
-                return render(request, 'survey/activate.html', data)
-            else:
-                if sha512_crypt.verify(str(user.password), str(user_activation_key)):
-                    user.is_active = True
-                    user.save()
-                    return redirect(reverse('survey:signin'))
-                else:
-                    messages.error(request, "Chave de ativação inválida.", extra_tags='danger')
-                    return render(request, 'survey/activate.html', data)
-    
-        else:
-            messages.error(request, "Formulário mal preenchido.", extra_tags='danger')
-            return render(request, 'survey/activate.html', data)
+#class ActivateView(View):
+#    
+#    def get(self, request):
+#        data = {'form' : ActivateForm()}
+#        return render(request, 'survey/activate.html', data)
+#
+#    def post(self, request):
+#        
+#        form = ActivateForm(request.POST)
+#        data = {'form' : form}
+#
+#        if form.is_valid():
+#            
+#            user_email = request.POST.get('email')
+#            user_activation_key = request.POST.get('activation_key')
+#            
+#            try:
+#                user = User.objects.get(email=user_email)
+#            except User.DoesNotExist:
+#                messsages.error(request, "Email não cadastrado.")
+#                return render(request, 'survey/activate.html', data)
+#            else:
+#                if sha512_crypt.verify(str(user.password), str(user_activation_key)):
+#                    user.is_active = True
+#                    user.save()
+#                    return redirect(reverse('survey:signin'))
+#                else:
+#                    messages.error(request, "Chave de ativação inválida.", extra_tags='danger')
+#                    return render(request, 'survey/activate.html', data)
+#    
+#        else:
+#            messages.error(request, "Formulário mal preenchido.", extra_tags='danger')
+#            return render(request, 'survey/activate.html', data)
 
 class StorylinesView(View):
     

@@ -29,17 +29,17 @@ class SigninForm(forms.Form):
     passphrase.widget.attrs['class'] = 'form-control text-center'
     passphrase.widget.attrs['placeholder'] = 'senha'
 
-class ActivateForm(forms.Form):
-    
-    email = forms.EmailField()
-    activation_key = forms.CharField(widget=forms.PasswordInput())
-    
-    
-    email.widget.attrs['class'] = 'form-control text-center'
-    email.widget.attrs['placeholder'] = 'seu_email@exemplo.com'
-
-    activation_key.widget.attrs['class'] = 'form-control text-center'
-    activation_key.widget.attrs['placeholder'] = 'chave de ativação'
+#class ActivateForm(forms.Form):
+#    
+#    email = forms.EmailField()
+#    activation_key = forms.CharField(widget=forms.PasswordInput())
+#    
+#    
+#    email.widget.attrs['class'] = 'form-control text-center'
+#    email.widget.attrs['placeholder'] = 'seu_email@exemplo.com'
+#
+#    activation_key.widget.attrs['class'] = 'form-control text-center'
+#    activation_key.widget.attrs['placeholder'] = 'chave de ativação'
 
 class EmailForm(forms.Form):
     
