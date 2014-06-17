@@ -2,11 +2,15 @@ Olá
 
 Você está recebendo este e-mail porque solicitou um ticket para participar do survey Storyline.
 
-Você vai precisar deste código para criar uma conta de participação:
+O código abaixo é o seu ticket para criar uma conta de participação:
 
 <token>
 
-Se você não solicitou o ticket para participar do survey, por favor, despreze este email.
+Insira o código no campo ticket do cadastro de participação e preencha os demais campos para se cadastrar.
+
+Se você não solicitou o ticket para participar do survey, por favor, descarte este email.
+
+Obrigado pela participação!
 
 Atenciosamente,
 Phillipe Cavalcante
