@@ -10,79 +10,118 @@ from django.shortcuts import redirect
 from django.core.urlresolvers import reverse
 from django.core.mail import send_mail
 
-from smtplib import SMTPException
+import smtplib
 from passlib.hash import sha512_crypt
 
 from apps.survey.forms import SignupForm, SigninForm, EmailForm, TicketForm
 from apps.survey.models import Profile, Ticket
 
 from project import settings
-from os.path import join
+import os
 
 # Create your views here.
 
 class TicketView(View):
-
+    """
+    Ticket View
+    
+    """
+    
     def get(self, request):
         
-        data = {'form' : EmailForm()}
+        data = {'form': EmailForm()}
         
         return render(request, 'survey/ticket.html', data)
     
     def post(self, request):
         
+        # Get form data.
         form = EmailForm(request.POST)
-        data = {'form' : form}
+        data = {'form': form}
         
         if form.is_valid():
             
             user_email = request.POST.get('email')
 
-            # get or create ticket
+            # Get ticket related to user's e-mail.
             try:
             
                 ticket = Ticket.objects.get(email=user_email)
             
-            except Ticket.DoesNotExist:
+            except Ticket.DoesNotExist: #Ticket Does not exist
             
+                # Generate a new token.
                 user_token = sha512_crypt.encrypt(user_email)
-
+                
+                # Create a new ticket.
                 try:
                 
                     ticket = Ticket(email=user_email, token=user_token)
                 
-                except Exception:
-                
+                except Exception: # Ticket has not generated for some reason.
+                    
                     msg = "Não foi possível gerar um ticket. Por favor, tente mais tarde."
                     messages.error(request, msg, extra_tags='danger')
-                    
                     return render(request, 'survey:ticket', data)
                 
-                else:
-                
-                    # send mail
+                else: #Ticket has been generated.
+                    
+                    # Send ticket's e-mail
+                    
                     subject = "Storyline ticket"
-                    message = open(join(settings.BASE_DIR,"ticket_message.txt")).read().replace("<token>", user_token)
                     
-                    storyline_email = settings.EMAIL_HOST_USER
-                    
-                    if send_mail(subject, message, storyline_email, [user_email], fail_silently=True) == 0:
-                    
-                        msg = "Não foi possível enviar um e-mail para %s. Por favor, tente mais tarde." % str(user_email)
-                        messages.error(request, msg, extra_tags='danger')
+                    # Open ticket's file.
+                    try:
                         
-                        return render(request, 'survey/ticket.html', data)
+                        filepath = os.path.join(settings.BASE_DIR, "ticket.txt")
+                        f = open(filepath)
+                    
+                    except Exception:
+                    
+                        # Ticket's message has not been read.
+                        msg = "Ops! Não foi possível gerar o conteúdo da mensagem do ticket. Por favor, tente mais tarde."
+                        messages.error(request, msg, extra_tags='danger')
+                        return render(request, 'survey:ticket', data)
                     
                     else:
                     
+                        message = f.read().replace("<token>", user_token)
+                    
+                    finally:
+                    
+                        f.close()
+                    
+                    try:
+                    
+                        storyline_email = settings.EMAIL_HOST_USER
+                    
+                    except Exception:
+                        
+                        msg = "Não foi possível enviar o ticket..."
+                        messages.error(request, msg, extra_tags='danger')
+                        return render(request, 'survey:ticket', data)
+                        
+                    try:
+                    
+                        send_mail(subject, message, storyline_email, [user_email], fail_silently=True)
+                    
+                    except Exception:
+                    
+                        msg = "Não foi possível enviar um e-mail para %s. Por favor, tente mais tarde." % str(user_email)
+                        messages.error(request, msg, extra_tags='danger')
+                        return render(request, 'survey:ticket', data)
+                    
+                    else:
+                    
+                        msg = "Um ticket foi enviado para %s." % str(user_email)
+                        messages.info(request, msg, extra_tags='info')
                         ticket.save()
                         return redirect(reverse('survey:signup'))
                         
             else:
             
-                msg = "Um ticket já foi enviado para %s. Use outro e-mail." % str(user_email)
+                msg = "Um ticket já foi enviado para %s. Por favor, use outro e-mail." % str(user_email)
                 messages.error(request, msg, extra_tags='danger')
-                
                 return redirect(reverse('survey:ticket'))
                 
         else: # if form is invalid
@@ -227,4 +266,9 @@ class StorylinesView(View):
     @login_required
     def get(self, request):
         return render(request, 'survey/storylines.html')
+
+class TermsView(View):
+
+    def get(self, request):
+        return render(request, 'survey/terms.html')
     
