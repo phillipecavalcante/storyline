@@ -28,6 +28,7 @@
                 {% include "brand.html" %}
             </div>
         </nav>
+        
         <div class="container">
             {% for message in messages %}
                 <div {% if message.tags %}class="alert alert-{{ message.tags }} alert-dismissable"{% endif %}>
@@ -37,15 +38,28 @@
             {% empty %}
             {% endfor %}
         </div>
+        
+        {% block header %}{% endblock %}
+        
         <div class="container">
             {% block body %}{% endblock %}
         </div>
+        
         <div class="container">
-            
+            <ul class="list-inline">
+                <li>
+                    <a href="{% url 'survey:ticket' %}">Obter ticket</a>
+                </li>
+                <li>
+                    <a href="{% url 'survey:signup' %}">Criar conta</a>
+                </li>
+            </ul>
         </div>
         <!--JS-->
-        <script src="{{ STATIC_URL }}jquery/js/jquery-1.11.1.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
         <script src="{{ STATIC_URL }}bootstrap/js/bootstrap.min.js"></script>
+        <script src="{{ STATIC_URL }}storyline/js/ajax.js"></script>
+        {% block js %}{% endblock %}
         <!--/JS-->
     </body>
 </html>
