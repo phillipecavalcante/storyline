@@ -40,6 +40,7 @@ INSTALLED_APPS = (
     # third-party
     'captcha',
     # apps
+    'apps.search',
     'apps.survey',
 )
 
