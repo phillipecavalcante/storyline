@@ -1,0 +1,5 @@
+<small><span class="text-muted pull-right">{{ doc.pub_date|date:"d/m/Y H:i" }}</span></small>
+<a href="#">{{ doc.title }}</a><br>
+<small class="text-success">{{ doc.url}}</small><br>
+<small>{{ doc.body|truncatewords_html:30|striptags|safe }}</small>
+<hr class="softlen">
