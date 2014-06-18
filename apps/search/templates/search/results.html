@@ -1,10 +1,11 @@
 {% if query %}
     <p class="text-muted">
-        Consulta: <strong>{{ query }}</strong>
+        A consulta <strong>"{{ query }}"</strong> retornou <strong>{{ hits }}</strong> resultados.
     </p>
 {% endif %}
 
 <div>
+    
     {% for doc in results %}
         {% include "search/snippet.html" %}
     {% empty %}
