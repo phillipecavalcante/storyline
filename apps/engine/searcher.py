@@ -8,7 +8,7 @@ Searcher obtém o buscador do índice de documentos.
 """
 
 try:
-    from engine.index import get_index
+    from apps.engine.index import get_index
     INDEX = get_index()
 except ImportError:
     print "Não foi possível importar o índice padrão."

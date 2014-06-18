@@ -8,7 +8,7 @@ Query processa o texto do usuário para o formato do esquema do índice.
 
 """
 try:
-    from engine.schema import get_schema
+    from apps.engine.schema import get_schema
     SCHEMA = get_schema()
 except ImportError:
     print "Ocorreu um erro ao importar o SCHEMA padrão."

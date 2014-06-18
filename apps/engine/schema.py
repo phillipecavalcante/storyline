@@ -86,6 +86,6 @@ def get_schema(lang=languages[10]):
                   pub_date = DATETIME(stored=True),
                   title = TEXT(stored=True,
                                analyzer=LanguageAnalyzer(lang)),
-                  content = TEXT(stored=True,
+                  body = TEXT(stored=True,
                                  analyzer=LanguageAnalyzer(lang)),
                   )
