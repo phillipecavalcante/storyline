@@ -36,7 +36,8 @@ class SearchView(View):
             searcher = get_searcher()
             
             results = searcher.search(query_parsed)
-
+            min_scored_length = results.estimated_min_length()
+            
             paginator = Paginator(results, 10)
 
             try:
@@ -50,8 +51,9 @@ class SearchView(View):
                 results = paginator.page(1)
             except EmptyPage:
                 results = paginator.page(paginator.num_pages)
-
+            
             data = {
+                    'hits' : min_scored_length,
                     'query' : query,
                     'results': results
                     }
