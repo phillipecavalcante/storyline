@@ -5,6 +5,8 @@ from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
 
 from apps.search.forms import SearchForm
 from apps.search.models import Topic, Article
+from apps.engine.query import parse
+from apps.engine.searcher import get_searcher
 
 # Create your views here.
 
@@ -30,7 +32,10 @@ class SearchView(View):
         
             query = request.POST.get('query')
             
-            results = Article.objects.all()
+            query_parsed = parse(query)
+            searcher = get_searcher()
+            
+            results = searcher.search(query_parsed)
 
             paginator = Paginator(results, 10)
 
