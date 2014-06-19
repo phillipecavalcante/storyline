@@ -44,7 +44,7 @@ def get_schema(lang=languages[10]):
     ser todos os campos que compõem o documento.
     
     Este esquema contém 4 campos - ``id``, ``pub_date``, ``title`` e
-    ``content`` - dos 6 campos da classe :class:`apps.search.models.Article`,
+    ``body`` - dos 6 campos da classe :class:`apps.search.models.Article`,
     que define um documento neste projeto.
     
     O esquema do índice de documentos para a classe Article é o seguinte:
@@ -56,18 +56,18 @@ def get_schema(lang=languages[10]):
                 pub_date = DATETIME(stored=True),
                 title = TEXT(stored=True,
                             analyzer=LanguageAnalyzer(lang)),
-                content = TEXT(stored=True,
+                body = TEXT(stored=True,
                                analyzer=LanguageAnalyzer(lang)),
                )
     
-    Os campos ``title`` e ``content``, por serem de tipo ``TEXT``, podem receber
+    Os campos ``title`` e ``body``, por serem de tipo ``TEXT``, podem receber
     processamento textual que varia de acordo com o idioma. O idioma padrão
     deste método é o Português. O parâmetro ``lang`` permite alterar o idioma
     para um dos idiomas listados em :mod:`whoosh.lang.languages`. 
     A escolha do idioma é importante para que a análise léxico-sintática sobre
     o texto seja feita corretamente.
     O analisador de textos :class:`LanguageAnalyzer` usa 3 filtros para
-    o processamento textual nos campos ``title`` e ``content``:
+    o processamento textual nos campos ``title`` e ``body``:
     LowercaseFilter (converte para letras minúsculas),
     StopFilter (remove palavras irrelevantes) e
     StemFilter (converte para a raiz da palavra).
