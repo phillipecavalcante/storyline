@@ -1,0 +1,2272 @@
+<entailment-corpus challenge="1">
+<pair id="8" task="IR" value="FALSE">
+	<t>O petr&#243;leo bruto para entrega em abril negociado a 37,80 d&#243;lares o barril, uma queda de 28 centavos</t>
+	<h>Os pre&#231;os do petr&#243;leo subiram para 37,80 d&#243;lares por barril</h>
+</pair>
+<pair id="12" task="IR" value="FALSE">
+	<t>A Oracle tinha lutado para manter as formas de ser liberado</t>
+	<h>Oracle lan&#231;ou um documento confidencial</h>
+</pair>
+<pair id="13" task="IR" value="TRUE">
+	<t>software iTunes tem visto fortes vendas na Europa.</t>
+	<h>Fortes vendas de iTunes na Europa.</h>
+</pair>
+<pair id="15" task="IR" value="FALSE">
+	<t>Todos os alimentos geneticamente modificados, e de soja ou &#243;leo de milho produzido a partir de soja e milho GM e ingredientes alimentares, devem ser rotulados.</t>
+	<h>As empresas que vendem os alimentos geneticamente modificados n&#227;o precisa de r&#243;tulos.</h>
+</pair>
+<pair id="19" task="IR" value="TRUE">
+	<t>Pesquisadores da Escola de Sa&#250;de P&#250;blica de Harvard dizem que as pessoas que bebem caf&#233; pode estar fazendo muito mais do que manter-se acordado - este tipo de consumo, aparentemente, tamb&#233;m podem ajudar a reduzir o risco de doen&#231;as.</t>
+	<h>Beber caf&#233; tem benef&#237;cios para a sa&#250;de.</h>
+</pair>
+<pair id="20" task="IR" value="TRUE">
+	<t>Comer lotes de alimentos que s&#227;o uma boa fonte de fibra pode manter sua glicemia de subir muito r&#225;pido depois de comer.</t>
+	<h>Fibra melhora o controle de a&#231;&#250;car no sangue.</h>
+</pair>
+<pair id="46" task="IR" value="FALSE">
+	<t>Os Yankees dividir Hollywood com algo para se sentir OK sobre depois de ontem &#224; noite 5-4 perda para os Dodgers.</t>
+	<h>Dodgers perde primeiro jogo no Fenway</h>
+</pair>
+<pair id="50" task="IR" value="FALSE">
+	<t>Cientistas do Instituto do Genoma de Cingapura (SIG) descobriram a sequ&#234;ncia gen&#233;tica completa de um coronav&#237;rus isolado de um paciente Cingapura com SARS.</t>
+	<h>Cientistas de Cingapura revelam que o v&#237;rus SARS passou por mudan&#231;as gen&#233;ticas.</h>
+</pair>
+<pair id="52" task="IR" value="TRUE">
+	<t>Phish se desfaz depois de um concerto final em Vermont em 15 de agosto</t>
+	<h>A banda de rock Phish faz concerto final em Vermont.</h>
+</pair>
+<pair id="56" task="IR" value="TRUE">
+	<t>Euro-escandinavo m&#237;dia &#226;nimo Dinamarca v Su&#233;cia desenhar.</t>
+	<h>Dinamarca e Su&#233;cia empate.</h>
+</pair>
+<pair id="58" task="IR" value="TRUE">
+	<t>Militantes iraquianos, disse neste domingo que iria decapitar Kim Sun-Il, um tradutor de 33 anos de idade, dentro de 24 horas a menos que os planos para despachar milhares de soldados sul-coreanos para o Iraque foram abandonados.</t>
+	<h>Tradutor seq&#252;estrado no Iraque</h>
+</pair>
+<pair id="59" task="IR" value="FALSE">
+	<t>Dois engenheiros turcos e um tradutor afeg&#227;o sequestrado em dezembro foram libertados sexta-feira.</t>
+	<h>Tradutor seq&#252;estrado no Iraque</h>
+</pair>
+<pair id="60" task="IR" value="FALSE">
+	<t>Se um mexicano se aproxima da fronteira, ele assumiu estar tentando atravessar ilegalmente.</t>
+	<h>Os mexicanos continuam a atravessar ilegalmente fronteira</h>
+</pair>
+<pair id="62" task="IR" value="TRUE">
+	<t>Cart&#245;es verdes est&#227;o se tornando mais dif&#237;cil de obter.</t>
+	<h>Green Card &#233; agora dif&#237;cil receber.</h>
+</pair>
+<pair id="63" task="IR" value="TRUE">
+	<t>Ir&#227; vai lan&#231;ar em breve oito militares brit&#226;nicos detidos, juntamente com tr&#234;s navios</t>
+	<h>Militares brit&#226;nicos detidos</h>
+</pair>
+<pair id="64" task="IR" value="TRUE">
+	<t>O tempo de espera para um cart&#227;o verde aumentou de 21 meses para 33 meses nessas mesmas regi&#245;es.</t>
+	<h>Leva mais tempo para obter o green card.</h>
+</pair>
+<pair id="65" task="IR" value="TRUE">
+	<t>A&#231;&#245;es de empresas de carv&#227;o tem um elevador na segunda de manh&#227; depois de um artigo na Barron disse que a ind&#250;stria estava se beneficiando da alta dos pre&#231;os do g&#225;s natural e do advento de novas usinas que emitem menos polui&#231;&#227;o.</t>
+	<h>Estoques de carv&#227;o subir.</h>
+</pair>
+<pair id="66" task="IR" value="TRUE">
+	<t>Os militares da Marinha Real que est&#225; sendo mantido em cativeiro pelo Ir&#227; s&#227;o esperados para ser liberado hoje.</t>
+	<h>Militares brit&#226;nicos detidos</h>
+</pair>
+<pair id="67" task="IR" value="FALSE">
+	<t>Total de estoques de carv&#227;o com as centrais t&#233;rmicas desceu para 9,6 milh&#245;es de toneladas em 3 de Mar&#231;o de 2003, de 11 milh&#245;es de toneladas em 1 de outubro de 2002.</t>
+	<h>Estoques de carv&#227;o subir.</h>
+</pair>
+<pair id="69" task="IR" value="FALSE">
+	<t>Anorexia em homens responderam por aproximadamente seis por cento dos casos atendidos em uma cl&#237;nica de transtorno alimentar.</t>
+	<h>Anorexia torna-se comum no sexo masculino.</h>
+</pair>
+<pair id="73" task="IR" value="FALSE">
+	<t>H&#225; discuss&#245;es na Calif&#243;rnia e no Arizona para permitir que estrangeiros ilegais para ter carteira de motorista.</t>
+	<h>Carteiras de motorista da Calif&#243;rnia concedido a imigrantes ilegais.</h>
+</pair>
+<pair id="74" task="IR" value="TRUE">
+	<t>Vice-chanceler da Coreia do Sul diz que seu pa&#237;s n&#227;o vai mudar seu plano de enviar tr&#234;s mil soldados para o Iraque, apesar do seq&#252;estro de um homem sul-coreano l&#225;.</t>
+	<h>Coreia do Sul continua a enviar tropas.</h>
+</pair>
+<pair id="78" task="IR" value="FALSE">
+	<t>O novo livro de Clinton n&#227;o &#233; grande vendedor aqui.</t>
+	<h>O livro de Clinton &#233; um grande vendedor.</h>
+</pair>
+<pair id="79" task="IR" value="TRUE">
+	<t>A nave de propriedade privada s&#243; tem cerca de 400 metros para o espa&#231;o, de acordo com medi&#231;&#245;es de radar, mas foi o suficiente para confirmar que j&#225; n&#227;o tem um projeto de governo bem de salto alto para organizar viagens espaciais.</t>
+	<h>lan&#231;amentos de naves espaciais privadas</h>
+</pair>
+<pair id="77" task="IR" value="FALSE">
+	<t>Os meios de comunica&#231;&#227;o sempre falar sobre o Dow estar acima ou abaixo de um determinado n&#250;mero de pontos.</t>
+	<h>Dow Jones est&#225; em baixo.</h>
+</pair>
+<pair id="80" task="IR" value="FALSE">
+	<t>Administrador adjunto da Administra&#231;&#227;o da Avia&#231;&#227;o Federal para Transporte Espacial Comercial (FAA / AST) deu aprova&#231;&#227;o da licen&#231;a para a Scaled Composites de Mojave, na Calif&#243;rnia, o que permite a empresa a expandir os testes de voo da SpaceShipOne - um avi&#227;o-foguete privado-financiado para transportar passageiros a altitude suborbital .</t>
+	<h>Nave espacial privada lan&#231;a.</h>
+</pair>
+<pair id="83" task="IR" value="FALSE">
+	<t>O Los Angeles Lakers rolou o Indiana Pacers no jogo de quarta-feira rodada de abertura do campeonato da NBA.</t>
+	<h>Lakers ganhar o campeonato.</h>
+</pair>
+<pair id="84" task="IR" value="TRUE">
+	<t>Funcion&#225;rios da sa&#250;de Mundial alertou ontem que a &#193;frica Ocidental e &#193;frica Central estavam &#224; beira da pior surto de poliomielite em anos, decorrente da recusa de um &#250;nico estado no norte da Nig&#233;ria para vacinar as crian&#231;as contra a doen&#231;a.</t>
+	<h>Surto de p&#243;lio africano temiam</h>
+</pair>
+<pair id="85" task="IR" value="TRUE">
+	<t>Maior empregador privado do pa&#237;s, o Wal-Mart Stores Inc., est&#225; sendo processado por um n&#250;mero de seus funcion&#225;rios do sexo feminino que afirmam que eles foram mantidos fora dos postos de trabalho na gest&#227;o, porque s&#227;o mulheres.</t>
+	<h>Wal-Mart processado por discrimina&#231;&#227;o sexual</h>
+</pair>
+<pair id="86" task="IR" value="FALSE">
+	<t>O &#250;ltimo surto de p&#243;lio nos Estados Unidos foi em 1979.</t>
+	<h>Surto de p&#243;lio africano temiam</h>
+</pair>
+<pair id="96" task="IR" value="TRUE">
+	<t>A Suprema Corte Judicial de Massachusetts abriu o caminho para os casais de l&#233;sbicas e gays no estado para se casar, determinando que os advogados do governo "n&#227;o conseguiram identificar qualquer raz&#227;o constitucionalmente adequada" para negar-lhes o direito.</t>
+	<h>Suprema Corte dos EUA em favor do casamento homossexual</h>
+</pair>
+<pair id="97" task="IR" value="FALSE">
+	<t>Em junho, a Suprema Corte decidiu que as leis anti-sodomia s&#227;o inconstitucionais.</t>
+	<h>Suprema Corte dos EUA em favor do casamento homossexual</h>
+</pair>
+<pair id="98" task="IR" value="FALSE">
+	<t>Sharon adverte Arafat poderia ser alvo de assassinato.</t>
+	<h>primeiro-ministro alvo de assassinato</h>
+</pair>
+<pair id="99" task="IR" value="TRUE">
+	<t>Governo Regional do Curdist&#227;o primeiro-ministro Barham Salih Dr. saiu ileso depois de uma tentativa de assassinato.</t>
+	<h>primeiro-ministro alvo de assassinato</h>
+</pair>
+<pair id="110" task="IR" value="TRUE">
+	<t>Wal-Mart enfrenta enorme processo de discrimina&#231;&#227;o sexual</t>
+	<h>Wal-Mart enfrenta um terno sexo discrimina&#231;&#227;o</h>
+</pair>
+<pair id="114" task="IR" value="FALSE">
+	<t>Organiza&#231;&#245;es de jornalistas internacionais est&#227;o acusando o governo dos EUA de cometer crimes de guerra no Iraque por intencionalmente atirando em correspondentes de guerra.</t>
+	<h>EUA retira crimes de guerra</h>
+</pair>
+<pair id="117" task="IR" value="FALSE">
+	<t>Tornou-se cada vez mais claro que o Ir&#227; est&#225; progredindo rapidamente em dire&#231;&#227;o a alcan&#231;ar uma capacidade de armas nucleares como autoridades dos EUA confirmaram a presen&#231;a de v&#225;rios s&#237;tios nucleares que Teer&#227; n&#227;o revelou</t>
+	<h>Armas qu&#237;micas iranianas amea&#231;am Estados Unidos.</h>
+</pair>
+<pair id="119" task="IR" value="TRUE">
+	<t>Um cubano-americano que &#233; acusado de espionagem alega inoc&#234;ncia.</t>
+	<h>Americano acusado de espionagem</h>
+</pair>
+<pair id="121" task="IR" value="TRUE">
+	<t>Um aviador S&#237;rio-americano acusado de espionagem se queixou sobre o tratamento de prisioneiros na base dos EUA em Guant&#225;namo, Cuba.</t>
+	<h>Americano acusado de espionagem</h>
+</pair>
+<pair id="122" task="IR" value="TRUE">
+	<t>The Daily Telegraph, o ativo mais valorizado na desmoronando imp&#233;rio de m&#237;dia do Senhor Conrad Black, foi vendido para g&#234;meos Barclay da Gr&#227;-Bretanha.</t>
+	<h>Daily Telegraph &#233; vendido.</h>
+</pair>
+<pair id="123" task="IR" value="FALSE">
+	<t>O Daily Mail confirmou que tem puxado para fora da licita&#231;&#227;o para o jornal rival Daily Telegraph.</t>
+	<h>Daily Telegraph &#233; vendido.</h>
+</pair>
+<pair id="125" task="IR" value="TRUE">
+	<t>Em 25 de novembro de 2001, um elefante asi&#225;tico beb&#234; nasceu no Zool&#243;gico Nacional em Washington, DC.</t>
+	<h>beb&#234; elefante nascido</h>
+</pair>
+<pair id="127" task="IR" value="TRUE">
+	<t>Os 10 dias de idade "tubo de ensaio" elefante beb&#234; nascido em Colchester Zoo encontrou um nome, gra&#231;as &#224; internet!</t>
+	<h>beb&#234; elefante nascido</h>
+</pair>
+<pair id="130" task="IR" value="FALSE">
+	<t>Weinstock cuidadosamente revisado dezenas de estudos para provas de qualquer liga&#231;&#227;o entre o uso de protetor solar e um aumento ou diminui&#231;&#227;o do melanoma.</t>
+	<h>n&#250;meros de c&#226;ncer de pele aumenta.</h>
+</pair>
+<pair id="131" task="IR" value="TRUE">
+	<t>Vespa e abelha pica pode ser fatal se voc&#234; &#233; al&#233;rgico ao veneno.</t>
+	<h>picadas de abelha pode ser fatal</h>
+</pair>
+<pair id="135" task="IR" value="TRUE">
+	<t>O Estado da Calif&#243;rnia Departamento de Sa&#250;de e Seguran&#231;a do Trabalho divulgou seu relat&#243;rio sobre o 05 de setembro acidente fatal no Big Thunder Mountain Railroad atra&#231;&#227;o da Disneyl&#226;ndia.</t>
+	<h>Disneyland tem acidente</h>
+</pair>
+<pair id="561" task="QA" value="TRUE">
+	<t>O incidente em Mogad&#237;scio, capital da Som&#225;lia, veio como as for&#231;as dos EUA come&#231;ou a fase final de sua prometida 31 de mar&#231;o de arrancamento.</t>
+	<h>A capital da Som&#225;lia &#233; Mogadishu.</h>
+</pair>
+<pair id="562" task="QA" value="TRUE">
+	<t>Os dois ataques na semana passada pelo Movimento de Resist&#234;ncia Isl&#226;mica, o Hamas &#233; formalmente conhecido, dramatizada, tanto para israelenses e palestinos os perigos que enfrentam na busca de uma conviv&#234;ncia pac&#237;fica.</t>
+	<h>O Movimento de Resist&#234;ncia Isl&#226;mica &#233; tamb&#233;m conhecido como o Hamas.</h>
+</pair>
+<pair id="563" task="QA" value="FALSE">
+	<t>Mas a maioria dos israelenses, incluindo aqueles simp&#225;ticos aos esfor&#231;os dos colonos para recuperar todo o territ&#243;rio que foi parte da terra b&#237;blica de Israel, reagiram com horror para os assassinatos de Hebron ea viol&#234;ncia subseq&#252;ente.</t>
+	<h>Hebron est&#225; localizado a 20 quil&#244;metros ao sul de Jerusal&#233;m.</h>
+</pair>
+<pair id="564" task="QA" value="FALSE">
+	<t>A Rep&#250;blica do Tajiquist&#227;o, que declarou a independ&#234;ncia da Uni&#227;o Sovi&#233;tica em 1991, est&#225; em uma regi&#227;o que mudou de m&#227;os muitas vezes.</t>
+	<h>O colapso da Uni&#227;o Sovi&#233;tica em 1991.</h>
+</pair>
+<pair id="565" task="QA" value="TRUE">
+	<t>Pra&#231;a de Soprano: Mil&#227;o, It&#225;lia, a casa da &#243;pera famoso La Scala, soprano Maria Callas homenageado nesta quarta-feira, quando se rebatizou uma nova pra&#231;a depois da diva.</t>
+	<h>Casa de &#243;pera La Scala est&#225; localizado em Mil&#227;o, na It&#225;lia.</h>
+</pair>
+<pair id="566" task="QA" value="FALSE">
+	<t>"Eu s&#243; espero que eu n&#227;o tornar-se t&#227;o feliz me tornar chato." - O l&#237;der do Nirvana Kurt Cobain, dando sentido &#224; sua "Teen Spirit" coda "uma nega&#231;&#227;o".</t>
+	<h>"Smells Like Teen Spirit" &#233; uma can&#231;&#227;o da Nirvana.</h>
+</pair>
+<pair id="567" task="QA" value="TRUE">
+	<t>O primeiro-ministro Silvio Berlusconi foi eleito mar&#231;o 28, com um mandato para reformar regulamenta&#231;&#245;es de neg&#243;cios da It&#225;lia e tirar a economia da recess&#227;o.</t>
+	<h>O primeiro-ministro italiano Silvio Berlusconi &#233;.</h>
+</pair>
+<pair id="568" task="QA" value="TRUE">
+	<t>Pintura mais famosa da Noruega, "O Grito", de Edvard Munch, foi recuperado s&#225;bado, quase tr&#234;s meses depois de ter sido roubado de um museu de Oslo.</t>
+	<h>Edvard Munch pintou "O Grito".</h>
+</pair>
+<pair id="569" task="QA" value="TRUE">
+	<t>As for&#231;as do governo mataram o chefe do Grupo Isl&#226;mico Armado, ou GIA, que assumiu a responsabilidade pela morte de 61 estrangeiros no ano passado.</t>
+	<h>A sigla significa GIA Grupo Isl&#226;mico Armado.</h>
+</pair>
+<pair id="570" task="QA" value="TRUE">
+	<t>"Eu acho que voc&#234; tem que esperar isso de uma comunidade em crescimento", disse Mardelle Kean, que mora em frente a John Joseph Famalaro, acusado na morte de Denise A. Huber, que tinha 23 anos quando desapareceu em 1991.</t>
+	<h>John J. Famalaro &#233; acusado de ter matado Denise A. Huber.</h>
+</pair>
+<pair id="571" task="QA" value="FALSE">
+	<t>Na mesma sala em queda, 1992, George Bush preparado para debater Clinton e Ross Perot nos treinos com o Chefe do Estado-Maior John H. Sununu.</t>
+	<h>Ross Perot concorreu &#224; presid&#234;ncia em 1992.</h>
+</pair>
+<pair id="572" task="QA" value="FALSE">
+	<t>Camacho &#233; uma vers&#227;o mexicana de Morihiro Hosokawa do Jap&#227;o - um estrategista pragm&#225;tico usando uma crise eo clamor atendente de uma reforma para continuar a sua posi&#231;&#227;o pol&#237;tica.</t>
+	<h>O primeiro-ministro japon&#234;s Morihiro Hosokawa &#233;.</h>
+</pair>
+<pair id="573" task="QA" value="TRUE">
+	<t>Um agricultor que estava em contato com as vacas que sofrem de BSE - a chamada doen&#231;a da vaca louca - morreu do que &#233; considerado como a forma humana da doen&#231;a.</t>
+	<h>A encefalopatia espongiforme bovina &#233; outro nome para a "doen&#231;a da vaca louca".</h>
+</pair>
+<pair id="574" task="QA" value="TRUE">
+	<t>M&#233;dicos que trataram Ayrton Senna, depois de bater durante o Grande Pr&#234;mio de San Marino negaram as acusa&#231;&#245;es de que o piloto brasileiro morreu na pista de Imola.</t>
+	<h>Ayrton Senna teve o acidente que causou sua morte no Grande Pr&#234;mio de San Marino.</h>
+</pair>
+<pair id="575" task="QA" value="TRUE">
+	<t>O ativista mu&#231;ulmano negro disse que tinha aliviado Muhammad das suas fun&#231;&#245;es "at&#233; que ele demonstra que ele est&#225; disposto a estar de acordo com a maneira de representar a Deus e ao senhor Elijah Muhammad (fundador da Na&#231;&#227;o do Isl&#227;)".</t>
+	<h>Elijah Muhammad fundou a Na&#231;&#227;o do Isl&#227;.</h>
+</pair>
+<pair id="577" task="QA" value="TRUE">
+	<t>Os pre&#231;os do petr&#243;leo, notoriamente vulner&#225;vel a eventos pol&#237;ticos, cravado a US $ 40 o barril durante a Guerra do Golfo, em 1991.</t>
+	<h>A Guerra do Golfo foi travada em 1991.</h>
+</pair>
+<pair id="578" task="QA" value="TRUE">
+	<t>P&#225;scoa acabou, mas isso n&#227;o significa que voc&#234; n&#227;o pode desfrutar de "Ben-Hur", o av&#244; de &#233;picos b&#237;blicos e vencedor de um recorde de 11 Oscars, incluindo melhor filme e melhor ator (Charlton Heston no papel-t&#237;tulo).</t>
+	<h>Charlton Heston interpretou o papel-t&#237;tulo no filme "Ben-Hur".</h>
+</pair>
+<pair id="579" task="QA" value="TRUE">
+	<t>O tribunal anti-terrorista encontraram dois homens culpados de assassinar Shapour Bakhtiar e seu secret&#225;rio Sorush Katibeh, que foram encontrados com suas gargantas cortadas em Agosto de 1991.</t>
+	<h>Shapour Bakhtiar morreu em 1991.</h>
+</pair>
+<pair id="580" task="QA" value="TRUE">
+	<t>O programa incluir&#225; "Noite nos Jardins de Espanha," de Falla Concerto para Piano de Ravel em G, Overture de Berlioz para "Beatrice e Benedict", e Roy Harris 'Sinfonia n &#186; 3.</t>
+	<h>"Beatrice e Benedict" &#233; uma abertura de Berlioz.</h>
+</pair>
+<pair id="581" task="QA" value="TRUE">
+	<t>Para o mundo, M. Larry Lawrence, o novo emiss&#225;rio dos EUA para a Su&#237;&#231;a, que recebeu o presidente Clinton em suas f&#233;rias Sul da Calif&#243;rnia, vai ser conhecido como o Sr. Embaixador.</t>
+	<h>Larry Lawrence &#233; o chefe da Embaixada dos EUA na Su&#237;&#231;a.</h>
+</pair>
+<pair id="582" task="QA" value="TRUE">
+	<t>Em meio a rumores de que a 90-year-old l&#237;der s&#234;nior da China, Deng Xiaoping, est&#225; perto da morte, a visita tamb&#233;m vem em um momento prop&#237;cio para estabelecer rela&#231;&#245;es com altos funcion&#225;rios, militares e civis, que s&#227;o suscept&#237;veis de desempenhar um papel no p&#243;s- Deng per&#237;odo da sucess&#227;o como a China se esfor&#231;a para encontrar um novo l&#237;der.</t>
+	<h>Deng Xiaoping &#233; de 90 anos de idade.</h>
+</pair>
+<pair id="583" task="QA" value="FALSE">
+	<t>Enquanto os civis corriam para se proteger ou fugiram para o campo, as for&#231;as russas foram vistos afiando suas armas de artilharia mais perto de Grozny, e combatentes chechenos estavam oferecendo pouca resist&#234;ncia.</t>
+	<h>Grozny &#233; a capital da Chech&#234;nia.</h>
+</pair>
+<pair id="585" task="QA" value="TRUE">
+	<t>O ex-tenista Vitas Gerulaitis morreu de tal forma, em setembro, a partir de um ac&#250;mulo letal mon&#243;xido de carbono relacionado com a m&#225; instala&#231;&#227;o de um aquecedor de propano.</t>
+	<h>Vitas Gerulaitis morreu de envenenamento por mon&#243;xido de carbono.</h>
+</pair>
+<pair id="586" task="QA" value="TRUE">
+	<t>Os dois suspeitos pertencem ao gangue 30th Street, que se envolveu em um dos crimes mais not&#243;rios recentes no M&#233;xico: um tiroteio no aeroporto de Guadalajara, em maio de 1993, que matou o Cardeal Juan Jes&#250;s Posadas Ocampo e outros seis.</t>
+	<h>Cardeal Juan Jes&#250;s Posadas Ocampo morreu em 1993.</h>
+</pair>
+<pair id="587" task="QA" value="TRUE">
+	<t>Dois cruzeiros a bordo do Clipper midsummer Aventura Cruzeiros 140 passageiros Mundial Discoverer (8 de julho e 09 de agosto) vai lev&#225;-lo para as fal&#233;sias varridas pelo vento das ilhas Pribilof no mar de Bering, onde papagaios e chifres adornados com cara de desenho animado olhar.</t>
+	<h>As Ilhas Pribilof est&#227;o localizados no mar de Bering.</h>
+</pair>
+<pair id="589" task="QA" value="TRUE">
+	<t>Isso levou Clinton, esposa Hillary Rodham Clinton e sua filha Chelsea para passar um frio e triste s&#225;bado, em Minsk.</t>
+	<h>A esposa de Clinton &#233; chamado Hillary Rodham Clinton.</h>
+</pair>
+<pair id="590" task="QA" value="TRUE">
+	<t>Judie Vivian, executivo-chefe da ProMedica, uma empresa de servi&#231;os m&#233;dicos que ajuda a sustentar a 2 anos de idade, do Instituto do Cora&#231;&#227;o do Vietn&#227;, em Ho Chi Minh City (antiga Saigon), disse que at&#233; agora cerca de 1.500 crian&#231;as receberam tratamento.</t>
+	<h>O nome anterior da cidade de Ho Chi Minh era Saigon.</h>
+</pair>
+<pair id="591" task="QA" value="TRUE">
+	<t>Um j&#250;ri est&#225; programado para decidir pela primeira vez se Jack Kevorkian, famoso como "Dr. Morte", violou proibi&#231;&#227;o assistida por suic&#237;dio de Michigan, enquanto o Estado continua a lidar com a quest&#227;o do que para permitir que o doente quer terminar sua dor com o fim de suas vidas.</t>
+	<h>Jack Kevorkian &#233; o verdadeiro nome de "Dr. Morte".</h>
+</pair>
+<pair id="592" task="QA" value="TRUE">
+	<t>Ele se tornou querido para os artistas, ajudando-os nos anos de vacas magras e seguindo suas carreiras, disse Henry Hopkins, presidente do departamento de arte da UCLA, diretor do Museu Hammer UCLA / Armand e Centro Cultural e ex-diretor da funda&#231;&#227;o Weisman.</t>
+	<h>O Museu UCLA / Martelo &#233; dirigido por Henry Hopkins.</h>
+</pair>
+<pair id="593" task="QA" value="TRUE">
+	<t>Antes do jogo, Alabama Birmingham Atl&#233;tico Diretor e Coach Gene Bartow apresentado Cal State Northridge com um cheque de US $ 5.000 de Rust International Corp, para al&#237;vio do terremoto.</t>
+	<h>Treinadores Gene Bartow Alabama em Birmingham.</h>
+</pair>
+<pair id="594" task="QA" value="TRUE">
+	<t>"Pela primeira vez na hist&#243;ria, os jogadores est&#227;o investindo seu pr&#243;prio dinheiro para garantir o futuro do jogo", disse Atlanta Brave arremessador Tom Glavine.</t>
+	<h>Tom Glavine joga para o Atlanta Braves.</h>
+</pair>
+<pair id="601" task="QA" value="FALSE">
+	<t>Wilson tem, afinal, produziu os tr&#234;s &#225;lbuns Offspring, incluindo "Smash", o que surpreendeu a todos com a venda de 1 milh&#227;o de c&#243;pias em quatro meses, a cria&#231;&#227;o do grupo at&#233; ent&#227;o desconhecido como o l&#237;der, com Green Day, de uma onda sem precedentes de sucesso comercial para o punk.</t>
+	<h>"Smash" &#233; o t&#237;tulo do terceiro &#225;lbum do Offspring.</h>
+</pair>
+<pair id="602" task="QA" value="FALSE">
+	<t>Os historiadores estimam que 800.000 chechenos foram enfiados em vag&#245;es e deportados para o Cazaquist&#227;o e da Sib&#233;ria, e 240.000 deles morreram no caminho.</t>
+	<h>Stalin deportou 800.000 chechenos.</h>
+</pair>
+<pair id="603" task="QA" value="FALSE">
+	<t>Alem&#227;es votar em um partido, em vez de uma pessoa, e os social-democratas de esquerda de centro-n&#227;o marcar bem nas pesquisas como Scharping si mesmo.</t>
+	<h>Rudolph Scharping &#233; membro dos social-democratas.</h>
+</pair>
+<pair id="606" task="QA" value="FALSE">
+	<t>"Esse filme n&#227;o foi muito bem sucedido, mas, em seguida," Jogos de Guerra ", que foi um sucesso, deu certo quando eu ganhei o Tony de" Brighton Beach 'em 1983.</t>
+	<h>O filme "Jogos de Guerra" foi filmado em 1983.</h>
+</pair>
+<pair id="609" task="QA" value="FALSE">
+	<t>Cerca de metade foram ao longo de um trecho de 20 milhas da ba&#237;a de Santa Monica de Topanga Canyon Boulevard a Pen&#237;nsula de Palos Verdes.</t>
+	<h>O litoral da ba&#237;a de Santa Monica &#233; de 50 quil&#244;metros de comprimento.</h>
+</pair>
+<pair id="611" task="QA" value="FALSE">
+	<t>A principal atra&#231;&#227;o do Chapin Biblioteca &#233; a sua cole&#231;&#227;o de documentos da era revolucion&#225;ria, incluindo uma vers&#227;o impressa 1776 da Declara&#231;&#227;o de Independ&#234;ncia.</t>
+	<h>A Declara&#231;&#227;o de Independ&#234;ncia foi assinada em 1776.</h>
+</pair>
+<pair id="613" task="QA" value="FALSE">
+	<t>O porta-voz 20th Century Rick Dinon disse que entre o momento em que solicitou o aumento da taxa e mudou de id&#233;ia, as perdas estimadas terremoto havia crescido por centenas de milh&#245;es de d&#243;lares.</t>
+	<h>Rick Dinon &#233; o vice-presidente s&#234;nior da 20th Century Insurance Co.</h>
+</pair>
+<pair id="614" task="QA" value="FALSE">
+	<t>Ao nomear Guillermo Ortiz para ser ministro da Fazenda do M&#233;xico, Ernesto Zedillo presidente nomeou um amigo, ex-colega e, como ele, um economista norte-treinado.</t>
+	<h>Guillermo Ortiz nasceu no M&#233;xico.</h>
+</pair>
+<pair id="616" task="QA" value="FALSE">
+	<t>Esta era, afinal, Chuck Yeager, um cara com todas as coisas direito, o maior arma top de todos eles, cuja p&#243;s-Segunda Guerra Mundial fa&#231;anhas no mundo &#224;s avessas do transporte a&#233;reo supers&#244;nico ajudou a abrir caminho para a explora&#231;&#227;o espacial.</t>
+	<h>Chuck Yeager quebrou a barreira do som em 1947.</h>
+</pair>
+<pair id="619" task="QA" value="FALSE">
+	<t>Da Fiat Gianni Agnelli, propriet&#225;ria da Juventus, foi citado por jornais italianos, dizendo que quando Baggio saiu do campo ap&#243;s o jogo do M&#233;xico, "Ele parecia um coelho molhado."</t>
+	<h>Giovanni Agnelli &#233; o presidente da Fiat.</h>
+</pair>
+<pair id="620" task="QA" value="FALSE">
+	<t>PERSPECTIVA sobre a B&#243;snia; A PAZ BALC&#195;S QUE N&#195;O PODE DURAR</t>
+	<h>B&#243;snia est&#225; localizado na ex-Jugosl&#225;via.</h>
+</pair>
+<pair id="623" task="QA" value="FALSE">
+	<t>Homens armados leais ao l&#237;der nacionalista s&#233;rvio-b&#243;snio Radovan Karadzic conquistou 70% da B&#243;snia com o seu arsenal de tanques, avi&#245;es e obuses legadas pelo ex&#233;rcito iugoslavo.</t>
+	<h>Radovan Karadzic &#233; o l&#237;der da B&#243;snia.</h>
+</pair>
+<pair id="625" task="QA" value="FALSE">
+	<t>Este ano, por&#233;m, o concurso tem assumido uma nova urg&#234;ncia como a Administra&#231;&#227;o Clinton, movendo-se para bloquear a proposta do governo de Pyongyang para construir um arsenal nuclear, reacendeu um pouco da paix&#227;o em desafio ao Ocidente da Coreia do Norte.</t>
+	<h>Pyongyang &#233; a capital da Cor&#233;ia do Norte.</h>
+</pair>
+<pair id="626" task="QA" value="FALSE">
+	<t>Em Seul, Han confirmou que todos os media norte-coreanos na segunda-feira tinha come&#231;ado referindo-se a Kim Jong Il como "Sua Excel&#234;ncia" ou pelo termo anteriormente reservado para o seu pai, o "Grande L&#237;der". At&#233; agora, o Kim mais jovem tem sido chamado de "Querido L&#237;der".</t>
+	<h>O filho de Kim Il Sung &#233; chamado de Kim Jong Il.</h>
+</pair>
+<pair id="627" task="QA" value="FALSE">
+	<t>Pol&#237;cia su&#237;&#231;a confirmou quinta-feira que o l&#237;der cult Luc Jouret estava entre os mortos encontrados na Ordem de moradia-fogo destru&#237;do o Templo Solar da na aldeia alpina de Granges-sur-Salvan.</t>
+	<h>Luc Jouret era o l&#237;der da Ordem do Templo Solar.</h>
+</pair>
+<pair id="629" task="QA" value="FALSE">
+	<t>&#201; uma imagem familiar para muitos californianos, mas vividamente ilustrativo nesta metr&#243;pole eg&#237;pcia, onde uma confer&#234;ncia da ONU sobre popula&#231;&#227;o mundial est&#225; tentando pela primeira vez para desenhar liga&#231;&#245;es claras entre o crescimento da popula&#231;&#227;o e do meio ambiente.</t>
+	<h>A Confer&#234;ncia Internacional sobre Popula&#231;&#227;o e Desenvolvimento, realizada no Cairo.</h>
+</pair>
+<pair id="632" task="QA" value="FALSE">
+	<t>Ele reescreve as regras do com&#233;rcio global, estabelecido pelo Acordo Geral sobre Tarifas e Com&#233;rcio, ou GATT, em 1947, e modificado em v&#225;rias rodadas de negocia&#231;&#245;es, desde ent&#227;o.</t>
+	<h>GATT foi formada em 1947.</h>
+</pair>
+<pair id="639" task="QA" value="FALSE">
+	<t>Mas o professor aposentado desce do outro lado de um debate emocional sobre se a Est&#243;nia, Su&#233;cia e Finl&#226;ndia deve gastar $ 70 milh&#245;es necess&#225;rios para levantar a Est&#243;nia e os cerca de 800 corpos sepultados no interior.</t>
+	<h>910 passageiros morreram no naufr&#225;gio "Est&#243;nia".</h>
+</pair>
+<pair id="641" task="QA" value="FALSE">
+	<t>"Mayday! Aqui est&#225; Est&#243;nia! Outside Uto farol. Listamos 20 a 30 graus", a guarda costeira finlandesa citou o pedido de socorro.</t>
+	<h>A Est&#243;nia afundou sul da ilha de Uto.</h>
+</pair>
+<pair id="21" task="PP" value="FALSE">
+	<t>Canad&#225; contagem de sondas de 148, uma queda de 46 em rela&#231;&#227;o &#224; semana de 27 e para baixo em compara&#231;&#227;o com o do ano passado.</t>
+	<h>No ano passado, o registro foi de 148</h>
+</pair>
+<pair id="140" task="RC" value="TRUE">
+	<t>Um oficial s&#234;nior da coaliz&#227;o no Iraque disse que o corpo, que foi encontrado por policiais militares dos EUA a oeste de Bagd&#225;, parecia ter sido jogado de um ve&#237;culo.</t>
+	<h>Um corpo foi encontrado por policiais militares U. S..</h>
+</pair>
+<pair id="143" task="RC" value="TRUE">
+	<t>As for&#231;as dos EUA t&#234;m estado envolvidos em intensos combates depois que insurgentes lan&#231;aram ataques simult&#226;neos em v&#225;rias cidades iraquianas, incluindo Faluja e Baquba.</t>
+	<h>Faluja e Baquba s&#227;o cidades iraquianas.</h>
+</pair>
+<pair id="144" task="RC" value="TRUE">
+	<t>Paul Bremer, o topo administrador civil dos EUA no Iraque, eo novo presidente do Iraque, Ghazi al-Yawar, visitou a cidade iraquiana de Kirkuk.</t>
+	<h>Ghazi al-Yawar &#233; o novo presidente do Iraque.</h>
+</pair>
+<pair id="145" task="RC" value="TRUE">
+	<t>Arroyo foi o favorito dos investidores por causa de sua experi&#234;ncia como economista treinado e gerente do governo.</t>
+	<h>Arroyo tem experi&#234;ncia como economista e como gerente do governo.</h>
+</pair>
+<pair id="147" task="RC" value="TRUE">
+	<t>O &#237;ndice composto da Bolsa de Valores das Filipinas subiu 0,1 por cento, para 1.573,65.</t>
+	<h>O &#237;ndice composto da Bolsa de Valores das Filipinas aumentaram.</h>
+</pair>
+<pair id="148" task="RC" value="FALSE">
+	<t>O &#237;ndice composto da Bolsa de Valores das Filipinas subiu 0,1 por cento, para 1.573,65.</t>
+	<h>O &#237;ndice composto da Bolsa de Valores das Filipinas caiu.</h>
+</pair>
+<pair id="150" task="RC" value="TRUE">
+	<t>As opera&#231;&#245;es do governo veio um dia depois de guerrilheiros com roupas camufladas invadiram as ruas de Nazran, capital da Inguch&#233;tia, disparando granadas propelidas por foguetes nas delegacias, assumindo postos de controle e incendiando edif&#237;cios governamentais.</t>
+	<h>Capital da Inguch&#233;tia &#233; Nazran.</h>
+</pair>
+<pair id="152" task="RC" value="FALSE">
+	<t>Vinte e cinco dos mortos eram membros das ag&#234;ncias de aplica&#231;&#227;o da lei e do resto do 67 eram civis.</t>
+	<h>25 dos mortos eram civis.</h>
+</pair>
+<pair id="153" task="RC" value="TRUE">
+	<t>A Mona Lisa, pintada por Leonardo Da Vinci de 1503-1506, paira no Museu do Louvre de Paris.</t>
+	<h>A Mona Lisa &#233; na Fran&#231;a.</h>
+</pair>
+<pair id="154" task="RC" value="TRUE">
+	<t>Um gorila macho escapou de sua jaula no zool&#243;gico de Berlim e enviado visitantes apavorados correndo para se esconder, o jardim zool&#243;gico, disse ontem.</t>
+	<h>Um gorila escapou de sua jaula em um zool&#243;gico na Alemanha.</h>
+</pair>
+<pair id="155" task="RC" value="TRUE">
+	<t>Clonaid, que alega ter produzido 13 beb&#234;s clonados em todo o mundo, disse ao jornal di&#225;rio streats dois casais de Cingapura assinou ofertas concordando em pagar US $ 200.000 para conceber filhos atrav&#233;s da clonagem.</t>
+	<h>Clonaid clonou 13 beb&#234;s.</h>
+</pair>
+<pair id="157" task="RC" value="TRUE">
+	<t>Quatro dias de negocia&#231;&#245;es teve in&#237;cio com os EUA anunciando a primeira abertura significativa para a Coreia do Norte desde que George W Bush tomou posse h&#225; tr&#234;s anos.</t>
+	<h>George W. Bush chegou &#224; presid&#234;ncia dos EUA h&#225; 3 anos.</h>
+</pair>
+<pair id="160" task="RC" value="TRUE">
+	<t>Se voc&#234; sofre de certas doen&#231;as gen&#233;ticas, ou carregar um gene para que a doen&#231;a, os cientistas podem ter uma ou duas c&#233;lulas para verificar se esses genes e transferir apenas os embri&#245;es saud&#225;veis.</t>
+	<h>Os cientistas podem determinar se um embri&#227;o tem doen&#231;as gen&#233;ticas ou &#233; portador deles.</h>
+</pair>
+<pair id="162" task="RC" value="FALSE">
+	<t>A participa&#231;&#227;o da Vodafone de novos assinantes l&#237;quidos no Jap&#227;o tem diminu&#237;do nos &#250;ltimos meses.</t>
+	<h>Tem havido muitos novos assinantes para a Vodafone no Jap&#227;o nos &#250;ltimos meses.</h>
+</pair>
+<pair id="163" task="RC" value="FALSE">
+	<t>Este caso &#233; um dos primeiros a ser processado sob a nova lei dos EUA que regulamenta e-mails indesejados.</t>
+	<h>H&#225; uma nova lei que pro&#237;be o U. S. e-mail.</h>
+</pair>
+<pair id="167" task="RC" value="TRUE">
+	<t>Peter Voser, um de 46 anos de idade, que se juntou a ABB da Shell 2-1/2 anos, vai se juntar a empresa anglo-holandesa em 4 de outubro.</t>
+	<h>Peter Voser trabalhou para a Shell no passado.</h>
+</pair>
+<pair id="170" task="RC" value="FALSE">
+	<t>Bombas explodiram em duas cidades turcas quinta-feira apenas alguns dias antes de a Turquia acolhe uma cimeira da NATO.</t>
+	<h>Turquia acolhe homens-bomba.</h>
+</pair>
+<pair id="171" task="RC" value="FALSE">
+	<t>O terrorista &#233; suspeito de estar por tr&#225;s de v&#225;rios sequestros mortais e dezenas de ataques suicidas no Iraque.</t>
+	<h>Terrorist rapta dezenas de iraquianos.</h>
+</pair>
+<pair id="173" task="RC" value="FALSE">
+	<t>No entanto, testemunhas disseram que alguns dos homens armados vestidos de preto que atacaram uma delegacia de pol&#237;cia e pr&#233;dios do governo em Baquba, a 60 km (40 milhas) a noroeste de Bagd&#225;, a lealdade proclamada a Zarqawi e usavam bandanas amarelas ligando-os ao seu grupo.</t>
+	<h>Alguns dos pistoleiros mostrou lealdade para com o grupo de Baquba.</h>
+</pair>
+<pair id="175" task="RC" value="FALSE">
+	<t>O presidente sul-coreano Roh Moo-hyun quinta-feira pediu ao Conselho de Auditoria e Inspec&#231;&#227;o (BAI) para investigar quest&#245;es levantadas sobre a resposta do Minist&#233;rio das Rela&#231;&#245;es Exteriores para o sequestro de um sul-coreano no Iraque, que mais tarde foi morto por militantes mu&#231;ulmanos, de acordo com a Yonhap.</t>
+	<h>Roh Moo-hyun pediu ao BAI sequestrar um sul-coreano no Iraque.</h>
+</pair>
+<pair id="176" task="RC" value="TRUE">
+	<t>O presidente sul-coreano Roh Moo-hyun quinta-feira pediu ao Conselho de Auditoria e Inspec&#231;&#227;o (BAI) para investigar quest&#245;es levantadas sobre a resposta do Minist&#233;rio das Rela&#231;&#245;es Exteriores para o sequestro de um sul-coreano no Iraque, que mais tarde foi morto por militantes mu&#231;ulmanos, de acordo com a Yonhap.</t>
+	<h>A Coreia do Sul no Iraque foi morto por militantes mu&#231;ulmanos.</h>
+</pair>
+<pair id="177" task="RC" value="FALSE">
+	<t>Aumento de armazenamento n&#227;o &#233; tudo Microsoft vai oferecer a seus usu&#225;rios do Hotmail - eles tamb&#233;m podem contar com prote&#231;&#227;o anti-v&#237;rus gratuito.</t>
+	<h>Microsoft n&#227;o vai oferecer um aumento de armazenamento para seus usu&#225;rios.</h>
+</pair>
+<pair id="178" task="RC" value="TRUE">
+	<t>Aumento de armazenamento n&#227;o &#233; tudo Microsoft vai oferecer a seus usu&#225;rios do Hotmail - eles tamb&#233;m podem contar com prote&#231;&#227;o anti-v&#237;rus gratuito.</t>
+	<h>Microsoft ir&#225; fornecer prote&#231;&#227;o anti-v&#237;rus gratuito.</h>
+</pair>
+<pair id="189" task="RC" value="FALSE">
+	<t>Um ano ap&#243;s os acionistas aprovaram uma enorme expans&#227;o em sua piscina de op&#231;&#245;es de a&#231;&#245;es, o eBay est&#225; pedindo mais.</t>
+	<h>Acionistas aprovou a expans&#227;o por um ano.</h>
+</pair>
+<pair id="192" task="RC" value="FALSE">
+	<t>Os pre&#231;os do petr&#243;leo subiram hoje como empregadores noruegueses disseram que iriam responder a uma greve de bloqueio de todos os trabalhadores na pr&#243;xima semana, amea&#231;ando cortar quase toda a produ&#231;&#227;o de petr&#243;leo e g&#225;s.</t>
+	<h>Trabalhadores atacar em resposta &#224;s amea&#231;as dos empregadores noruegueses.</h>
+</pair>
+<pair id="193" task="RC" value="TRUE">
+	<t>Wal-Mart tem recebido muita publicidade negativa recentemente, incluindo alega&#231;&#245;es de que ele costumava trabalhadores ilegais e fizeram os funcion&#225;rios trabalham sem remunera&#231;&#227;o durante os intervalos de almo&#231;o, bem como reclama&#231;&#245;es que geralmente paga mal empregados.</t>
+	<h>Wal-Mart enfrenta acusa&#231;&#245;es por underpaying funcion&#225;rios.</h>
+</pair>
+<pair id="195" task="RC" value="FALSE">
+	<t>Ashley Olsen decidiu permanecer com sua irm&#227; g&#234;mea, Mary-Kate, em vez de ir em uma viagem planejada para a Austr&#225;lia para promover a abertura da mais recente aventura filme dos irm&#227;os "New York Minute", relata a AP.</t>
+	<h>Ashley Olsen planeja uma viagem para a Austr&#225;lia com Mary-Kate.</h>
+</pair>
+<pair id="196" task="RC" value="TRUE">
+	<t>Ashley Olsen decidiu permanecer com sua irm&#227; g&#234;mea, Mary-Kate, em vez de ir em uma viagem planejada para a Austr&#225;lia para promover a abertura da mais recente aventura filme dos irm&#227;os "New York Minute", relata a AP.</t>
+	<h>As g&#234;meas Olsen estrelar "New York Minute".</h>
+</pair>
+<pair id="199" task="RC" value="FALSE">
+	<t>Tradicionalmente, 60 por cento dos bilhetes vendidos para uma parada no Vans Warped Tour, por exemplo, ocorrem seis dias antes do show.</t>
+	<h>A maioria dos passeios s&#243; vender 60 por cento dos bilhetes.</h>
+</pair>
+<pair id="201" task="RC" value="FALSE">
+	<t>Paix&#245;es circundantes partida final da Alemanha no campeonato de futebol Euro 2004 se tornou violento quando a mulher esfaqueou seu companheiro na cabe&#231;a porque ela n&#227;o quer assistir ao jogo na televis&#227;o.</t>
+	<h>Uma mulher apaixonadamente queria assistir o campeonato de futebol.</h>
+</pair>
+<pair id="202" task="RC" value="TRUE">
+	<t>Paix&#245;es circundantes partida final da Alemanha no campeonato de futebol Euro 2004 se tornou violento quando a mulher esfaqueou seu companheiro na cabe&#231;a porque ela n&#227;o quer assistir ao jogo na televis&#227;o.</t>
+	<h>Um homem foi esfaqueado por causa de um jogo de futebol.</h>
+</pair>
+<pair id="203" task="RC" value="FALSE">
+	<t>Projecto especialistas dizem at&#233; oito perspectivas do ensino m&#233;dio dos Estados Unidos poderiam ser tomadas na primeira rodada do draft-segunda rodada, assim como at&#233; oito jogadores internacionais.</t>
+	<h>Projecto de especialistas elaborar oito jogadores internacionais.</h>
+</pair>
+<pair id="205" task="RC" value="FALSE">
+	<t>Em qualquer caso, o fato de que esta semana Michael Melvill, um 63-year-old piloto civil, guiado um pequeno foguete de navio mais de 100 quil&#244;metros acima da Terra e ent&#227;o deslizou-lo com seguran&#231;a de volta &#224; Terra, &#233; um motivo de celebra&#231;&#227;o.</t>
+	<h>Michael Melvill guiado mais de 100 foguetes-navios acima da Terra.</h>
+</pair>
+<pair id="209" task="RC" value="FALSE">
+	<t>Uma pesquisa conjunta de dois grupos de conserva&#231;&#227;o, World Conservation Union e do World Wildlife Fund, diz a popula&#231;&#227;o de rinocerontes negros aumentou para mais de 3.600. Isso representa um aumento de 500 animais ao longo dos &#250;ltimos dois anos.</t>
+	<h>Dois grupos de conserva&#231;&#227;o t&#234;m aumentado a popula&#231;&#227;o de rinocerontes negros.</h>
+</pair>
+<pair id="211" task="RC" value="FALSE">
+	<t>A equipe baseada em alem&#227;o dizem que seu estudo &#233; o &#250;nico relato de hiberna&#231;&#227;o prolongada em um mam&#237;fero tropical.</t>
+	<h>Os estudos da equipe hibernando mam&#237;feros na Alemanha.</h>
+</pair>
+<pair id="213" task="RC" value="FALSE">
+	<t>Comdex - uma vez que entre os maiores do mundo feiras, a plataforma de lan&#231;amento para novos computadores e produtos de software, e um dispositivo el&#233;trico Las Vegas por 20 anos - foi cancelada para este ano.</t>
+	<h>Comdex lan&#231;a feiras h&#225; 20 anos.</h>
+</pair>
+<pair id="214" task="RC" value="TRUE">
+	<t>Comdex - uma vez que entre os maiores do mundo feiras, a plataforma de lan&#231;amento para novos computadores e produtos de software, e um dispositivo el&#233;trico Las Vegas por 20 anos - foi cancelada para este ano.</t>
+	<h>Los Vegas sediou a feira Comdex por 20 anos.</h>
+</pair>
+<pair id="217" task="RC" value="TRUE">
+	<t>Uma variedade de dispositivos podem ser ligados selectivamente a partir de uma fonte de energia &#250;nica realizada no corpo atrav&#233;s de m&#250;ltiplos sinais de fornecimento de energia em diferentes frequ&#234;ncias, de acordo com o resumo da patente.</t>
+	<h>O resumo da patente mostra uma s&#233;rie de dispositivos que utilizam uma &#250;nica fonte.</h>
+</pair>
+<pair id="220" task="RC" value="FALSE">
+	<t>Empresa de licenciamento de tecnologia sem fio Wi-LAN canadense iniciou uma a&#231;&#227;o legal contra a Cisco, Linksys, alegando da gigante de redes e produtos Aironet est&#227;o fazendo uso de sua propriedade intelectual sem permiss&#227;o.</t>
+	<h>Linksys e Aironet come&#231;ar uma a&#231;&#227;o legal contra uma empresa canadense.</h>
+</pair>
+<pair id="221" task="RC" value="TRUE">
+	<t>A organiza&#231;&#227;o relata que tem visto recentemente um aumento significativo no n&#250;mero de reclama&#231;&#245;es e alguns deles envolvem conex&#245;es de modem sendo redirecionadas, sem o conhecimento dos usu&#225;rios.</t>
+	<h>Os usu&#225;rios n&#227;o estavam cientes de redirecionamento das conex&#245;es via modem '.</h>
+</pair>
+<pair id="222" task="RC" value="FALSE">
+	<t>A organiza&#231;&#227;o relata que tem visto recentemente um aumento significativo no n&#250;mero de reclama&#231;&#245;es e alguns deles envolvem conex&#245;es de modem sendo redirecionadas, sem o conhecimento dos usu&#225;rios.</t>
+	<h>Reclama&#231;&#245;es surgiu na organiza&#231;&#227;o sobre os usu&#225;rios que redirecionar suas conex&#245;es via modem.</h>
+</pair>
+<pair id="227" task="RC" value="FALSE">
+	<t>A Suprema Corte dos EUA de perto dividida nesta quinta-feira sua decis&#227;o de 2002, que os jurados e ju&#237;zes n&#227;o deve impor uma senten&#231;a de morte s&#243; se aplica aos casos futuros, uma decis&#227;o que pode afetar mais de 100 presos no corredor da morte.</t>
+	<h>O Supremo Tribunal Federal decidiu que apenas os ju&#237;zes podem impor a pena de morte.</h>
+</pair>
+<pair id="230" task="RC" value="FALSE">
+	<t>Em Joanesburgo, cerca de 500 ativistas furiosos AIDS, muitos usando camisetas vermelhas e brancas que diziam "HIV Positivo", criticou o presidente Bush, dizendo que ele havia machucado a luta mundial contra a AIDS, gastando bilh&#245;es de d&#243;lares em guerra.</t>
+	<h>Em Joanesburgo, os ativistas reclamaram que Bush gastou bilh&#245;es de d&#243;lares na luta mundial contra a AIDS em vez de guerra.</h>
+</pair>
+<pair id="231" task="RC" value="TRUE">
+	<t>O memorando observou Organiza&#231;&#227;o das Na&#231;&#245;es Unidas estima que 2.5 a 3.5 milh&#245;es de pessoas morreram de Aids no ano passado.</t>
+	<h>Mais de 2 milh&#245;es de pessoas morreram de Aids no ano passado.</h>
+</pair>
+<pair id="232" task="RC" value="TRUE">
+	<t>Um composto no leite materno foi encontrado para destruir muitas verrugas na pele, aumentando as esperan&#231;as tamb&#233;m pode revelar-se eficaz contra o c&#226;ncer do colo do &#250;tero e outras doen&#231;as letais causadas pelo mesmo v&#237;rus.</t>
+	<h>O leite materno pode ajudar a combater o c&#226;ncer de colo do &#250;tero.</h>
+</pair>
+<pair id="234" task="RC" value="TRUE">
+	<t>Apenas uma semana depois que ele n&#227;o fez nenhum coment&#225;rio sobre aumentando a capacidade de armazenamento do seu servi&#231;o de e-mail Hotmail, Microsoft quinta-feira cedo anunciou que estava aumentando a provis&#227;o para 250MB de seguir movimentos semelhantes por rivais como o Google, Yahoo e Lycos.</t>
+	<h>Hotmail da Microsoft aumentou sua capacidade de armazenamento de 250MB.</h>
+</pair>
+<pair id="235" task="RC" value="FALSE">
+	<t>Saddam Hussein estava sendo tratado com "dignidade e respeito".</t>
+	<h>Saddam Hussein estava sendo tratado como um dignit&#225;rio.</h>
+</pair>
+<pair id="240" task="RC" value="FALSE">
+	<t>As a&#231;&#245;es da Salesforce fechado quarta-feira em 17,20 d&#243;lares, mais de 50% acima do seu pre&#231;o de oferta.</t>
+	<h>Salesforce a&#231;&#245;es eram mais de 50% acima do seu pre&#231;o de oferta de 17,20 d&#243;lares.</h>
+</pair>
+<pair id="241" task="RC" value="TRUE">
+	<t>No entanto, as a&#231;&#245;es da Salesforce.com - que come&#231;aram a ser negociadas na New York Stock Exchange sob o s&#237;mbolo "CRM" - teve uma recep&#231;&#227;o Wall Street em linha com o de outros IPOs bem sucedidos recentes tecnologia.</t>
+	<h>Salesforce.com come&#231;aram a ser negociadas sob o s&#237;mbolo "CRM".</h>
+</pair>
+<pair id="244" task="RC" value="TRUE">
+	<t>Consumo excessivo de &#225;lcool entre as mulheres jovens est&#225; a aumentar, trazendo consigo uma s&#233;rie de consequ&#234;ncias para a sa&#250;de, incluindo a s&#237;ndrome do alcoolismo fetal.</t>
+	<h>As mulheres jovens s&#227;o binge beber mais, o que pode levar ao risco para a sa&#250;de de s&#237;ndrome alco&#243;lica fetal.</h>
+</pair>
+<pair id="249" task="RC" value="TRUE">
+	<t>Outros animais selvagens, como o &#243;rix, zebras e gazela, tamb&#233;m s&#227;o dependentes das zonas h&#250;midas Ugab.</t>
+	<h>Zebras dependem das zonas h&#250;midas Ugab.</h>
+</pair>
+<pair id="762" task="CD" value="TRUE">
+	<t>Um leil&#227;o de dois dias dos bens pertencentes a atriz Katharine Hepburn trouxe em 3,2 milh&#245;es de libras.</t>
+	<h>Um leil&#227;o de dois dias dos bens pertencentes a atriz Katharine Hepburn trouxe 3,2 milh&#245;es de libras.</h>
+</pair>
+<pair id="763" task="CD" value="TRUE">
+	<t>Tesouros pertencentes a lenda de Hollywood Katharine Hepburn levantaram &#163; 3.2m em um leil&#227;o de dois dias nos Estados Unidos.</t>
+	<h>Um leil&#227;o de dois dias dos bens pertencentes a atriz Katharine Hepburn trouxe em 3,2 milh&#245;es de libras.</h>
+</pair>
+<pair id="764" task="CD" value="TRUE">
+	<t>A fam&#237;lia de Hepburn receber&#225; o produto da venda.</t>
+	<h>Os rendimentos v&#227;o para a fam&#237;lia de Hepburn.</h>
+</pair>
+<pair id="765" task="CD" value="TRUE">
+	<t>O dinheiro arrecadado com a venda vai entrar em uma rela&#231;&#227;o de confian&#231;a para a fam&#237;lia de Hepburn.</t>
+	<h>Os rendimentos v&#227;o para a fam&#237;lia de Hepburn.</h>
+</pair>
+<pair id="766" task="CD" value="TRUE">
+	<t>Um pequeno busto de bronze de Spencer Tracy vendida por &#163; 174,000.</t>
+	<h>Um pequeno busto de bronze de Spencer Tracy fez &#163; 174,000.</h>
+</pair>
+<pair id="767" task="CD" value="TRUE">
+	<t>Hepburn, quatro vezes vencedor do Oscar, morreu em junho passado, em Connecticut, aos 96 anos.</t>
+	<h>Hepburn, que ganhou quatro Oscars, morreu em junho passado, aos 96 anos.</h>
+</pair>
+<pair id="768" task="CD" value="FALSE">
+	<t>Um pequeno busto de bronze de Spencer Tracy vendida por &#163; 174,000.</t>
+	<h>Um pequeno busto de bronze de Spencer Tracy fez &#163; 180,447.</h>
+</pair>
+<pair id="769" task="CD" value="TRUE">
+	<t>O mais procurado pe&#231;a eo item mais caro foi um busto de bronze de Spencer Tracy que Hepburn criado na d&#233;cada de 1960.</t>
+	<h>O item mais vendido foi um busto de bronze feita por Hepburn na d&#233;cada de 1960 de seu amante ator Spencer Tracy.</h>
+</pair>
+<pair id="770" task="CD" value="TRUE">
+	<t>Platina, diamante e safira broche de Hepburn tinha sido estimada para buscar apenas US $ 20.000, mas vendido por US $ 120.000, por seis vezes seu pre&#231;o estimado.</t>
+	<h>Broche de diamante e safira de Hepburn vendida por US $ 120.000.</h>
+</pair>
+<pair id="771" task="CD" value="FALSE">
+	<t>Nichols, 49 anos, foi condenado em 19 de abril de 1995, bombardeio do Alfred P. Murrah Federal Building, em Oklahoma City.</t>
+	<h>Nichols foi condenado &#224; pris&#227;o perp&#233;tua por 19 de abril de 1995, o bombardeio do edif&#237;cio federal de Oklahoma City.</h>
+</pair>
+<pair id="772" task="CD" value="TRUE">
+	<t>Nichols foi condenado 26 de maio de 161 acusa&#231;&#245;es de assassinato em primeiro grau para 160 v&#237;timas, e um feto em um julgamento estadual.</t>
+	<h>As acusa&#231;&#245;es estaduais contra Nichols s&#227;o para 160 v&#237;timas e feto de uma das v&#237;timas.</h>
+</pair>
+<pair id="775" task="CD" value="TRUE">
+	<t>A declara&#231;&#227;o disse ser da Al Qaeda, reivindicou o grupo terrorista tinha matado um americano e outro sequestrado em Riad.</t>
+	<h>Um cidad&#227;o dos EUA trabalhando em Riyadh foi seq&#252;estrado depois de um colega da mesma empresa foi morto a tiros ontem.</h>
+</pair>
+<pair id="778" task="CD" value="TRUE">
+	<t>Votar para um novo Parlamento Europeu tem sido obscurecida por apatia.</t>
+	<h>Apatia nuvens vota&#231;&#227;o da UE.</h>
+</pair>
+<pair id="779" task="CD" value="FALSE">
+	<t>Dezenove dos 25 estados membros da Uni&#227;o Europeia estavam a votar nas maiores elei&#231;&#245;es transnacionais j&#225; realizados, eo primeiro para a UE desde a expans&#227;o para o ex-Europa Oriental comunista do bloco em 1 de maio.</t>
+	<h>Quase 350 milh&#245;es de pessoas estavam aptos a votar desde que a UE acolheu 10 novos membros em 1 &#186; de maio.</h>
+</pair>
+<pair id="781" task="CD" value="TRUE">
+	<t>A vota&#231;&#227;o para um novo Parlamento Europeu foi obscurecida por preocupa&#231;&#245;es sobre a apatia.</t>
+	<h>Votar para um novo Parlamento Europeu tem sido obscurecida por apatia.</h>
+</pair>
+<pair id="783" task="CD" value="TRUE">
+	<t>Sharon enviou cartas de demiss&#227;o para Benny Elon e Avigdor Lieberman, que se op&#245;em a seu plano de retirada, na sexta-feira.</t>
+	<h>Na sexta-feira, Sharon demitido Benny Elon e Avigdor Lieberman.</h>
+</pair>
+<pair id="785" task="CD" value="TRUE">
+	<t>O Ex&#233;rcito dos EUA aderiu a um pedido do governador local para manter as tropas dos EUA para longe do Imam Ali Santu&#225;rio em Najaf.</t>
+	<h>O Ex&#233;rcito dos EUA concordou com um pedido do governador local para manter as tropas dos EUA para longe do Imam Ali Santu&#225;rio em Najaf.</h>
+</pair>
+<pair id="786" task="CD" value="TRUE">
+	<t>Assaltantes tamb&#233;m emboscado dois ve&#237;culos utilit&#225;rios esportivos civis, favorecido pelos empreiteiros civis ocidentais, na estrada para o aeroporto internacional de Bagd&#225;</t>
+	<h>Assaltantes tamb&#233;m emboscado dois ve&#237;culos utilit&#225;rios esportivos civis na estrada para o aeroporto internacional de Bagd&#225;.</h>
+</pair>
+<pair id="787" task="CD" value="TRUE">
+	<t>Cinco soldados norte-americanos foram mortos e cinco feridos sexta-feira em uma emboscada perto do bairro xiita de Sadr City.</t>
+	<h>Cinco soldados norte-americanos foram mortos e cinco feridos na sexta-feira em uma emboscada perto do bairro xiita de Sadr City.</h>
+</pair>
+<pair id="790" task="CD" value="FALSE">
+	<t>Heemeyer cortar vigias para suas armas, ent&#227;o soldadas um cerco apertado em torno deles de modo balas da pol&#237;cia n&#227;o conseguia penetrar.</t>
+	<h>Fora de um bulldozer velho, Heemeyer construiu uma caixa de concreto que nenhuma bala de pol&#237;cia poderia penetrar.</h>
+</pair>
+<pair id="791" task="CD" value="FALSE">
+	<t>A pol&#237;cia encontrou quatro armas e duas metralhadoras semi-autom&#225;ticas, um fuzil calibre .223 e dois rev&#243;lveres no ve&#237;culo.</t>
+	<h>A pol&#237;cia encontrou quatro armas - um rifle calibre .50, dois rifles de estilo militar e um rev&#243;lver no ve&#237;culo.</h>
+</pair>
+<pair id="793" task="CD" value="TRUE">
+	<t>Heemeyer equipado um bulldozer velho com tr&#234;s c&#226;meras de televis&#227;o e monitores para que ele pudesse ver para dirigir.</t>
+	<h>Heemeyer tinha instalado c&#226;meras de televis&#227;o ligadas a tr&#234;s monitores para que ele pudesse ver onde ele estava indo.</h>
+</pair>
+<pair id="794" task="CD" value="TRUE">
+	<t>A derrota por 7-4 Long Beach Estado, empurrou o cardeal &#224; beira no formato de dupla elimina&#231;&#227;o de regionais da NCAA.</t>
+	<h>Stanford Cardinal foram derrotados por Long Beach Estado, 7-4.</h>
+</pair>
+<pair id="795" task="CD" value="TRUE">
+	<t>Os dois presidentes, Bush e Chirac, foram homenageados com uma salva de 21 tiros.</t>
+	<h>Os dois presidentes, Bush e Chirac, foram homenageados com uma salva de 21 tiros.</h>
+</pair>
+<pair id="799" task="CD" value="FALSE">
+	<t>Reagan anunciou que tinha a doen&#231;a de Alzheimer, uma afli&#231;&#227;o cerebral incur&#225;vel.</t>
+	<h>Reagan morreu de pneumonia complicada pela doen&#231;a de Alzheimer</h>
+</pair>
+<pair id="800" task="CD" value="TRUE">
+	<t>Reagan foi seriamente ferido por uma bala disparada por John Hinckley Jr., em uma tentativa de assassinato, mas fez uma recupera&#231;&#227;o not&#225;vel r&#225;pida.</t>
+	<h>Reagan sobreviveu uma tentativa de balas do assassino.</h>
+</pair>
+<pair id="801" task="CD" value="FALSE">
+	<t>Reagan foi seriamente ferido por uma bala disparada por John Hinckley Jr.</t>
+	<h>John W. Hinckley Jr. atirou Reagan no peito.</h>
+</pair>
+<pair id="805" task="CD" value="FALSE">
+	<t>Laranja da Desko bater Marinha 1413 na segunda-feira para o t&#237;tulo da Divis&#227;o I em lacrosse dos homens.</t>
+	<h>Laranja da Desko bater Marinha 14-13 na segunda-feira para o t&#237;tulo da Divis&#227;o I em lacrosse dos homens.</h>
+</pair>
+<pair id="811" task="CD" value="FALSE">
+	<t>Monica Meadows, um modelo de 22 anos de idade, de Atlanta, foi baleado no ombro em um vag&#227;o do metr&#244; em Nova York.</t>
+	<h>Monica Meadows, 23, foi baleado no ombro enquanto dirigia um carro de metr&#244; em Nova York</h>
+</pair>
+<pair id="812" task="CD" value="FALSE">
+	<t>Os pre&#231;os do petr&#243;leo nesta ter&#231;a-feira aumentou agudamente em Nova York e Londres alcan&#231;ando um recorde de 42,33 d&#243;lares por barril, 2,45 d&#243;lares mais do que na &#250;ltima sexta.</t>
+	<h>Os pre&#231;os do petr&#243;leo subiram nesta ter&#231;a-feira para uma alta de todos os tempos, em Nova York, em 42 d&#243;lares por barril, 1,92 d&#243;lares por barril mais do que na &#250;ltima sexta.</h>
+</pair>
+<pair id="814" task="CD" value="FALSE">
+	<t>Em Nova York, o petr&#243;leo leve Nymex para entrega em julho atingiu 42,38 d&#243;lares por barril na ter&#231;a-feira</t>
+	<h>Os futuros do petr&#243;leo subiu para uma alta de todos os tempos, em Nova York ter&#231;a-feira, a 42 d&#243;lares o barril.</h>
+</pair>
+<pair id="667" task="CD" value="TRUE">
+	<t>Performances tradicionais em Jacarta incluem dan&#231;a wayang e drama, m&#250;sica de gamel&#227;o, e wayang mostra sombra de marionetas.</t>
+	<h>M&#250;sica de gamel&#227;o, em que os instrumentos de percuss&#227;o s&#227;o fundamentais, e mostra-sombra fantoches s&#227;o populares em Jacarta.</h>
+</pair>
+<pair id="668" task="CD" value="TRUE">
+	<t>Alguns dos edif&#237;cios ao redor da pra&#231;a da cidade no Kota tamb&#233;m datam desde os tempos coloniais, incluindo a antiga prefeitura (1710), que foi restaurada e agora serve como o museu municipal.</t>
+	<h>A prefeitura &#233; um museu agora.</h>
+</pair>
+<pair id="670" task="CD" value="FALSE">
+	<t>Alguns dos edif&#237;cios ao redor da pra&#231;a da cidade no Kota tamb&#233;m datam desde os tempos coloniais, incluindo a antiga prefeitura (1710), que foi restaurada e agora serve como o museu municipal.</t>
+	<h>Na Cidade Velha est&#227;o o antigo porto, a C&#226;mara Municipal holand&#234;s, e um quadrado.</h>
+</pair>
+<pair id="671" task="CD" value="TRUE">
+	<t>O Kota ("Forte"), ou Cidade Velha, por exemplo, &#224;s vezes chamado de se&#231;&#227;o central da cidade, &#233; o distrito central de neg&#243;cios e capital financeira da Indon&#233;sia.</t>
+	<h>O Kota &#233; o centro de neg&#243;cios do pa&#237;s.</h>
+</pair>
+<pair id="673" task="CD" value="TRUE">
+	<t>A mesquita Istiqlal, no canto nordeste de Medan Merdeka oposto Lapangan Banteng, &#233; uma das maiores mesquitas do Sudeste Asi&#225;tico.</t>
+	<h>A mesquita Istiqlal &#233; uma das maiores mesquitas do Sudeste Asi&#225;tico.</h>
+</pair>
+<pair id="674" task="CD" value="TRUE">
+	<t>Jacarta fica em uma plan&#237;cie aluvial baixa, plana, com historicamente extensas &#225;reas pantanosas; as partes da cidade, mais para o interior s&#227;o ligeiramente superiores.</t>
+	<h>As pe&#231;as de Jacarta de dist&#226;ncia da costa s&#227;o ligeiramente superiores em terra.</h>
+</pair>
+<pair id="675" task="CD" value="TRUE">
+	<t>Jacarta inunda facilmente durante a esta&#231;&#227;o chuvosa.</t>
+	<h>Jacarta &#233; facilmente inundada durante a esta&#231;&#227;o chuvosa.</h>
+</pair>
+<pair id="677" task="CD" value="FALSE">
+	<t>Os holandeses, que governou a Indon&#233;sia at&#233; 1949, chamou a cidade de Jacarta Batavia.</t>
+	<h>Anteriormente (at&#233; 1949) Batavia, Jacarta &#233; a maior cidade e capital da Indon&#233;sia.</h>
+</pair>
+<pair id="684" task="CD" value="FALSE">
+	<t>Em 1 de fevereiro de 1945, o governo polon&#234;s fez sua capital Vars&#243;via, e um escrit&#243;rio para a reconstru&#231;&#227;o urbana foi criado.</t>
+	<h>Vars&#243;via manteve-se a capital da Pol&#244;nia ap&#243;s a guerra.</h>
+</pair>
+<pair id="686" task="CD" value="FALSE">
+	<t>Judeus foram confinados &#224; parte judaica da cidade, chamada um gueto, e muitas pessoas l&#225; morreram de fome.</t>
+	<h>Doen&#231;as, fome e superlota&#231;&#227;o causou milhares de perecer diante de deporta&#231;&#245;es para os campos de exterm&#237;nio nazistas, especialmente para Treblinka, come&#231;ou no final de 1941.</h>
+</pair>
+<pair id="695" task="CD" value="FALSE">
+	<t>Em 1596 o rei polaco decidiu mudar a capital de Crac&#243;via para Vars&#243;via, tornando Vars&#243;via a cidade mais importante da Pol&#243;nia.</t>
+	<h>Em 1611, o rei e sua corte finalmente se mudou de Crac&#243;via (Cracow) para Vars&#243;via, tornando-se a capital do Estado polon&#234;s.</h>
+</pair>
+<pair id="698" task="CD" value="FALSE">
+	<t>Catedral de S&#227;o Jo&#227;o &#233; a igreja mais antiga de Vars&#243;via.</t>
+	<h>Na Cidade Velha, o St g&#243;tico. Catedral de John e as fortifica&#231;&#245;es de tijolo vermelho conhecido como o Barbican permanecem desde o per&#237;odo medieval.</h>
+</pair>
+<pair id="700" task="CD" value="FALSE">
+	<t>H&#225; muitas igrejas barrocas do per&#237;odo da Contra-Reforma, incluindo a Igreja dos Jesu&#237;tas, junto &#224; catedral e da Igreja da Santa Cruz, que cont&#233;m o cora&#231;&#227;o de Chopin.</t>
+	<h>Sigismund feito de Vars&#243;via a capital da Pol&#244;nia em 1611.</h>
+</pair>
+<pair id="707" task="CD" value="FALSE">
+	<t>Isto tornou-se Aquincum quando os romanos estabeleceram um acampamento militar e civil da cidade l&#225; no final do s&#233;culo 1 dC.</t>
+	<h>Um dos primeiros assentamentos organizados no local, por&#233;m, foi a fortaleza romana de Aquincum.</h>
+</pair>
+<pair id="709" task="CD" value="FALSE">
+	<t>Budapeste &#233; a maior cidade termal da Europa; h&#225; mais de 100 fontes termais que jorram de calc&#225;rio alicerce de Buda.</t>
+	<h>Existem in&#250;meras fontes termais subterr&#226;neas que cont&#234;m r&#225;dio e outros minerais, e, desde os tempos romanos, os banhistas t&#234;m buscado los para suas supostas propriedades curativas.</h>
+</pair>
+<pair id="712" task="CD" value="FALSE">
+	<t>Para o sul do monte do castelo ergue-se o maior Gellert Hill (771 p&#233;s), uma escarpa &#237;ngreme de pedra calc&#225;ria com vista para o Dan&#250;bio, que oferece uma vista panor&#226;mica de toda a cidade.</t>
+	<h>Para o sul &#233; Gellert Hill, que apresenta a Cidadela do s&#233;culo 19.</h>
+</pair>
+<pair id="717" task="CD" value="FALSE">
+	<t>Budapeste &#233; composto de duas partes, Buda e Peste, que est&#227;o situados em lados opostos do rio e ligadas por uma s&#233;rie de pontes.</t>
+	<h>Pest &#233; ao contr&#225;rio, margem leste.</h>
+</pair>
+<pair id="718" task="CD" value="FALSE">
+	<t>Budapeste &#233; composto de duas partes, Buda e Peste, que est&#227;o situados em lados opostos do rio e ligadas por uma s&#233;rie de pontes.</t>
+	<h>Buda est&#225; localizado na margem oeste do Dan&#250;bio.</h>
+</pair>
+<pair id="720" task="CD" value="FALSE">
+	<t>Budapeste &#233; composto de duas partes, Buda e Peste, que est&#227;o situados em lados opostos do rio e ligadas por uma s&#233;rie de pontes.</t>
+	<h>Budapeste &#233; composto por duas partes principais que se fundiram em 1873.</h>
+</pair>
+<pair id="268" task="IE" value="TRUE">
+	<t>N&#227;o pode haver d&#250;vida de que a Administra&#231;&#227;o j&#225; est&#225; cansado de Aristide, um padre cat&#243;lico romano populista que, em dezembro de 1990, conquistou uma vit&#243;ria esmagadora na elei&#231;&#227;o presidencial s&#243; democr&#225;tico do Haiti</t>
+	<h>Aristide tornou-se presidente do Haiti, em 1990.</h>
+</pair>
+<pair id="271" task="IE" value="FALSE">
+	<t>Evans Paul, o prefeito pr&#243;-Aristide de Port-au-Prince, disse que tinha sido dito que o dinheiro ir&#225; para lobistas americanos, pol&#237;ticos e jornalistas para fazer campanha contra o retorno de Aristide, o primeiro presidente democraticamente eleito do Haiti</t>
+	<h>Aristide &#233; o prefeito de Port-au-Prince</h>
+</pair>
+<pair id="273" task="IE" value="FALSE">
+	<t>Cedras, Biamby, e Fran&#231;ois tamb&#233;m levou o golpe 1991 que levou Aristide, primeiro presidente democraticamente eleito do Haiti, do escrit&#243;rio</t>
+	<h>Aristide tomou o poder em 1991.</h>
+</pair>
+<pair id="274" task="IE" value="TRUE">
+	<t>Autoridades norte-americanas disseram que esperam instalar Aristide pal&#225;cio presidencial em Port-au-Prince cerca de 10 dias depois que as tropas norte-americanas pousar no Haiti, uma programa&#231;&#227;o que um assessor disse Aristide &#233; aceit&#225;vel para o presidente deposto</t>
+	<h>Port-au-Prince no Haiti.</h>
+</pair>
+<pair id="941" task="IE" value="TRUE">
+	<t>Os EUA entregou o poder em 30 de junho de Iraq&#226;?? S governo interino escolhido pelas Na&#231;&#245;es Unidas e Paul Bremer, ex-governador do Iraque.</t>
+	<h>Transfer&#234;ncia de poder no Iraque em 30 de junho.</h>
+</pair>
+<pair id="942" task="IE" value="FALSE">
+	<t>Os EUA entregou o poder em 30 de junho de Iraq&#226;?? S governo interino escolhido pelas Na&#231;&#245;es Unidas e Paul Bremer, ex-governador do Iraque.</t>
+	<h>As Na&#231;&#245;es Unidas oficialmente transferiu o poder para o Iraque.</h>
+</pair>
+<pair id="943" task="IE" value="TRUE">
+	<t>Iraque tornou-se um pa&#237;s soberano segunda-feira, mas apenas uma d&#250;zia de funcion&#225;rios estiveram presentes na cerim&#244;nia de transfer&#234;ncia de poder na Zona Verde de Bagd&#225; fortemente guardada. Bremer entregou documentos legais que foram aceites pelo primeiro-ministro interino do Iraque, Iyad Allawi.</t>
+	<h>A transfer&#234;ncia de poder aconteceu em Bagd&#225;.</h>
+</pair>
+<pair id="945" task="IE" value="TRUE">
+	<t>Guerrilheiros matou um campon&#234;s na cidade de Flores.</t>
+	<h>Guerrilheiros mataram um civil</h>
+</pair>
+<pair id="946" task="IE" value="FALSE">
+	<t>Pessoal da pol&#237;cia metropolitana especializada em explosivos defused os foguetes. Cerca de 100 pessoas estavam trabalhando no interior da planta.</t>
+	<h>100 pessoas ficaram feridas</h>
+</pair>
+<pair id="947" task="IE" value="TRUE">
+	<t>Os Extradit&#225;veis &#8203;&#8203;afirmou hoje a responsabilidade pelo assassinato de Antioquia comandante da pol&#237;cia coronel Waldemar Franklin Quintero, que ocorreu esta manh&#227;, em Medell&#237;n.</t>
+	<h>policial morto</h>
+</pair>
+<pair id="948" task="IE" value="FALSE">
+	<t>Guerrilhas de esquerda no in&#237;cio ter&#231;a-feira atacou um bairro residencial no norte de San Salvador, onde muitos l&#237;deres do governo e militares t&#234;m suas casas.</t>
+	<h>Guerrilheiros atacaram pr&#233;dios do governo.</h>
+</pair>
+<pair id="949" task="IE" value="FALSE">
+	<t>Movil Access, uma empresa do Grupo Salinas, anunciou hoje que a Gustavo Guzman nomear&#225; Jose Luis Riera como empresa CFO do Grupo Iusacell.</t>
+	<h>Movil Acesso nomeia Gustavo Guzman como CFO.</h>
+</pair>
+<pair id="950" task="IE" value="TRUE">
+	<t>Movil Access, uma empresa do Grupo Salinas, anunciou hoje que a Gustavo Guzman nomear&#225; Jose Luis Riera como empresa CFO do Grupo Iusacell.</t>
+	<h>Movil Acesso nomeia Jose Luis Riera como CFO.</h>
+</pair>
+<pair id="951" task="IE" value="TRUE">
+	<t>QNX Software Systems Ltd., um fornecedor l&#237;der de software e servi&#231;os em tempo real para o mercado de computa&#231;&#227;o embarcada, tem o prazer de anunciar a nomea&#231;&#227;o do Sr. Sachin Lawande para o cargo de vice-presidente de servi&#231;os de engenharia.</t>
+	<h>Sachin Lawande Nomeado vice-presidente de Servi&#231;os de Engenharia em QNX</h>
+</pair>
+<pair id="952" task="IE" value="FALSE">
+	<t>Stefano Falconi, diretor de finan&#231;as do Instituto de Tecnologia de Massachusetts (MIT), juntou-se Carnegie Mellon como seu vice-presidente de administra&#231;&#227;o e diretor financeiro. Falconi sucede Jeff Bolton, que deixou a universidade em julho passado para tornar-se diretor financeiro da Funda&#231;&#227;o Mayo em Rochester, Minnesota</t>
+	<h>O Instituto de Tecnologia de Massachusetts (MIT) nomeia Stefano Falconi como diretor financeiro.</h>
+</pair>
+<pair id="953" task="IE" value="TRUE">
+	<t>Brent Frei, o co-fundador do fornecedor de CRM midmarket Onyx Software Corp, planeja renunciar como presidente-executivo e presidente do conselho.</t>
+	<h>Brent Frei sai posi&#231;&#227;o de CEO.</h>
+</pair>
+<pair id="954" task="IE" value="FALSE">
+	<t>Mark Allen, a empresa do presidente e diretor de opera&#231;&#245;es, ser&#225; o novo CEO.</t>
+	<h>Mark Allen &#233; nomeado como diretor de opera&#231;&#245;es.</h>
+</pair>
+<pair id="955" task="IE" value="TRUE">
+	<t>C &amp; D Technologies anunciou que concluiu a aquisi&#231;&#227;o da Datel, Inc.</t>
+	<h>C &amp; D Technologies adquiriu Datel Inc.</h>
+</pair>
+<pair id="956" task="IE" value="FALSE">
+	<t>C &amp; D Technologies anunciou que concluiu a aquisi&#231;&#227;o da Datel, Inc.</t>
+	<h>Datel adquirido C &amp; D Technologies</h>
+</pair>
+<pair id="957" task="IE" value="FALSE">
+	<t>Ssangyong Motor foi assumida pelos credores depois que entrou em colapso sob pesadas d&#237;vidas durante a crise financeira asi&#225;tica de 1997-98.</t>
+	<h>Crise financeira asi&#225;tica assume Ssangyong Motor</h>
+</pair>
+<pair id="350" task="MT" value="TRUE">
+	<t>O Departamento de Defesa americano informou hoje, que o bombardeio corre contra o Iraque est&#227;o sendo especialmente realizadas via m&#237;sseis de cruzeiro lan&#231;ados de porta-avi&#245;es norte-americanos e bombardeiros B52.</t>
+	<h>O Pent&#225;gono informou hoje, que o bombardeio corre contra o Iraque est&#227;o sendo especialmente realizadas via m&#237;sseis de cruzeiro lan&#231;ados de avi&#245;es americanos.</h>
+</pair>
+<pair id="352" task="MT" value="FALSE">
+	<t>O Departamento de Estado americano anunciou que a R&#250;ssia lembrou seu embaixador para os Estados Unidos "para consulta" devido &#224;s opera&#231;&#245;es de bombardeio sobre o Iraque.</t>
+	<h>Uma fonte oficial do Minist&#233;rio das Rela&#231;&#245;es Exteriores americano anunciou que a R&#250;ssia chamou os Estados Unidos "para consulta" por causa dos bombardeios sobre o Iraque.</h>
+</pair>
+<pair id="353" task="MT" value="FALSE">
+	<t>A organiza&#231;&#227;o humana, Caritas, citando sua filial no Iraque, anunciou hoje, na Alemanha, que v&#225;rios hospitais iraquianos, especialmente Saddam Hospital, que &#233; considerado o maior hospital no Iraque, foram atingidos no bombardeio americano-brit&#226;nica da capital iraquiana.</t>
+	<h>Uma fonte oficial da Caritas anunciou hoje na Alemanha, que v&#225;rios hospitais iraquianos, (excluindo Saddam Hospital, que &#233; o maior hospital do Iraque), foram atingidos no bombardeio americano-brit&#226;nica de Bagd&#225;.</h>
+</pair>
+<pair id="355" task="MT" value="TRUE">
+	<t>Um funcion&#225;rio iraquiano informou hoje, s&#225;bado, que 68 civis iraquianos foram mortos como resultado do bombardeamento americano e brit&#226;nico no Iraque e que seus funerais foram realizados hoje em Bagd&#225;.</t>
+	<h>Relatos de um funcion&#225;rio iraquiano hoje, s&#225;bado, disse que os 68 civis mortos como resultado do bombardeio anglo-americana do Iraque, foram enterrados hoje em Bagd&#225;.</h>
+</pair>
+<pair id="357" task="MT" value="TRUE">
+	<t>O cortejo f&#250;nebre foi para a sede do Programa das Na&#231;&#245;es Unidas para o Desenvolvimento, em Bagd&#225;, onde frequentadores f&#250;nebres realizadas banners denunciando os norte-americanos como "inimigos de Deus".</t>
+	<h>O cortejo f&#250;nebre foi dirigida para a sede do PNUD em Bagd&#225;, onde os sinais que denunciam os americanos como "inimigos de Deus", foram vistos.</h>
+</pair>
+<pair id="363" task="MT" value="FALSE">
+	<t>Bagd&#225; tinha anunciado que ele vai parar de cooperar com a UNSCOM completamente, mas indicou que n&#227;o ir&#225; pedir a sua partida.</t>
+	<h>Bagd&#225; anunciou a parada completa na sua coopera&#231;&#227;o com a UNSCOM, e tamb&#233;m disse que vai pedir para sair.</h>
+</pair>
+<pair id="378" task="MT" value="TRUE">
+	<t>Esta pesquisa de opini&#227;o foi realizada no sexto e s&#233;timo de outubro, e incluiu uma se&#231;&#227;o transversal de 861 adultos, com uma margem de erro estimada em 4%.</t>
+	<h>Esta sondagem foi realizada nos dias 6 e 07 de outubro, e incluiu um segmento de 861 pessoas, com uma margem de erro estimada em 4%.</h>
+</pair>
+<pair id="380" task="MT" value="FALSE">
+	<t>No entanto, 58 por cento dos norte-americanos expressaram sua satisfa&#231;&#227;o com o desempenho do trabalho do presidente. 44 por cento suportados Nixon no in&#237;cio da investiga&#231;&#227;o de Watergate.</t>
+	<h>Apesar de 58% dos americanos est&#227;o insatisfeitos com o desempenho do trabalho de Clinton, 44% encontraram trabalho de Nixon adequada no in&#237;cio do esc&#226;ndalo Watergate.</h>
+</pair>
+<pair id="465" task="PP" value="FALSE">
+	<t>Clientes Boise e OfficeMax ter&#225; a oportunidade de se envolver com a cren&#231;a na campanha Hope em uma variedade de maneiras.</t>
+	<h>Boise para adquirir OfficeMax.</h>
+</pair>
+<pair id="466" task="PP" value="TRUE">
+	<t>A Funda&#231;&#227;o Parque de Yellowstone reconhece as seguintes organiza&#231;&#245;es por seu apoio generoso para ajudar a proteger as maravilhas e vida selvagem do Parque Nacional de Yellowstone.</t>
+	<h>A Funda&#231;&#227;o Parque de Yellowstone gostaria de reconhecer e agradecer as seguintes organiza&#231;&#245;es para seu apoio generoso.</h>
+</pair>
+<pair id="468" task="PP" value="TRUE">
+	<t>Avestruzes colocar a cabe&#231;a na areia para evitar o vento.</t>
+	<h>Avestruzes enterram a cabe&#231;a na areia.</h>
+</pair>
+<pair id="469" task="PP" value="TRUE">
+	<t>Em 1997, as companhias de seguros pagos 51600000000 d&#243;lares para medicamentos prescritos.</t>
+	<h>As companhias de seguros cobrir medicamentos prescritos.</h>
+</pair>
+<pair id="474" task="PP" value="TRUE">
+	<t>Representantes de 142 na&#231;&#245;es s&#227;o esperados para sentar-se em Doha, no Catar, na pr&#243;xima sexta-feira para (OMC) quarta Confer&#234;ncia Ministerial da Organiza&#231;&#227;o Mundial do Com&#233;rcio.</t>
+	<h>Representantes dos 142 pa&#237;ses membros da Organiza&#231;&#227;o Mundial do Com&#233;rcio se reunir&#227;o em Doha, no Catar, na pr&#243;xima sexta-feira.</h>
+</pair>
+<pair id="476" task="PP" value="TRUE">
+	<t>Duas mulheres de dois munic&#237;pios est&#227;o mortos e pol&#237;cia tem algumas pistas sobre o que os assassinados.</t>
+	<h>Pol&#237;cia reunir pistas em duplo assassinato.</h>
+</pair>
+<pair id="477" task="PP" value="TRUE">
+	<t>Volunt&#225;rios treinados est&#227;o coletando dados de base sobre a qualidade da &#225;gua, e testar para selecionados contaminantes suspeitos de recife de coral.</t>
+	<h>Volunt&#225;rios recolher dados de base.</h>
+</pair>
+<pair id="478" task="PP" value="FALSE">
+	<t>Putin e Bush dizem que o Ir&#227; n&#227;o tem ambi&#231;&#245;es nucleares do mal.</t>
+	<h>Bush e Putin exortar o Ir&#227; a desistir de ambi&#231;&#245;es nucleares.</h>
+</pair>
+<pair id="480" task="PP" value="TRUE">
+	<t>Ir&#227; diz que desistir de membros da Al Qaeda.</t>
+	<h>Ir&#227; m&#227;os sobre os membros da Al Qaeda.</h>
+</pair>
+<pair id="482" task="PP" value="TRUE">
+	<t>A atriz Minnie Driver est&#225; tomando uma ruptura de filmes para trabalhar em uma f&#225;brica no Camboja.</t>
+	<h>Atriz Minnie Driver desiste de Hollywood para cambojano loja do suor.</h>
+</pair>
+<pair id="483" task="PP" value="TRUE">
+	<t>Clicando aqui, voc&#234; pode voltar para a p&#225;gina de login.</t>
+	<h>Clique aqui para voltar &#224; p&#225;gina de login.</h>
+</pair>
+<pair id="484" task="PP" value="FALSE">
+	<t>Os Inspetores de armas tiveram desde 1991 para desarmar pacificamente o Iraque de suas armas de destrui&#231;&#227;o em massa.</t>
+	<h>Armas inspetores vai voltar para o Iraque.</h>
+</pair>
+<pair id="486" task="PP" value="TRUE">
+	<t>Ap&#243;s a bem sucedida oferta para trazer o Ryder Cup 2010 ao Pa&#237;s de Gales, o Turismo de Gales perdeu tempo em trabalho de comissionamento para garantir que os benef&#237;cios do evento s&#227;o sentidos em todo o pa&#237;s.</t>
+	<h>Pa&#237;s de Gales para sediar Ryder Cup 2010.</h>
+</pair>
+<pair id="487" task="PP" value="TRUE">
+	<t>Localizado a apenas tr&#234;s quil&#244;metros de Tullamore e apenas a 45 minutos do K Club, local da Ryder Cup 2006, &#233; Esker Hills, uma verdadeira j&#243;ia escondida e um dos segredos mais bem guardados de golfe da Irlanda.</t>
+	<h>The K Club vai sediar Ryder Cup de 2006.</h>
+</pair>
+<pair id="489" task="PP" value="FALSE">
+	<t>Coronado professora de Ingl&#234;s Lori Rosales leu os livros de Harry Potter e as v&#234; como educacional e algo que as crian&#231;as possam se relacionar, porque as hist&#243;rias s&#227;o intemporais.</t>
+	<h>Professor ganha direito de mercado de Harry Potter.</h>
+</pair>
+<pair id="491" task="PP" value="TRUE">
+	<t>O terremoto de magnitude 7 que ocorreu hoje na falha de Hayward (a parte do sistema de falha de San Andreas, ao longo do lado oriental densamente povoado de San Francisco Bay) causou centenas de mortes e quase US $ 100 bilh&#245;es em danos.</t>
+	<h>Houve um terremoto de magnitude 7 na falha de Hayward.</h>
+</pair>
+<pair id="493" task="PP" value="FALSE">
+	<t>Depois de insultar o comit&#234; da ONU insinuando que eram irrelavant, Bush, t&#227;o logo teve a aprova&#231;&#227;o do Congresso para usar "for&#231;a / war" se Hussein n&#227;o permitir o acesso irrestrito para inspe&#231;&#245;es - e os navios de guerra foram transferidos para lugar no Golfo.</t>
+	<h>Hussein d&#225; inspetores da ONU acesso irrestrito.</h>
+</pair>
+<pair id="496" task="PP" value="TRUE">
+	<t>Assim como os judeus e os crist&#227;os, os mu&#231;ulmanos acreditam que existe somente um Deus.</t>
+	<h>Os mu&#231;ulmanos s&#227;o monote&#237;stas.</h>
+</pair>
+<pair id="497" task="PP" value="FALSE">
+	<t>Os mu&#231;ulmanos s&#227;o ordenados a n&#227;o tomar judeus ou crist&#227;os para os amigos.</t>
+	<h>Judeus e crist&#227;os oram como os mu&#231;ulmanos fazem.</h>
+</pair>
+<pair id="498" task="PP" value="TRUE">
+	<t>Os crist&#227;os medievais, disse o ros&#225;rio como cat&#243;licos ainda hoje: orando cinco d&#233;cadas de Ave Marias (Ave-Marias), cada um apresentado por um Pater Noster (Pai Nosso), enquanto meditava em tr&#234;s s&#233;ries de cinco mist&#233;rios cada.</t>
+	<h>Crist&#227;os rezar o ros&#225;rio.</h>
+</pair>
+<pair id="501" task="PP" value="TRUE">
+	<t>Em seguida, a parte mais importante do dia come&#231;a como os mu&#231;ulmanos v&#227;o &#224; mesquita, seu lugar especial de adora&#231;&#227;o.</t>
+	<h>Mu&#231;ulmanos rezam na mesquita.</h>
+</pair>
+<pair id="503" task="PP" value="TRUE">
+	<t>Durante o Ramad&#227;, os mu&#231;ulmanos v&#227;o se reunir na mesquita para sess&#245;es de ora&#231;&#227;o todas as noites e jantares.</t>
+	<h>A mesquita &#233; um local de culto para os mu&#231;ulmanos.</h>
+</pair>
+<pair id="506" task="PP" value="FALSE">
+	<t>Robert Szabo conclui que a circuncis&#227;o, como praticado por mu&#231;ulmanos, seria a interven&#231;&#227;o mais eficaz para reduzir imediatamente a transmiss&#227;o do HIV, uma vez que &#233; feito antes que os homens s&#227;o sexualmente ativos.</t>
+	<h>&#201; incorreto afirmar que a circuncis&#227;o evita a infec&#231;&#227;o pelo HIV.</h>
+</pair>
+<pair id="509" task="PP" value="FALSE">
+	<t>Os adolescentes que s&#227;o gays, l&#233;sbicas ou confuso sobre sua sexualidade tamb&#233;m s&#227;o mais propensos a tentar o suic&#237;dio.</t>
+	<h>Adolescentes que est&#227;o deprimidas s&#227;o muito mais em risco de tentar suic&#237;dio do que outros adolescentes.</h>
+</pair>
+<pair id="510" task="PP" value="TRUE">
+	<t>Exerc&#237;cio das compet&#234;ncias referidas no artigo 15, par&#225;grafo 3, do protocolo para suprimir e punir o tr&#225;fico de pessoas, especialmente mulheres e crian&#231;as, o governo do Equador faz uma reserva em rela&#231;&#227;o ao artigo 15, par&#225;grafo 2 &#186;, relativo &#224; resolu&#231;&#227;o de lit&#237;gios .</t>
+	<h>O governo do Equador tem como objetivo prevenir o tr&#225;fico de pessoas.</h>
+</pair>
+<pair id="514" task="PP" value="TRUE">
+	<t>Cyrus capturado Babylon sem uma batalha, e corrigidas as maldades feitas por governantes ass&#237;rios e babil&#244;nicos anteriores enviando prisioneiros na Babil&#244;nia de volta para seus pa&#237;ses de origem originais e auxiliando na restaura&#231;&#227;o dos templos dos deuses de v&#225;rias na&#231;&#245;es.</t>
+	<h>Babil&#244;nia se rendeu ao Cyrus sem ir para a batalha.</h>
+</pair>
+<pair id="515" task="PP" value="FALSE">
+	<t>Ap&#243;s o julgamento, Fam&#237;lia Tribunal considerou r&#233;u culpado de deliberadamente violando a ordem de prote&#231;&#227;o e condenado a seis meses de encarceramento.</t>
+	<h>Fam&#237;lia Tribunal n&#227;o pode punir os culpados.</h>
+</pair>
+<pair id="516" task="PP" value="FALSE">
+	<t>Se este desafio que lhe interessa, voc&#234; pode gostar de ler "Punido por recompensas" por Alfie Kohn.</t>
+	<h>Eu li "Punido por recompensas" por Alfie Kohn.</h>
+</pair>
+<pair id="518" task="PP" value="FALSE">
+	<t>No ano de 538, Cyrus p&#244;r em pr&#225;tica uma pol&#237;tica que exigiu a devolu&#231;&#227;o dos v&#225;rios deuses para seus devidos lugares.</t>
+	<h>Ciro emitiu uma declara&#231;&#227;o em 538, que permitiria que os judeus voltar &#224; sua p&#225;tria.</h>
+</pair>
+<pair id="519" task="PP" value="TRUE">
+	<t>American Airlines come&#231;ou demitindo centenas de assistentes de v&#244;o na ter&#231;a-feira, depois de um juiz federal desviaram proposta de um sindicato para bloquear os postos de trabalho.</t>
+	<h>American Airlines vai lembrar centenas de comiss&#225;rios de bordo.</h>
+</pair>
+<pair id="520" task="PP" value="TRUE">
+	<t>Apenas 18 estados, incluindo Massachusetts, t&#234;m disposi&#231;&#245;es espec&#237;ficas que permitem que as mulheres que deixaram seus empregos devido &#224; viol&#234;ncia dom&#233;stica para se qualificar para UI.</t>
+	<h>18 estados t&#234;m disposi&#231;&#245;es que permitem as mulheres que deixaram seus empregos por causa da viol&#234;ncia dom&#233;stica para coletar o seguro-desemprego.</h>
+</pair>
+<pair id="521" task="PP" value="TRUE">
+	<t>Os eleitores da Calif&#243;rnia Gray Davis recordar e eleito Arnold Schwarzenegger como seu governador.</t>
+	<h>Os eleitores da Calif&#243;rnia largou o governador Gray Davis e substituiu-o com Arnold Schwarzenegger.</h>
+</pair>
+<pair id="523" task="PP" value="TRUE">
+	<t>Se qualquer a&#231;&#227;o legal &#233; devido &#224; aplica&#231;&#227;o, disputa, viola&#231;&#227;o, ou padr&#227;o, a parte vencedora ter&#225; direito a honor&#225;rios advocat&#237;cios razo&#225;veis &#8203;&#8203;e outros custos incorridos nas a&#231;&#245;es, al&#233;m de qualquer al&#237;vio a que possam ter direito.</t>
+	<h>A parte vencedora deve recuperar honor&#225;rios advocat&#237;cios.</h>
+</pair>
+<pair id="524" task="PP" value="FALSE">
+	<t>O tribunal pode permitir que a parte vencedora razo&#225;vel honor&#225;rios advocat&#237;cios, como parte dos custos.</t>
+	<h>A parte vencedora n&#227;o pode recuperar honor&#225;rios advocat&#237;cios.</h>
+</pair>
+<pair id="525" task="PP" value="TRUE">
+	<t>Texas Data Recovery tamb&#233;m &#233; bem sucedido em recuperar dados perdidos de notebooks e laptops, independentemente da idade, marca ou modelo.</t>
+	<h>No caso de um desastre, voc&#234; poderia usar Texas recupera&#231;&#227;o dos dados e voc&#234; ter&#225; a capacidade de restaurar dados perdidos.</h>
+</pair>
+<pair id="526" task="PP" value="FALSE">
+	<t>Demandantes de sucesso recuperado danos punitivos no Texas casos de discrimina&#231;&#227;o de 53% do tempo.</t>
+	<h>Os custos legais para recuperar os danos punitivos s&#227;o uma despesa de neg&#243;cio franquia.</h>
+</pair>
+<pair id="527" task="PP" value="FALSE">
+	<t>Os Chefes de Estado reiteraram sua profunda preocupa&#231;&#227;o com a grave amea&#231;a que a tend&#234;ncia de aumento no abuso de drogas representa para a sociedade e as vidas eo futuro de crian&#231;as e jovens, e para os efeitos desestabilizadores que o uso ilegal, produ&#231;&#227;o, tr&#225;fico e distribui&#231;&#227;o de estupefacientes psicotr&#243;pica subst&#226;ncias e crimes relacionados com drogas t&#234;m para os pa&#237;ses afetados da regi&#227;o do sul da &#193;sia.</t>
+	<h>Os Chefes de Estado expressaram sua profunda preocupa&#231;&#227;o com a degrada&#231;&#227;o r&#225;pida e cont&#237;nua do ambiente, incluindo a extensa destrui&#231;&#227;o das florestas, na regi&#227;o do sul da &#193;sia.</h>
+</pair>
+<pair id="528" task="PP" value="TRUE">
+	<t>Massagem sueca &#233; usado para ajudar a relaxar os m&#250;sculos, aumentar a circula&#231;&#227;o, remover os res&#237;duos metab&#243;licos, ajudar o destinat&#225;rio obter um sentimento de conex&#227;o, uma melhor consci&#234;ncia do seu corpo e da maneira como eles usam e posicion&#225;-la.</t>
+	<h>Massagem sueca relaxa os m&#250;sculos tensos.</h>
+</pair>
+<pair id="531" task="PP" value="FALSE">
+	<t>Se voc&#234; est&#225; se sentindo brincalh&#227;o, visite nossa &#225;rea de jogos para uma partida de bilhar, navegar na Internet ou simplesmente sentar e relaxar com um bom livro da nossa grande biblioteca. Alternativamente, acalmar longe os m&#250;sculos cansados, dores com uma massagem balinesa.</t>
+	<h>Massagem balinesa tradicional &#233; uma terapia onde as t&#233;cnicas que empurram predominam.</h>
+</pair>
+<pair id="533" task="PP" value="FALSE">
+	<t>Dois anos atr&#225;s, Moore tinha um 5.300 quilos monumento mostrando os Dez Mandamentos colocadas na rotunda do Edif&#237;cio Judicial, que fica no fim da rua do Capit&#243;lio, e um juiz federal ordenou Moore para remover a placa bacteriana.</t>
+	<h>Moore tem agora a placa mandamentos postou em seu escrit&#243;rio.</h>
+</pair>
+<pair id="534" task="PP" value="FALSE">
+	<t>As subst&#226;ncias que a nossa empresa usa n&#227;o deixa manchas, n&#227;o tem um cheiro desagrad&#225;vel e n&#227;o s&#227;o t&#243;xicos.</t>
+	<h>Nossos subst&#226;ncias remover manchas.</h>
+</pair>
+<pair id="535" task="PP" value="FALSE">
+	<t>Moore teve o monumento, junto com outras refer&#234;ncias a Deus, instalado na rotunda do pr&#233;dio Judicial seis meses ap&#243;s, foi eleito presidente da Suprema Corte, em 2000.</t>
+	<h>Moore teve o monumento instalado antes de se tornar chefe de Justi&#231;a.</h>
+</pair>
+<pair id="537" task="PP" value="FALSE">
+	<t>O sentimento est&#225; crescendo no governo Bush e os c&#237;rculos globais de energia para colocar profissionais iraquianos no comando da produ&#231;&#227;o de petr&#243;leo de seu pa&#237;s depois de qualquer guerra, apesar de um esfor&#231;o por parte de alguns funcion&#225;rios para os Estados Unidos para assumir o controle dos campos de petr&#243;leo lucrativos.</t>
+	<h>Os Estados Unidos amea&#231;aram as "severas consequ&#234;ncias" se o Iraque fosse usar armas qu&#237;micas ou biol&#243;gicas contra os Estados Unidos, destruir os campos de petr&#243;leo do Kuwait ou participar de terrorismo.</h>
+</pair>
+<pair id="538" task="PP" value="TRUE">
+	<t>A invas&#227;o japonesa da Manch&#250;ria, em 1931, e sua eventual ataque &#224; China, em 1937, tamb&#233;m levar a vastas &#225;reas da China n&#227;o estar sob o controle de Chiang.</t>
+	<h>Os japoneses tomaram a Manch&#250;ria em 1931, e come&#231;ou uma guerra contra a China em 1937.</h>
+</pair>
+<pair id="540" task="PP" value="FALSE">
+	<t>Microsoft, por exemplo, uma das maiores empresas de software do mundo, perdeu mais de um n&#250;mero estimado de 500 milh&#245;es de d&#243;lares no ano passado por causa de roubo de software.</t>
+	<h>Microsoft iria gastar 500 milh&#245;es de d&#243;lares.</h>
+</pair>
+<pair id="541" task="PP" value="FALSE">
+	<t>As prov&#237;ncias mais ricas, Ont&#225;rio, Alberta e BC, gastaram bilh&#245;es em cortes de impostos e servi&#231;os cortando ao mesmo tempo uivando para Ottawa para dar-lhes mais dinheiro para o Medicare.</t>
+	<h>Ottawa promete mais dinheiro para melhorar os n&#237;veis de alfabetiza&#231;&#227;o e habilidades dos nativos e abandonaram a escola secund&#225;ria.</h>
+</pair>
+<pair id="542" task="PP" value="TRUE">
+	<t>Isso ajudaria a economia, colocando as pessoas de volta ao trabalho e mais dinheiro nas m&#227;os dos consumidores.</t>
+	<h>Mais dinheiro nas m&#227;os dos consumidores significa mais dinheiro pode ser gasto para se ir da economia.</h>
+</pair>
+<pair id="543" task="PP" value="FALSE">
+	<t>Bispos Cat&#243;licos dos EUA s&#227;o todos, mas un&#226;nimes em acreditar que o cardeal Law deve deixar Boston, para o bem da igreja.</t>
+	<h>Cardeal Law retorna de Roma, com planos para ficar em Boston.</h>
+</pair>
+<pair id="544" task="PP" value="FALSE">
+	<t>Os Estados Unidos gostariam de ver os inspetores de armas da ONU retornar ao Iraque fornecendo os iraquianos tomarem medidas concretas, positivas e demonstr&#225;veis &#8203;&#8203;"para mostrar a plena coopera&#231;&#227;o", disse Clinton.</t>
+	<h>Inspetores de armas da ONU poderia ficar no Iraque, disse Clinton.</h>
+</pair>
+<pair id="546" task="PP" value="TRUE">
+	<t>A decis&#227;o do governo brit&#226;nico de suspender os voos para o Qu&#233;nia &#233; lament&#225;vel, joga nas m&#227;os de terroristas.</t>
+	<h>O governo brit&#226;nico proibiu voos para o Qu&#233;nia.</h>
+</pair>
+<pair id="547" task="PP" value="FALSE">
+	<t>A Cor&#233;ia do Norte afirma a inten&#231;&#227;o de reiniciar reatores, joga fora os inspetores da AIEA e derruba c&#226;meras de inspe&#231;&#227;o, anuncia a retirada imediata do Tratado de N&#227;o-Prolifera&#231;&#227;o Nuclear e faz amea&#231;as de guerra se a ONU ou os Estados Unidos imp&#245;em san&#231;&#245;es.</t>
+	<h>A Coreia do Norte anunciou a sua retirada reuni&#245;es de liga&#231;&#227;o com oficiais militares dos Estados Unidos.</h>
+</pair>
+<pair id="557" task="PP" value="FALSE">
+	<t>Se tiver uma doen&#231;a reum&#225;tica card&#237;aca, press&#227;o arterial alta, ou diabetes, ou tomar medicamentos digit&#225;licos, a vitamina E pode ser prejudicial.</t>
+	<h>A vitamina E pode prevenir doen&#231;as card&#237;acas.</h>
+</pair>
+<pair id="558" task="PP" value="FALSE">
+	<t>Quando Albright foi o embaixador dos EUA nas Na&#231;&#245;es Unidas, Lesley Stahl de "60 Minutes", perguntou a ela sobre as san&#231;&#245;es e as mortes de crian&#231;as iraquianas. Albright disse que era responsabilidade dos Estados Unidos para garantir que a Guerra do Golfo, n&#227;o tinha que ser travada novamente.</t>
+	<h>Albright disse que, para punir Saddam Hussein, as mortes dessas crian&#231;as eram "vale a pena."</h>
+</pair>
+<pair id="969" task="PP" value="FALSE">
+	<t>Doug Lawrence comprou a paisagem a &#243;leo impressionista por J. Ottis Adams, em meados da d&#233;cada de 1970 em um negociante de antiguidades Fort Wayne.</t>
+	<h>Doug Lawrence vendeu a paisagem a &#243;leo impressionista por J. Ottis Adams</h>
+</pair>
+<pair id="970" task="PP" value="FALSE">
+	<t>Ogivas acreditados para conter a cyclosarin agente nervoso mortal que foram encontrados por tropas polonesas no Iraque data de volta para a guerra de Saddam Hussein com o Ir&#227; na d&#233;cada de 1980, as autoridades nesta sexta-feira.</t>
+	<h>Tropas polonesas confiscados Ogivas</h>
+</pair>
+<pair id="971" task="PP" value="FALSE">
+	<t>Vendas de ve&#237;culos novos Mitsubishi Motors Corp 's em os EUA ca&#237;ram 46 por cento em Junho</t>
+	<h>Mitsubishi vendas subiram 46 por cento</h>
+</pair>
+<pair id="972" task="PP" value="FALSE">
+	<t>A not&#237;cia vem como os propriet&#225;rios de Kilroot anunciou planos para instalar equipamentos de limpeza na f&#225;brica perto Carrickfergus a um custo de um milh&#227;o de &#163; 35.</t>
+	<h>Propriet&#225;rios anunciou planos de vender equipamentos de limpeza.</h>
+</pair>
+<pair id="269" task="IR" value="FALSE">
+	<t>O porta-voz da Embaixada dos EUA Stanley Shrager disse que os norte-americanos esperam ajudar o prefeito de Port-au-Prince eleito, Evans Paul, o retorno de seu esconderijo e retomar seu posto como prefeito da cidade.</t>
+	<h>Os americanos esperam ajudar Evans Paul na elei&#231;&#227;o para prefeito de Port-au-Prince.</h>
+</pair>
+<pair id="270" task="IR" value="FALSE">
+	<t>Como os Estados Unidos, os funcion&#225;rios da ONU tamb&#233;m est&#227;o consternados que Aristide matou uma confer&#234;ncia convocada pelo primeiro-ministro Robert Malval em Port-au-Prince na esperan&#231;a de trazer todos os partidos rivais juntos.</t>
+	<h>Aristide teve o primeiro-ministro Robert Malval assassinado em Port-au-Prince.</h>
+</pair>
+<pair id="275" task="IR" value="FALSE">
+	<t>Gladys Lauture, um amigo Aristide pr&#243;ximo e apoiante de longa data, disse que ela e uma equipe de carpinteiros, encanadores e decoradores passou 18 dias fazendo Port-au-Prince casa de Aristide habit&#225;vel novamente.</t>
+	<h>Aristide &#233; devido a viver em Port-au-Prince novamente.</h>
+</pair>
+<pair id="282" task="IR" value="FALSE">
+	<t>Juan Antonio Samaranch, presidente do Comit&#234; Ol&#237;mpico Internacional, deixou Lillehammer para Sarajevo para homenagear a cidade anfitri&#227; sitiada dos Jogos de Inverno 1984</t>
+	<h>A sede da Olympic Commitee International &#233; em Lillehammer.</h>
+</pair>
+
+<pair id="2161" task="CD" value="FALSE">
+	<t>Autoridades da cidade disparou o capit&#227;o da balsa colidiu Staten Island.</t>
+	<h>Staten Island Ferry capit&#227;o se recusou a falar com os investigadores.</h>
+</pair>
+<pair id="702" task="CD" value="TRUE">
+	<t>Budapeste tornou-se novamente o foco do drama pol&#237;tico nacional no final de 1980, quando a Hungria liderou o movimento de reforma na Europa Oriental, que quebrou o monop&#243;lio comunista do poder pol&#237;tico e inaugurou a possibilidade de pol&#237;tica multipartid&#225;ria.</t>
+	<h>No final de 1980 Budapeste tornou-se o centro do movimento de reforma.</h>
+</pair>
+<pair id="2166" task="CD" value="FALSE">
+	<t>Na apresenta&#231;&#227;o de quarta-feira, o Google anunciou que planeja completar o IPO "logo que poss&#237;vel".</t>
+	<h>N&#227;o est&#225; claro se tor&#231;&#227;o de quarta-feira vai afetar o momento da oferta p&#250;blica inicial do Google.</h>
+</pair>
+<pair id="2174" task="CD" value="FALSE">
+	<t>Al-Jazeera transmite a milh&#245;es de telespectadores &#225;rabes a partir da sede em Doha, no Catar.</t>
+	<h>Al-Jazeera tem ocasionalmente tiver problemas com autoridades de outros pa&#237;ses &#225;rabes.</h>
+</pair>
+<pair id="818" task="CD" value="TRUE">
+	<t>O novo estudo refuta resultados anteriores por pesquisadores da Universidade da Calif&#243;rnia, em Los Angeles, que concluiu que as chances de conseguir os c&#226;nceres de cabe&#231;a e pesco&#231;o aumentou em conjunto com a freq&#252;&#234;ncia e dura&#231;&#227;o do uso da maconha.</t>
+	<h>Os &#250;ltimos resultados contradizem um estudo da Calif&#243;rnia que implicado fumar maconha regularmente como tendo risco marcadamente mais elevados para c&#226;ncer de cabe&#231;a e pesco&#231;o.</h>
+</pair>
+<pair id="820" task="CD" value="TRUE">
+	<t>A equipe de Kessler realizados 60.643 entrevistas face-a-face com os adultos em 14 pa&#237;ses.</t>
+	<h>A equipe de Kessler entrevistou mais de 60.000 adultos em 14 pa&#237;ses.</h>
+</pair>
+<pair id="806" task="CD" value="TRUE">
+	<t>Os investigadores descreveram o atirador como branco, cerca de 30 anos de idade, do meio de construir com os ombros, cabelos loiros ondulados e como tendo um "desalinhado" ou apar&#234;ncia de "grunge".</t>
+	<h>O atirador &#233; descrito como um homem branco em seus 30 anos com uma estatura mediana, cabelos loiros na altura dos ombros e uma apar&#234;ncia desleixada.</h>
+</pair>
+<pair id="823" task="CD" value="TRUE">
+	<t>O corpo de Satomi Mitarai foi encontrado por um professor depois de seu atacante voltou a classe em roupas ensanguentadas.</t>
+	<h>O corpo de Mitarai foi encontrado por um professor depois o assassino voltou para sua sala de aula coberta de sangue.</h>
+</pair>
+<pair id="2147" task="CD" value="FALSE">
+	<t>Testemunhas disseram &#224; pol&#237;cia um botij&#227;o de g&#225;s explodiu para iniciar o inc&#234;ndio em um edif&#237;cio de v&#225;rios n&#237;veis, que abriga o supermercado Ycua Bolanos, uma pra&#231;a de alimenta&#231;&#227;o e um parque de estacionamento, fazendo com que o piso inferior ao colapso.</t>
+	<h>Imagens de televis&#227;o mostraram v&#225;rios n&#237;veis do supermercado multi-n&#237;vel coberto de fuligem, incluindo o estacionamento n&#237;vel inferior.</h>
+</pair>
+<pair id="2156" task="CD" value="FALSE">
+	<t>O Produto Interno Bruto, uma medida da produ&#231;&#227;o total dentro das fronteiras do pa&#237;s, subiu a um ritmo anual de 3% no per&#237;odo abril-junho.</t>
+	<h>Aumento da taxa anual de 3% no segundo trimestre muito menor do que as previs&#245;es.</h>
+</pair>
+<pair id="1989" task="CD" value="FALSE">
+	<t>Intel decidiu adiar a data de lan&#231;amento para o seu processador para desktop de 4 GHz Pentium 4 para o primeiro trimestre de 2005.</t>
+	<h>Intel iria aumentar a velocidade do clock do processador do principal empresa Pentium 4 de 4 GHz.</h>
+</pair>
+<pair id="829" task="CD" value="TRUE">
+	<t>O &#250;ltimo australiano a vencer Miss Universo foi de Perth Kerry Anne Wells em 1972.</t>
+	<h>N&#227;o tem desde 1972 uma mulher australiana foi eleita Miss Universo.</h>
+</pair>
+<pair id="723" task="CD" value="FALSE">
+	<t>A cidade continuou a crescer durante grande parte do s&#233;culo 20.</t>
+	<h>A cidade continuou a crescer, mas os seus servi&#231;os se deterioraram.</h>
+</pair>
+<pair id="693" task="CD" value="TRUE">
+	<t>Este crescimento teve vida curta, para uma invas&#227;o sueca (1655-1656) devastou a cidade florescente de Vars&#243;via.</t>
+	<h>Vars&#243;via foi invadida pelos suecos em 1655, ea cidade foi devastada.</h>
+</pair>
+<pair id="826" task="CD" value="TRUE">
+	<t>Um carro-bomba explodiu em frente a uma base militar dos EUA perto de Baji.</t>
+	<h>Um carro-bomba explodiu em frente a uma base militar dos EUA perto de Beiji.</h>
+</pair>
+<pair id="803" task="CD" value="TRUE">
+	<t>Por causa da estrat&#233;gia econ&#244;mica de Reagan, o d&#233;ficit do or&#231;amento federal inchou.</t>
+	<h>Estrat&#233;gia econ&#244;mica de Reagan levou a enormes d&#233;ficits or&#231;ament&#225;rios federais.</h>
+</pair>
+<pair id="719" task="CD" value="TRUE">
+	<t>Uma vez chamada de "Rainha do Dan&#250;bio," Budapeste tem sido o ponto focal da na&#231;&#227;o e um animado centro cultural.</t>
+	<h>Budapeste foi uma vez conhecida popularmente como a "Rainha do Dan&#250;bio".</h>
+</pair>
+<pair id="1806" task="CD" value="FALSE">
+	<t>Vanunu, de 49 anos, foi sequestrado por agentes israelenses e condenado por trai&#231;&#227;o em 1986 depois de discutir seu trabalho como de n&#237;vel m&#233;dio Dimona
+t&#233;cnico com o jornal Sunday Times da Gr&#227;-Bretanha.</t>
+	<h>Divulga&#231;&#245;es de Vanunu, em 1968, levaram os especialistas a concluir que Israel tem um arsenal de ogivas nucleares.</h>
+</pair>
+<pair id="2119" task="CD" value="FALSE">
+	<t>As autoridades paquistanesas anunciaram que dois homens Sul-Africano sob sua cust&#243;dia havia confessado planejar ataques em pontos tur&#237;sticos populares em seu pa&#237;s de origem.</t>
+	<h>Dois sul-africanos foram presos no Paquist&#227;o na semana passada ap&#243;s um tiroteio em uma casa entre agentes da Al-Qaeda e for&#231;as de seguran&#231;a.</h>
+</pair>
+<pair id="810" task="CD" value="TRUE">
+	<t>Meadows marcou um pequeno papel em um epis&#243;dio de janeiro de "Law &amp; Order".</t>
+	<h>Meadows apareceu em "Law &amp; Order" epis&#243;dio que foi ao ar em janeiro.</h>
+</pair>
+<pair id="809" task="CD" value="TRUE">
+	<t>As autoridades dizem que M&#244;nica Meadows, que j&#225; apareceu em cat&#225;logos e revistas, est&#225; em condi&#231;&#227;o est&#225;vel.</t>
+	<h>Monica Meadows est&#225; em condi&#231;&#227;o est&#225;vel.</h>
+</pair>
+<pair id="733" task="CD" value="TRUE">
+	<t>Segundo a tradi&#231;&#227;o, eles fundaram Tenochtitlan ("Lugar do Sumo Sacerdote Tenoch") depois de muito vagar, quando viram em uma ilha no lago Texcoco o sinal de que o seu deus Huitzilopochtli havia indicado - uma &#225;guia empoleirada em um cacto, comendo uma serpente.</t>
+	<h>Eles viram uma &#225;guia empoleirada em um cacto comendo uma serpente.</h>
+</pair>
+<pair id="2158" task="CD" value="FALSE">
+	<t>Os promotores ainda eram esperados para descerrar uma acusa&#231;&#227;o de homic&#237;dio culposo 11 de contagem contra o capit&#227;o do barco, Michael Gansas. Ele violou procedimento por sua aus&#234;ncia da casa do leme durante encaixe, quando Smith perdeu o controle do ferry.</t>
+	<h>Sr. Smith entrou em sua confiss&#227;o de culpa a 11 acusa&#231;&#245;es de homic&#237;dio culposo e tamb&#233;m para mentir aos investigadores sobre sua hist&#243;ria m&#233;dica, no &#226;mbito de um acordo alcan&#231;ado com os promotores.</h>
+</pair>
+<pair id="804" task="CD" value="TRUE">
+	<t>The Golden Folhetos estabeleceu um recorde escola este ano, com 16 vit&#243;rias.</t>
+	<h>The Golden Folhetos estabeleceu um recorde escola com 16 vit&#243;rias.</h>
+</pair>
+<pair id="2159" task="CD" value="FALSE">
+	<t>A frota de ferry da cidade transporta cerca de 70.000 pessoas por dia entre Staten Island e Manhattan, uma viagem de 5,2 quil&#244;metros em toda Nova York Harbor, que leva cerca de 25 minutos.</t>
+	<h>A balsa levando passageiros de Manhattan a Staten Island bateu em um p&#237;er.</h>
+</pair>
+<pair id="713" task="CD" value="TRUE">
+	<t>Rozsa (Rose) Hill, a terceira colina perto do rio, fica ao norte do monte do castelo.</t>
+	<h>Rozsa Colina fica ao norte do monte do castelo.</h>
+</pair>
+<pair id="2177" task="CD" value="FALSE">
+	<t>Apenas 14 por cento das m&#227;es americanas amamentam exclusivamente seus beb&#234;s para o m&#237;nimo recomendado seis meses.</t>
+	<h>H&#225; muitos benef&#237;cios de amamentar.</h>
+</pair>
+<pair id="2118" task="CD" value="FALSE">
+	<t>Francis Deng acredita que o governo ser&#225; receptivo ao plano para implantar 1.800 tropas de paz.</t>
+	<h>A UA disse que pode enviar uma for&#231;a de paz de 2 000 homens.</h>
+</pair>
+<pair id="819" task="CD" value="TRUE">
+	<t>Fumantes de maconha recreativas n&#227;o s&#227;o mais propensos a desenvolver c&#226;ncer de boca do que os n&#227;o-usu&#225;rios.</t>
+	<h>Fumar maconha n&#227;o aumenta o risco de desenvolver c&#226;ncer oral.</h>
+</pair>
+<pair id="678" task="CD" value="TRUE">
+	<t>Coextensiva com o Distrito Metropolitano de Jakarta Raya, que se situa na foz do Ciliwung (Rio Liwung), na costa noroeste de Java.</t>
+	<h>Jacarta fica na foz do Ciliwung (Rio Liwung), na costa noroeste da ilha de Java.</h>
+</pair>
+<pair id="2120" task="CD" value="FALSE">
+	<t>Seis ref&#233;ns no Iraque foram libertados.</t>
+	<h>Os quatro ref&#233;ns sequestrados Jord&#226;nia, cerca de uma semana atr&#225;s, foram libertados.</h>
+</pair>
+<pair id="2154" task="CD" value="FALSE">
+	<t>O relat&#243;rio do PIB mostrou crescimento nos gastos empresariais avan&#231;ados a um s&#243;lido ritmo de 8,9%.</t>
+	<h>O PIB foi de um relat&#243;rio decepcionante.</h>
+</pair>
+<pair id="816" task="CD" value="TRUE">
+	<t>Israel planeja aumentar a participa&#231;&#227;o do g&#225;s no seu balan&#231;o de energia para 25 por cento at&#233; 2025 dos atuais 1 por cento.</t>
+	<h>Atualmente, a participa&#231;&#227;o do g&#225;s natural no sistema de energia de Israel equivale a n&#227;o mais do que um por cento.</h>
+</pair>
+<pair id="2115" task="CD" value="FALSE">
+	<t>Um alto funcion&#225;rio da Al-Qaeda que se dizia estar planejando um ataque ao aeroporto de Heathrow foi preso.</t>
+	<h>Apesar dos rumores, o Minist&#233;rio do Interior brit&#226;nico negou qualquer amea&#231;a espec&#237;fica havia sido feito para atingir o aeroporto de Heathrow.</h>
+</pair>
+<pair id="2178" task="CD" value="FALSE">
+	<t>Para as mulheres que s&#227;o HIV negativo ou que n&#227;o conhecem o seu estado serol&#243;gico, a amamenta&#231;&#227;o deve ser protegida, promovida e apoiada por seis meses.</t>
+	<h>Para as m&#227;es HIV-positivas, a decis&#227;o sobre se deve ou n&#227;o amamentar uma crian&#231;a pode ser dif&#237;cil.</h>
+</pair>
+<pair id="2191" task="CD" value="TRUE">
+	<t>A Ar&#225;bia Saudita foi aumentando a sua produ&#231;&#227;o.</t>
+	<h>A Ar&#225;bia Saudita foi aumentando sua pr&#243;pria produ&#231;&#227;o.</h>
+</pair>
+<pair id="699" task="CD" value="TRUE">
+	<t>O lema da cidade &#233; procellas Contemnit, o que significa: "Ele desafia as tempestades."</t>
+	<h>O lema da cidade &#233;, apropriadamente, "Contemnit procellas" ("Ele desafia as tempestades").</h>
+</pair>
+<pair id="2170" task="CD" value="FALSE">
+	<t>Hacking relatou sua esposa em falta em 19 de julho, uma segunda-feira.</t>
+	<h>Mark Hacking foi reservado para o Salt Lake County Jail na segunda-feira.</h>
+</pair>
+<pair id="2164" task="CD" value="FALSE">
+	<t>Com 549.000 mil d&#243;lares americanos em dinheiro em 30 de junho, o Google pode facilmente dar ao luxo de fazer as pazes.</t>
+	<h>Cerca de 30 milh&#245;es ac&#231;&#245;es foram atribu&#237;das aos trabalhadores da empresa.</h>
+</pair>
+<pair id="750" task="CD" value="TRUE">
+	<t>No extremo sudeste da cidade, Xochimilco, outra pequena cidade subsumido pela cidade, &#233; um destino tur&#237;stico popular por causa de suas chinampas, ou "jardins flutuantes", barcos feitos de junco em que os &#237;ndios t&#234;m crescido plantas desde a pr&#233;-colombiana vezes.</t>
+	<h>Xochimilco &#233; uma atra&#231;&#227;o tur&#237;stica popular por causa de suas chinampas, ou jardins flutuantes.</h>
+</pair>
+<pair id="2165" task="CD" value="FALSE">
+	<t>Google Inc. est&#225; atrasando seu IPO por uma semana por causa de problemas log&#237;sticos relacionados com investidores institucionais registrando a oferta de a&#231;&#245;es.</t>
+	<h>A demora para a IPO do Google iria empurrar o neg&#243;cio mais tarde em um m&#234;s, que &#233; tradicionalmente luz sobre o volume de IPO.</h>
+</pair>
+<pair id="2160" task="CD" value="FALSE">
+	<t>Os promotores ainda eram esperados para descerrar uma acusa&#231;&#227;o de homic&#237;dio culposo 11 de contagem contra o capit&#227;o do barco, Michael Gansas.</t>
+	<h>Advogados Gansas 'ter dito essa regra n&#227;o foi comunicada ao pessoal da balsa.</h>
+</pair>
+<pair id="1953" task="CD" value="FALSE">
+	<t>Os mais recentes ataques direcionados a embaixada dos EUA e um Minist&#233;rio superior na capital do Uzbequist&#227;o.</t>
+	<h>Atentados terroristas de ontem matou duas pessoas na entrada da Embaixada de Israel na capital do Uzbequist&#227;o.</h>
+</pair>
+<pair id="2116" task="CD" value="FALSE">
+	<t>Abu Musa al-Hindi foi preso depois de uma dica de intelig&#234;ncia paquistan&#234;s, que afirmou que ele estava recebendo ordens diretas de Osama bin Laden.</t>
+	<h>A possibilidade de um ataque come&#231;ou com a pris&#227;o de Naeem Noor Khan.</h>
+</pair>
+<pair id="735" task="CD" value="TRUE">
+	<t>Ainda mais do que outras atividades econ&#244;micas, servi&#231;os financeiros do M&#233;xico est&#227;o concentrados na capital.</t>
+	<h>Ind&#250;stria, lojas de varejo, finan&#231;as e comunica&#231;&#245;es est&#227;o todas centradas na capital.</h>
+</pair>
+<pair id="2172" task="CD" value="FALSE">
+	<t>Benjamin Vanderford, 22, disse que postou a 55 segundo clipe, que mostra uma faca de serra contra o seu pesco&#231;o, em uma rede de compartilhamento de arquivos on-line em maio.</t>
+	<h>Sr. Vanderford disse ele filmou sua pr&#243;pria execu&#231;&#227;o simulada na garagem de um amigo para mostrar como a m&#237;dia poderia ser enganado.</h>
+</pair>
+<pair id="802" task="CD" value="TRUE">
+	<t>Reagan foi seriamente ferido por uma bala disparada por John Hinckley Jr., em uma tentativa de assassinato em 30 de mar&#231;o de 1981.</t>
+	<h>Reagan quase morreu em 30 de mar&#231;o de 1981, quando suposto assassino John W. Hinckley Jr. atirou nele.</h>
+</pair>
+<pair id="827" task="CD" value="TRUE">
+	<t>Jennifer Hawkins &#233; a rainha da beleza de 21 anos de idade, da Austr&#225;lia.</t>
+	<h>Jennifer Hawkins &#233; 21 anos, rainha da beleza da Austr&#225;lia.</h>
+</pair>
+<pair id="1599" task="IE" value="TRUE">
+	<t>O conselho de Marks &amp; Spencer vai ter um outro olhar aumentou oferta de aquisi&#231;&#227;o da Philip Green.</t>
+	<h>Philip Green tenta assumir Marks &amp; Spencer.</h>
+</pair>
+<pair id="1604" task="IE" value="FALSE">
+	<t>Um irm&#227;o do ministro da Educa&#231;&#227;o da Col&#244;mbia foi morto por rebeldes marxistas que o seq&#252;estraram h&#225; tr&#234;s anos.</t>
+	<h>Ministro da Educa&#231;&#227;o da Col&#244;mbia foi sequestrada por rebeldes marxistas.</h>
+</pair>
+<pair id="1614" task="IE" value="TRUE">
+	<t>CBS jornalista Harry Reasoner est&#225; retornando para sua cidade natal de Iowa para se casar s&#225;bado.</t>
+	<h>CBS jornalista Harry Reasoner nasceu em Iowa.</h>
+</pair>
+<pair id="2007" task="IE" value="FALSE">
+	<t>O programa, financiado com uma bolsa da Ag&#234;ncia das Na&#231;&#245;es Unidas para o Desenvolvimento Internacional, visa reduzir a mortalidade infantil em Madagascar, uma na&#231;&#227;o insular no Oceano &#205;ndico, ao largo da costa oriental de &#193;frica.</t>
+	<h>A Ag&#234;ncia das Na&#231;&#245;es Unidas para o Desenvolvimento Internacional &#233; uma organiza&#231;&#227;o com sede em Madagascar.</h>
+</pair>
+<pair id="2004" task="IE" value="FALSE">
+	<t>Bosch foi considerado inocente em Venezuela das acusa&#231;&#245;es de bombardeio para uma terceira vez 7 de agosto.</t>
+	<h>Bosch vive na Venezuela.</h>
+</pair>
+<pair id="1918" task="IE" value="TRUE">
+	<t>A comiss&#227;o organizadora disse que 65 pa&#237;ses entraram os Jogos Ol&#237;mpicos de Lillehammer, igualando o n&#250;mero de na&#231;&#245;es nos Jogos de Inverno de 1992 em Albertville, na Fran&#231;a.</t>
+	<h>65 pa&#237;ses participam nos Jogos Ol&#237;mpicos de Lillehammer.</h>
+</pair>
+<pair id="2075" task="IE" value="FALSE">
+	<t>Rainha Vit&#243;ria morreu em 1901, em Osborne House, na Ilha de Wight.</t>
+	<h>Rainha Victoria nasceu em 1901</h>
+</pair>
+<pair id="1658" task="IE" value="TRUE">
+	<t>Dayton, Ohio. Um avi&#227;o de carga com destino a Montreal com uma pequena quantidade de produtos qu&#237;micos perigosos caiu e explodiu logo ap&#243;s a decolagem.</t>
+	<h>Dayton est&#225; localizada em Ohio.</h>
+</pair>
+<pair id="1600" task="IE" value="TRUE">
+	<t>Schroder Investment Management indicou a sua inten&#231;&#227;o de aceitar a oferta da Revival para comprar varejista Marks &amp; Spencer.</t>
+	<h>Revival tenta assumir Marks &amp; Spencer Group.</h>
+</pair>
+<pair id="1636" task="IE" value="TRUE">
+	<t>Sirhan Sirhan, um imigrante jordaniano, foi condenado pelo assassinato de Kennedy e est&#225; cumprindo uma pena de pris&#227;o perp&#233;tua na pris&#227;o de Soledad.</t>
+	<h>Sirhan Sirhan matou Kennedy.</h>
+</pair>
+<pair id="2001" task="IE" value="FALSE">
+	<t>A fam&#237;lia de Christoffer foi identificado apenas como uma fam&#237;lia For&#231;a A&#233;rea vive no sul da Calif&#243;rnia.</t>
+	<h>For&#231;a A&#233;rea &#233; uma organiza&#231;&#227;o sediada no sul da Calif&#243;rnia.</h>
+</pair>
+<pair id="1910" task="IE" value="FALSE">
+	<t>Romano Prodi vai conhecer os EUA o presidente George Bush na sua qualidade de presidente da Comiss&#227;o Europeia.</t>
+	<h>George Bush &#233; o presidente da Comiss&#227;o Europeia.</h>
+</pair>
+<pair id="1652" task="IE" value="TRUE">
+	<t>Roma &#233;, na prov&#237;ncia de Lazio e N&#225;poles na Camp&#226;nia.</t>
+	<h>Roma est&#225; localizado na prov&#237;ncia de Lazio.</h>
+</pair>
+<pair id="1933" task="IE" value="FALSE">
+	<t>Como os Estados Unidos, os funcion&#225;rios da ONU tamb&#233;m est&#227;o consternados que Aristide matou uma confer&#234;ncia convocada pelo primeiro-ministro Robert Malval em Port-au-Prince na esperan&#231;a de trazer todos os partidos rivais juntos.</t>
+	<h>Funcion&#225;rios da ONU participar de uma confer&#234;ncia convocada pelo primeiro-ministro Robert Malval.</h>
+</pair>
+<pair id="1619" task="IE" value="TRUE">
+	<t>Illinois nascido Charlton Heston era um ator de 27 anos de idade, de Broadway e na televis&#227;o, quando ele chegou em Hollywood para um contrato de cinco retrato com Hal Wallis.</t>
+	<h>Charlton Heston nasceu em Illinois.</h>
+</pair>
+<pair id="1605" task="IE" value="TRUE">
+	<t>Implanta&#231;&#227;o de trabalhadores para o Iraque foi interrompido ap&#243;s a tomada de ref&#233;ns relatado de um homem Filipino por homens armados</t>
+	<h>Um homem filipino foi seq&#252;estrado por homens armados.</h>
+</pair>
+<pair id="1665" task="IE" value="TRUE">
+	<t>Ele se formou no ensino m&#233;dio a partir de Benton, Tennessee e do Tennessee Tech. em Cookville, e tem um doutorado em f&#237;sica pela Virginia Tech.</t>
+	<h>Tennessee Tech &#233; uma organiza&#231;&#227;o baseada em Cookville.</h>
+</pair>
+<pair id="1631" task="IE" value="TRUE">
+	<t>"Esculturas de Duane Hanson" &#233; uma exposi&#231;&#227;o de esculturas de pessoas realistas criadas por este artista nascido Minnesota.</t>
+	<h>Duane Hanson nasceu em Minnesota.</h>
+</pair>
+<pair id="1946" task="IE" value="FALSE">
+	<t>Os pre&#231;os do petr&#243;leo recuou em rela&#231;&#227;o aos n&#237;veis recordes depois do Minist&#233;rio da Justi&#231;a da R&#250;ssia disse em apuros gigante do petr&#243;leo Yukos pode continuar a produ&#231;&#227;o de petr&#243;leo e vendas.</t>
+	<h>Os pre&#231;os do petr&#243;leo subir.</h>
+</pair>
+<pair id="1626" task="IE" value="TRUE">
+	<t>Como Detroiter nativo real, eu quero lembrar a todos que Madonna &#233; de Bay City, Michigan, um lugar agrad&#225;vel no polegar da pen&#237;nsula mais baixa do estado.</t>
+	<h>Madonna nasceu em Bay City, Michigan</h>
+</pair>
+<pair id="1635" task="IE" value="TRUE">
+	<t>Em 1865, John Wilkes Booth, o assassino do presidente Abraham Lincoln, foi cercado por tropas federais perto de Bowling Green, Va., e mortos.</t>
+	<h>John Wilkes Booth matou o presidente Abraham Lincoln.</h>
+</pair>
+<pair id="1949" task="IE" value="FALSE">
+	<t>Os pre&#231;os do petr&#243;leo cair para tr&#225;s como amea&#231;a petrol&#237;fera Yukos levantado</t>
+	<h>Os pre&#231;os do petr&#243;leo subir.</h>
+</pair>
+<pair id="1917" task="IE" value="TRUE">
+	<t>N&#227;o pode haver d&#250;vida de que a Administra&#231;&#227;o j&#225; est&#225; cansado de Aristide, um padre cat&#243;lico romano populista que, em dezembro de 1990, conquistou uma vit&#243;ria esmagadora na elei&#231;&#227;o presidencial s&#243; democr&#225;tico do Haiti</t>
+	<h>S&#243; elei&#231;&#227;o presidencial democr&#225;tica do Haiti ocorreu em 1990.</h>
+</pair>
+<pair id="1902" task="IE" value="FALSE">
+	<t>Sonia Gandhi pode ser derrotado nas pr&#243;ximas elei&#231;&#245;es na &#205;ndia pelo BJP.</t>
+	<h>Sonia Gandhi &#233; derrotado pelo BJP.</h>
+</pair>
+<pair id="1638" task="IE" value="TRUE">
+	<t>Yount, que estava morando em Coeur sob o pseud&#244;nimo de James Marvin Forsgren, foi condenado a pris&#227;o perp&#233;tua por sua condena&#231;&#227;o em assassinato em primeiro grau e acusa&#231;&#245;es de estupro em 1966 assassinato de Pamela Sue Rimer, um estudante em sua aula de matem&#225;tica do ensino m&#233;dio em Luthersberg , Pa.</t>
+	<h>James Marvin Forsgren matou Pamela Sue Rimer.</h>
+</pair>
+<pair id="2015" task="IE" value="FALSE">
+	<t>BTA disse que os feridos no inc&#234;ndio em Borovets, 22 milhas ao sudeste de Sofia, eram da Gr&#227;-Bretanha, a Uni&#227;o Sovi&#233;tica, Alemanha Ocidental, Holanda, Gr&#233;cia e Dinamarca.</t>
+	<h>Sofia est&#225; localizado na Gr&#227;-Bretanha.</h>
+</pair>
+<pair id="1914" task="IE" value="FALSE">
+	<t>Como os Estados Unidos, os funcion&#225;rios da ONU tamb&#233;m est&#227;o consternados que Aristide matou uma confer&#234;ncia convocada pelo primeiro-ministro Robert Malval em Port-au-Prince na esperan&#231;a de trazer todos os partidos rivais juntos.</t>
+	<h>Aristide mata o primeiro-ministro Robert Malval</h>
+</pair>
+<pair id="1935" task="IE" value="FALSE">
+	<t>Evans Paul, o prefeito pr&#243;-Aristide de Port-au-Prince, disse que tinha sido dito que o dinheiro ir&#225; para lobistas americanos, pol&#237;ticos e jornalistas para fazer campanha contra o retorno de Aristide, o primeiro presidente democraticamente eleito do Haiti</t>
+	<h>Aristide &#233; o prefeito de Port-au-Prince.</h>
+</pair>
+<pair id="1612" task="IE" value="TRUE">
+	<t>Com Carolina do Sul ser o Estado natal de Jesse Jackson, houve um incentivo muito forte na comunidade negra.</t>
+	<h>Jesse Jackson nasceu em South Carolina.</h>
+</pair>
+<pair id="1934" task="IE" value="TRUE">
+	<t>Evans Paul, o prefeito pr&#243;-Aristide de Port-au-Prince, disse que tinha sido dito que o dinheiro ir&#225; para lobistas americanos, pol&#237;ticos e jornalistas para fazer campanha contra o retorno de Aristide, o primeiro presidente democraticamente eleito do Haiti</t>
+	<h>Evans Paul &#233; o prefeito de Port-au-Prince.</h>
+</pair>
+<pair id="1637" task="IE" value="TRUE">
+	<t>Vinte anos atr&#225;s, no dia 6 de junho de 1968, o senador Robert F. Kennedy morreu no Hospital Bom Samaritano, em Los Angeles, de 25 LCB horas depois ele foi baleado no Ambassador Hotel por Sirhan Bishara Sirhan.</t>
+	<h>Sirhan Bishara Sirhan matou o senador Robert F. Kennedy</h>
+</pair>
+<pair id="1951" task="IE" value="TRUE">
+	<t>Os pre&#231;os do petr&#243;leo disparou para novos m&#225;ximos de ontem como os mercados reagiram a uma amea&#231;a pelas autoridades russas para desligar a maior parte da produ&#231;&#227;o da maior empresa de petr&#243;leo do pa&#237;s</t>
+	<h>Os pre&#231;os do petr&#243;leo subir.</h>
+</pair>
+<pair id="1929" task="IE" value="TRUE">
+	<t>Sensa&#231;&#227;o adolescente Wayne Rooney alimentado Inglaterra nas quartas de final da Euro 2004 com dois gols na derrota por 4-2 da Cro&#225;cia de segunda-feira e eles se juntaram no &#250;ltimo oito por campe&#245;es Fran&#231;a que bateu a Su&#237;&#231;a por 3-1.</t>
+	<h>A Fran&#231;a participa em Euro 2004.</h>
+</pair>
+<pair id="2011" task="IE" value="FALSE">
+	<t>Prefeito de Los Angeles James Hahn, junto com os principais membros da Automobile Club of Southern California, junto com anunciar&#225; o pontap&#233; inicial de um plano de US $ 9 bilh&#245;es no financiamento do Condado de Los Angeles Top Ten Tr&#225;fego Busters.</t>
+	<h>James Hahn &#233; membro do Automobile Club of Southern California.</h>
+</pair>
+<pair id="1639" task="IE" value="TRUE">
+	<t>Lennon foi assassinado por Mark David Chapman em frente ao Dakota em 8 de dezembro de 1980.</t>
+	<h>Mark David Chapman matou Lennon.</h>
+</pair>
+<pair id="1939" task="IE" value="FALSE">
+	<t>O plano foi lan&#231;ado pelo Sr. Dean em nome do Secret&#225;rio de Sa&#250;de e Servi&#231;os Humanos, Tommy Thompson, que ainda se recupera de um acidente recente, numa Cimeira de secret&#225;ria de Tecnologia da Informa&#231;&#227;o em Sa&#250;de, que teve a participa&#231;&#227;o de muitos dos l&#237;deres da na&#231;&#227;o em registos de sa&#250;de electr&#243;nicos.</t>
+	<h>Sr. Dean &#233; o Secret&#225;rio de Sa&#250;de e Servi&#231;os Humanos.</h>
+</pair>
+<pair id="2002" task="IE" value="FALSE">
+	<t>Em 1973, os Estados Unidos ea China comunista concordaram em estabelecer escrit&#243;rios de liga&#231;&#227;o em Pequim e Washington.</t>
+	<h>China comunista &#233; uma organiza&#231;&#227;o com sede em Pequim e Washington.</h>
+</pair>
+<pair id="2083" task="IE" value="FALSE">
+	<t>As vendas irlandeses, Servi&#231;os e Marketing de Opera&#231;&#227;o da Microsoft foi criada em 1991.</t>
+	<h>Microsoft foi criada em 1991.</h>
+</pair>
+<pair id="2013" task="IE" value="TRUE">
+	<t>P. Prayong, que como Kevala pertence &#224; seita Theravada do Budismo, escolheu a &#205;ndia em rela&#231;&#227;o a outras na&#231;&#245;es de maioria budista, pois &#233; o local de nascimento de Gautama Buddha.</t>
+	<h>P. Prayong &#233; membro de Theravada.</h>
+</pair>
+<pair id="1927" task="IE" value="FALSE">
+	<t>Os organizadores da 15 &#170; Confer&#234;ncia Internacional de Aids, marcada para o pr&#243;ximo m&#234;s em Bangkok, na Tail&#226;ndia, no s&#225;bado respondeu &#224;s not&#237;cias da imprensa de que um hotel de destaque em Bangkok discriminados visitantes seropositivos participando de uma confer&#234;ncia diferente este m&#234;s.</t>
+	<h>Visitantes seropositivos participar da 15 &#170; Confer&#234;ncia Internacional de Aids.</h>
+</pair>
+<pair id="1930" task="IE" value="TRUE">
+	<t>A c&#250;pula do G8, realizada 08-10 junho, reuniu l&#237;deres das principais democracias industriais do mundo, incluindo Canad&#225;, Fran&#231;a, Alemanha, It&#225;lia, Jap&#227;o, R&#250;ssia, Reino Unido, Uni&#227;o Europeia e Estados Unidos.</t>
+	<h>Canad&#225; participa da c&#250;pula do G8.</h>
+</pair>
+<pair id="1931" task="IE" value="TRUE">
+	<t>Tr&#234;s de seus cinco membros permanentes, Fran&#231;a, R&#250;ssia e China, est&#227;o pressionando o Conselho de Seguran&#231;a da ONU para levantar o embargo ao Iraque.</t>
+	<h>A China &#233; um membro do Conselho de Seguran&#231;a da ONU.</h>
+</pair>
+<pair id="1601" task="IE" value="FALSE">
+	<t>Sr. Green, da Marks &amp; Spencer novo propriet&#225;rio, fez um monte de dinheiro atrav&#233;s da aquisi&#231;&#227;o de empresas de baixo desempenho.</t>
+	<h>Sr. Green tenta assumir Marks &amp; Spencer.</h>
+</pair>
+<pair id="1467" task="IE" value="FALSE">
+	<t>Em um discurso ao conselho de governadores da AIEA em Viena, Hans Blix disse que uma equipe t&#233;cnica que visitou a Coreia do Norte no m&#234;s passado descobriu que "as instala&#231;&#245;es sujeitas ao congelamento n&#227;o estavam em opera&#231;&#227;o e que o trabalho de constru&#231;&#227;o tinha parado."</t>
+	<h>Hans Blix &#233; o diretor-geral da AIEA.</h>
+</pair>
+<pair id="944" task="IE" value="FALSE">
+	<t>Os EUA entregou o poder em 30 de junho para o governo interino do Iraque escolhido pelas Na&#231;&#245;es Unidas e Paul Bremer, ex-governador do Iraque.</t>
+	<h>Os EUA escolheram Paul Bremer como novo governador do Iraque.</h>
+</pair>
+<pair id="2085" task="IE" value="FALSE">
+	<t>O primeiro laborat&#243;rio de DNA do Windows do lado de fora da Microsoft foi criado no sub&#250;rbio de Filad&#233;lfia, em Junho de 1998.</t>
+	<h>Microsoft foi criada em Junho de 1998.</h>
+</pair>
+<pair id="1926" task="IE" value="FALSE">
+	<t>Ahern, que estava viajando para T&#243;quio para uma cimeira UE-Jap&#227;o de ontem, vai consultar outros l&#237;deres da UE sobre a elei&#231;&#227;o do Presidente da Comiss&#227;o da Uni&#227;o Europeia.</t>
+	<h>Os l&#237;deres da UE participar de uma cimeira UE-Jap&#227;o.</h>
+</pair>
+<pair id="1908" task="IE" value="FALSE">
+	<t>Romano Prodi vai conhecer os EUA o presidente George Bush na sua qualidade de presidente da Comiss&#227;o Europeia.</t>
+	<h>Romani Prodi &#233; o presidente dos EUA.</h>
+</pair>
+<pair id="1659" task="IE" value="TRUE">
+	<t>A cabe&#231;a de ponte Anzio, 33 milhas ao sul de Roma, viu alguns dos combates mais sangrentos da Segunda Guerra Mundial, e foi respons&#225;vel por muitas das 10 mil mortes em combate dos Estados Unidos, na It&#225;lia, no primeiro semestre de 1944.</t>
+	<h>A cabe&#231;a de ponte de Anzio est&#225; localizado 33 milhas ao sul de Roma.</h>
+</pair>
+<pair id="1950" task="IE" value="FALSE">
+	<t>O petr&#243;leo bruto mergulha abaixo de US $ 43 na not&#237;cia de que o Minist&#233;rio da Justi&#231;a da R&#250;ssia n&#227;o ir&#225; for&#231;ar Yukos para travar vendas.</t>
+	<h>O petr&#243;leo bruto sobe.</h>
+</pair>
+<pair id="102" task="IR" value="TRUE">
+	<t>A Casa Branca deixou de agir sobre a amea&#231;a dom&#233;stica da Al Qaeda antes de 11 de setembro de 2001.</t>
+	<h>Casa Branca ignorou a amea&#231;a de ataque</h>
+</pair>
+<pair id="2141" task="IR" value="FALSE">
+	<t>N&#227;o h&#225; armas de destrui&#231;&#227;o maci&#231;a no Iraque encontrados ainda.</t>
+	<h>Armas de Destrui&#231;&#227;o Maci&#231;a encontrados no Iraque.</h>
+</pair>
+<pair id="100" task="IR" value="TRUE">
+	<t>Um padre que serviu na Diocese de Metuchen, em meados da d&#233;cada de 1980, foi condenado a pris&#227;o perp&#233;tua por abusar sexualmente de um menino de Massachusetts.</t>
+	<h>Ped&#243;filo recebe pris&#227;o perp&#233;tua</h>
+</pair>
+<pair id="256" task="IR" value="TRUE">
+	<t>Eilat, porto mais ao sul de Israel e s&#243; o acesso do pa&#237;s ao Mar Vermelho, tem sido um destino de inverno para os turistas, dos quais 80% s&#227;o europeus atra&#237;dos pelos seus climas temperados e &#225;guas claras.</t>
+	<h>No inverno, a maioria dos turistas a Eilat v&#234;m da Europa.</h>
+</pair>
+<pair id="72" task="IR" value="FALSE">
+	<t>Na v&#233;spera de uma retalia&#231;&#227;o amplamente antecipada contra as for&#231;as russas em Grozny, os comandantes militares retiraram unidades-chave da cidade, deixando-o vulner&#225;vel a guerrilha infiltra&#231;&#227;o.</t>
+	<h>As for&#231;as russas vulner&#225;veis &#8203;&#8203;a guerrilheiros</h>
+</pair>
+<pair id="2142" task="IR" value="FALSE">
+	<t>N&#227;o h&#225; estoques de armas de destrui&#231;&#227;o em massa foram encontradas no Iraque desde o regime de Saddam foi derrubado em uma invas&#227;o liderada pelos Estados Unidos no ano passado.</t>
+	<h>Armas de destrui&#231;&#227;o em massa encontradas no Iraque.</h>
+</pair>
+<pair id="258" task="IR" value="FALSE">
+	<t>Os escoceses foi pioneira na ideia de uma moeda &#250;nica, quando dividiu o ECU com a Fran&#231;a durante a Auld Alliance, e, portanto, eles est&#227;o determinados a se juntar no processo de uni&#227;o monet&#225;ria novamente quando os membros da UE amalgamar suas moedas em Maastricht.</t>
+	<h>Fran&#231;a ainda mant&#233;m Ecu &#233; a melhor denomina&#231;&#227;o para a moeda &#250;nica Maastricht ..</h>
+</pair>
+<pair id="128" task="IR" value="TRUE">
+	<t>Hipop&#243;tamos n&#227;o entram em conflito com as pessoas com bastante frequ&#234;ncia.</t>
+	<h>Hippopotamus ataca humano.</h>
+</pair>
+<pair id="137" task="IR" value="TRUE">
+	<t>Ataques com &#225;cido em mulheres s&#227;o levadas a cabo em toda a &#193;sia, com relatos de tais incidentes da Birm&#226;nia, Camboja, &#205;ndia e Paquist&#227;o.</t>
+	<h>Ataques com &#225;cido s&#227;o realizadas em mulheres</h>
+</pair>
+<pair id="24" task="IR" value="TRUE">
+	<t>Dr. Amy Joy Lanou, diretor do Comit&#234; de M&#233;dicos para uma Medicina Respons&#225;vel na Am&#233;rica, foi r&#225;pido em apontar os perigos de sa&#250;de da dieta Atkins.</t>
+	<h>Atkins dieta est&#225; associado ao aumento condi&#231;&#245;es de risco.</h>
+</pair>
+<pair id="2140" task="IR" value="FALSE">
+	<t>A Turquia &#233; pouco prov&#225;vel que se envolver em, ou permitir que as for&#231;as dos EUA de usar o territ&#243;rio turco em uma guerra no Oriente M&#233;dio que n&#227;o ameace seu territ&#243;rio diretamente.</t>
+	<h>EUA usar bases militares turcas.</h>
+</pair>
+<pair id="286" task="IR" value="FALSE">
+	<t>Prepara&#231;&#245;es de seguran&#231;a mantido manifestantes na ba&#237;a na recente Cimeira do G8 em Sea Island (EUA).</t>
+	<h>As manifesta&#231;&#245;es contra a Cimeira do G8 teve lugar no Sea Island ba&#237;a.</h>
+</pair>
+<pair id="36" task="IR" value="TRUE">
+	<t>Scripps Memorial Hospital Encinitas m&#233;dicos de emerg&#234;ncia e enfermeiros tratam 02:58 surfistas lesionados.</t>
+	<h>Scripps Hospital auxilia a navegar v&#237;timas de acidentes.</h>
+</pair>
+<pair id="260" task="IR" value="TRUE">
+	<t>Criaria uma subclasse dos moradores analfabetos e pobres, privados de compet&#234;ncias b&#225;sicas, incluindo habilidades de l&#237;ngua Ingl&#234;s, necess&#225;rios para a integra&#231;&#227;o de crian&#231;as imigrantes em nossa sociedade e da nossa for&#231;a de trabalho.</t>
+	<h>As compet&#234;ncias lingu&#237;sticas s&#227;o um meio de integra&#231;&#227;o social.</h>
+</pair>
+<pair id="2143" task="IR" value="FALSE">
+	<t>N&#227;o h&#225; nenhum. Eles descobriram como muitas armas neste mesquita como eles se encontraram armas de destrui&#231;&#227;o em massa no Iraque.</t>
+	<h>Armas de destrui&#231;&#227;o em massa encontradas no Iraque.</h>
+</pair>
+<pair id="105" task="IR" value="TRUE">
+	<t>O Conselho de Seguran&#231;a votou em 2002 para proteger os soldados e funcion&#225;rios norte-americanos de outras na&#231;&#245;es que ainda n&#227;o ratificaram a cria&#231;&#227;o do tribunal por meio de um tratado, e em junho passado renovou a imunidade por um ano.</t>
+	<h>Imunidade para os soldados renovada.</h>
+</pair>
+<pair id="279" task="IR" value="FALSE">
+	<t>O conselho proibiu qualquer viagem para fora do Haiti por todos os oficiais das for&#231;as armadas e da pol&#237;cia haitiana e todos os principais participantes do setembro de 1991, golpe.</t>
+	<h>O conselho &#233; proibido de viajar para fora do Haiti por oficiais militares.</h>
+</pair>
+<pair id="262" task="IR" value="TRUE">
+	<t>Equipa Vencedora John C. Harsanyi, John F. Nash e Reinhard Selten ganharam conjuntamente o Pr&#234;mio Nobel de Economia. Os tr&#234;s professores foram escolhidos por suas contribui&#231;&#245;es &#250;nicas para a teoria dos jogos, derivadas de estudos de jogos como poker ou xadrez, em que os jogadores t&#234;m que pensar no futuro e planejar uma estrat&#233;gia baseada em contramedidas esperados de advers&#225;rios.</t>
+	<h>Tr&#234;s estudiosos dividiram o Pr&#234;mio Nobel por seus estudos sobre a teoria dos jogos.</h>
+</pair>
+<pair id="112" task="IR" value="FALSE">
+	<t>Pedido de or&#231;amento FY05 do NIH de 28,8 bilh&#245;es d&#243;lares americanos inclui US $ 2 bilh&#245;es para o Instituto Nacional de Ci&#234;ncias M&#233;dicas Gerais, um aumento de 3,4 por cento, e US $ 1,1 bilh&#245;es para o Centro Nacional de Pesquisa de Recursos, e uma diminui&#231;&#227;o de 7,2 por cento em rela&#231;&#227;o aos n&#237;veis FY04.</t>
+	<h>A solicita&#231;&#227;o foi reduzida para 1,1 bilh&#245;es d&#243;lares</h>
+</pair>
+<pair id="2137" task="IR" value="FALSE">
+	<t>Ministro das Rela&#231;&#245;es Exteriores sueco assassinado.</t>
+	<h>Primeiro-ministro sueco assassinado.</h>
+</pair>
+<pair id="1160" task="MT" value="FALSE">
+	<t>Bagd&#225; tinha anunciado que ele vai parar de cooperar com a UNSCOM completamente, mas indicou que n&#227;o ir&#225; pedir a sua partida.</t>
+	<h>Bagd&#225; vai acabar &#233; a coopera&#231;&#227;o com a UNSCOM, e quer que eles saiam.</h>
+</pair>
+<pair id="1152" task="MT" value="TRUE">
+	<t>Um funcion&#225;rio iraquiano informou hoje, s&#225;bado, que 68 civis iraquianos foram mortos como resultado do bombardeamento americano e brit&#226;nico no Iraque e que seus funerais foram realizados hoje em Bagd&#225;.</t>
+	<h>Os 68 civis mortos como resultado do bombardeio anglo-americana do Iraque, foram enterrados hoje em Bagd&#225;.</h>
+</pair>
+<pair id="1228" task="MT" value="TRUE">
+	<t>Um funcion&#225;rio da pol&#237;cia Abyan, onde 16 turistas ocidentais est&#227;o sendo realizadas desde ontem, anunciou que os ref&#233;ns s&#227;o mantidos pelo grupo iemenita "Jihad Isl&#226;mica", que est&#225; exigindo a liberta&#231;&#227;o de seu l&#237;der e levantar o embargo ao Iraque.</t>
+	<h>O ramo I&#234;men do grupo "Jihad Isl&#226;mica", sequestrado os 16 turistas ocidentais.</h>
+</pair>
+<pair id="1197" task="MT" value="TRUE">
+	<t>Contato com a imprensa ser&#225; restrito a "reuni&#245;es Perodic", conforme prometido por todas as tr&#234;s partes, a fim de "concentrar as suas energias" sobre as quest&#245;es mais importantes.</t>
+	<h>As delega&#231;&#245;es s&#243; podem falar periodicamente &#224; imprensa, a fim de concentrar-se nas quest&#245;es.</h>
+</pair>
+<pair id="1153" task="MT" value="TRUE">
+	<t>Sultan Al-shawi, tamb&#233;m conhecido como o Procurador, disse durante um funeral realizado pelas v&#237;timas: "Eles eram todos crian&#231;as do Iraque morreram durante o bombardeio selvagem".</t>
+	<h>O Procurador, disse no funeral, "Eles eram todos os iraquianos mortos durante o bombardeio brutal."</h>
+</pair>
+<pair id="2095" task="MT" value="FALSE">
+	<t>Os cientistas pensavam todas as explos&#245;es de raios gama tinha uma energia padr&#227;o.</t>
+	<h>Os cientistas pensavam que todas as explos&#245;es de raios gamma a ter uma energia padr&#227;o.</h>
+</pair>
+<pair id="2107" task="MT" value="FALSE">
+	<t>Petr&#243;leo nos EUA estabeleceram $ 1,32 menor em 42,83 d&#243;lares o barril.</t>
+	<h>Crude a luz americano baixou ao fechamento 1,32 d&#243;lares, para 42,83 d&#243;lares o barril.</h>
+</pair>
+<pair id="1190" task="MT" value="TRUE">
+	<t>A Comiss&#227;o, designada para lan&#231;ar luz sobre os crimes e viola&#231;&#245;es dos direitos humanos durante o per&#237;odo do apartheid, acusa o Congresso Nacional Africano de realizar torturas e execu&#231;&#245;es sem julgamento em campos de concentra&#231;&#227;o, e tamb&#233;m de desempenhar um papel activo nos incidentes pol&#237;ticos de viol&#234;ncia que tiveram lugar entre 1990 e 1994.</t>
+	<h>A Comiss&#227;o acusou o ANC de viol&#234;ncia, execu&#231;&#245;es e viola&#231;&#245;es dos direitos humanos.</h>
+</pair>
+<pair id="1159" task="MT" value="FALSE">
+	<t>Vice-Presidente da Comiss&#227;o, Charles Duelfer, disse: "Vamos manter os inspetores l&#225; na esperan&#231;a de que o Iraque pode recuar de sua decis&#227;o."</t>
+	<h>O Vice-Presidente da Comiss&#227;o Charles Duelfer disse, "n&#243;s esperamos acabar resolu&#231;&#227;o do Iraque."</h>
+</pair>
+<pair id="1186" task="MT" value="FALSE">
+	<t>Gabinete do Primeiro-Ministro e do Minist&#233;rio das Rela&#231;&#245;es Exteriores j&#225; havia propositadamente afirmou que o caso &#233; estritamente na jurisdi&#231;&#227;o do sistema de justi&#231;a e pol&#237;cia.</t>
+	<h>A jurisdi&#231;&#227;o do caso foi consultado pelo Primeiro-Ministro e do Minist&#233;rio dos Neg&#243;cios Estrangeiros.</h>
+</pair>
+<pair id="1156" task="MT" value="FALSE">
+	<t>Representante do Iraque nas Na&#231;&#245;es Unidas, Nizar Hamdoun, anunciou hoje, domingo, que milhares de pessoas foram mortas ou feridas durante os quatro dias de bombardeio a&#233;reo contra o Iraque.</t>
+	<h>Nizar HAMDOON, embaixador do Iraque nas Na&#231;&#245;es Unidas, anunciou que milhares de pessoas poderiam ser mortos ou feridos devido ao bombardeio a&#233;reo do Iraque.</h>
+</pair>
+<pair id="1226" task="MT" value="TRUE">
+	<t>Ecevit, um dos mais importantes pol&#237;ticos turcos, foi incapaz de garantir o apoio necess&#225;rio dos partidos representados no Parlamento, a fim de formar seu governo.</t>
+	<h>Ecevit foi incapaz de formar o governo, devido a uma falta de suporte.</h>
+</pair>
+<pair id="1155" task="MT" value="FALSE">
+	<t>A rede de televis&#227;o americana "CNN" informou que os funcion&#225;rios do Departamento de Defesa americano (o Pent&#225;gono) ir&#225; recomendar interromper o bombardeio sobre o Iraque do presidente Bill Clinton, esta noite, s&#225;bado.</t>
+	<h>CNN informou que os funcion&#225;rios do Pent&#225;gono disse que o presidente Clinton &#233; obrigado a parar o bombardeio ao Iraque.</h>
+</pair>
+<pair id="2099" task="MT" value="FALSE">
+	<t>O custo do consumidor dos Estados Unidos caiu em junho.</t>
+	<h>Gastos do consumidor dos EUA mergulhou em junho.</h>
+</pair>
+<pair id="1191" task="MT" value="FALSE">
+	<t>Investigadores da Comiss&#227;o de Verdade e Reconcilia&#231;&#227;o apresentou os resultados preliminares de seu trabalho no in&#237;cio de outubro a cerca de 200 organiza&#231;&#245;es e indiv&#237;duos para avis&#225;-los de acusa&#231;&#245;es contra eles e dar-lhes a oportunidade de responder antes de reda&#231;&#227;o final do relat&#243;rio.</t>
+	<h>A Comiss&#227;o investigou 200 pessoas e ORAGNISATIONS, antes de carreg&#225;-los, a fim de impedi-los de responder antes do lan&#231;amento oficial do relat&#243;rio.</h>
+</pair>
+<pair id="1182" task="MT" value="TRUE">
+	<t>Esta explica&#231;&#227;o foi rejeitada pelo Governo do Chile, que insistem que Pinochet goza de imunidade diplom&#225;tica na sua qualidade de "membro eleito no Senado para a vida" desde que deixou o comando das for&#231;as armadas em mar&#231;o passado.</t>
+	<h>O governo chileno afirmando que, como membro do Senado, Pinochet tem imunidade diplom&#225;tica.</h>
+</pair>
+<pair id="2105" task="MT" value="FALSE">
+	<t>Brasil, Austr&#225;lia e Tail&#226;ndia argumentou que a Uni&#227;o Europeia, um dos maiores exportadores do mundo, quebrou regras agr&#237;colas da OMC, excedendo os limites dos subs&#237;dios &#224; exporta&#231;&#227;o previstas no &#226;mbito do Acordo da OMC de 1994, sobre Agricultura.</t>
+	<h>Os tr&#234;s pa&#237;ses argumentam que UE, um dos maior exportador do mundo, violou as regras da OMC quando exceder o limite dos subs&#237;dios &#224;s exporta&#231;&#245;es indicados no &#226;mbito do Acordo sobre Agricultura da OMC, em 1994.</h>
+</pair>
+<pair id="1162" task="MT" value="FALSE">
+	<t>UNSCOM emprega cerca de 120 pessoas no Iraque, incluindo 40 inspectores.</t>
+	<h>Wilson usa cerca de 120 pessoas no Iraque, 40 dos quais s&#227;o inspetores.</h>
+</pair>
+<pair id="1173" task="MT" value="FALSE">
+	<t>A pesquisa tamb&#233;m mostrou que uma porcentagem maior de americanos (65%) acreditam que, mesmo que o processo de investiga&#231;&#227;o come&#231;ou realmente, Clinton n&#227;o deve ser removido.</t>
+	<h>De acordo com a sondagem, 65% dos americanos acreditam que Clinton deve ser afastado do cargo.</h>
+</pair>
+<pair id="1232" task="MT" value="TRUE">
+	<t>O p&#250;blico Damasco foram acolhidos em casas particulares do candidato a elei&#231;&#227;o ou para tendas onde os eleitores t&#234;m apreciado comida, bebida e entretenimento, em particular na casa do candidato rico, Adnan Mullah, onde dezenas de apoiantes e amigos foram convidados para especialmente erigido jantar todas as noites.</t>
+	<h>Os candidatos s&#227;o divertidos eleitores em suas casas.</h>
+</pair>
+<pair id="2104" task="MT" value="FALSE">
+	<t>Isso pode significar que sair na rua para milhares de trabalhadores.</t>
+	<h>Isso poderia levar a milhares de postos de trabalho.</h>
+</pair>
+<pair id="1244" task="MT" value="TRUE">
+	<t>A fonte acrescentou que a investiga&#231;&#227;o demonstrou que as bases do crime de genoc&#237;dio "foram conclu&#237;dos com uma s&#233;rie de pris&#245;es ilegais seguidas em alguns casos com assassinatos ou casos de desaparecimentos e foram precedidas, de acordo com informa&#231;&#245;es anexadas ao arquivo, por casos de tortura. "</t>
+	<h>Os investigadores descobriram que uma s&#233;rie de deten&#231;&#245;es ilegais de muitas vezes eram seguidos por desaparecimentos ou assassinatos e foram precedidos por tortura.</h>
+</pair>
+<pair id="1178" task="MT" value="TRUE">
+	<t>Fontes em Tegucigalpa informou que muitos pa&#237;ses latino-americanos est&#227;o se preparando para enfrentar o furac&#227;o "Mitch".</t>
+	<h>Pa&#237;ses sul-americanos est&#227;o se preparando para "Mitch"</h>
+</pair>
+<pair id="1199" task="MT" value="TRUE">
+	<t>Clinton informou os dois partidos que, na aus&#234;ncia de um acordo, um an&#250;ncio p&#250;blico seriam feitas, com o objetivo aparente de aplica&#231;&#227;o de press&#227;o para ambos os lados, principalmente dos israelenses.</t>
+	<h>Clinton disse que os dois lados de que ele iria anunciar publicamente a sua falta de acordo, a pressuriza&#231;&#227;o assim eles.</h>
+</pair>
+<pair id="1158" task="MT" value="TRUE">
+	<t>Um funcion&#225;rio da Comiss&#227;o Internacional especial encarregado de desarmar armas iraquianas (UNSCOM) anunciou ontem, s&#225;bado, que a Comiss&#227;o ir&#225; manter seus inspectores no Iraque, apesar da decis&#227;o de Bagd&#225; para impedir a sua coopera&#231;&#227;o com eles.</t>
+	<h>UNSCOM &#233; ficar no Iraque.</h>
+</pair>
+<pair id="1219" task="MT" value="TRUE">
+	<t>O Minist&#233;rio das Rela&#231;&#245;es Exteriores da Tun&#237;sia anunciou que o l&#237;der l&#237;bio, coronel Muamar Al Kaddafy chegou em Tunis, esta manh&#227;, segunda-feira, para uma visita de "fraternal e de recreio", a convite do Presidente tunisino Zine El Abidine Bin Ali.</t>
+	<h>L&#237;der da L&#237;bia Muammar Kadafi chegou a Tun&#237;sia, a convite do Presidente Zine El Abidine Bin Ali.</h>
+</pair>
+<pair id="1172" task="MT" value="TRUE">
+	<t>A C&#226;mara Americana de Representantes deve votar hoje, em uma resolu&#231;&#227;o apresentada pelo presidente do Comit&#234; Judici&#225;rio, Henry Hyde, pedindo ao Congresso para lan&#231;ar uma investiga&#231;&#227;o sobre acusa&#231;&#245;es apresentadas por Independent Procuradoria-Geral Kenneth Estrela contra o presidente Clinton na Monica Lewinsky affair.</t>
+	<h>A vota&#231;&#227;o ter&#225; lugar na C&#226;mara dos Deputados americana hoje, sobre o esc&#226;ndalo Clinton-Monica Lewinsky.</h>
+</pair>
+<pair id="1177" task="MT" value="FALSE">
+	<t>No entanto, 58 por cento dos norte-americanos expressaram sua satisfa&#231;&#227;o com o desempenho do trabalho do presidente. 44 por cento suportados Nixon no in&#237;cio da investiga&#231;&#227;o de Watergate.</t>
+	<h>58% dos americanos est&#227;o insatisfeitos com o desempenho do trabalho de Clinton.</h>
+</pair>
+<pair id="1179" task="MT" value="TRUE">
+	<t>As autoridades de seguran&#231;a declararam estado de emerg&#234;ncia m&#225;xima na Guatemala, que situa-se no caminho do furac&#227;o.</t>
+	<h>H&#225; um estado de emerg&#234;ncia m&#225;xima na Guatemala por causa do furac&#227;o.</h>
+</pair>
+<pair id="1230" task="MT" value="TRUE">
+	<t>O grupo iemenita Jihad Isl&#226;mica surgiu em 1992, e &#233; composto de velhos guerreiros do Afeganist&#227;o.</t>
+	<h>Grupo Jihad Isl&#226;mica do I&#234;men foi criada por antigos guerreiros Afgan em 1992.</h>
+</pair>
+<pair id="2100" task="MT" value="FALSE">
+	<t>A posi&#231;&#227;o de Greenspan tem apoiado as previs&#245;es do Fed vai aumentar as taxas constantemente este ano.</t>
+	<h>A posi&#231;&#227;o de Greenspan tem apoiado as previs&#245;es de que o Fed ir&#225; gradualmente elevar o ano as taxas de juros do leste.</h>
+</pair>
+<pair id="1215" task="MT" value="TRUE">
+	<t>Uma declara&#231;&#227;o emitida pela Royal marroquinos Airlines, uma c&#243;pia da qual foi recebido pela Agence France Presse hoje, disse que a empresa decidiu iniciar dois voos semanais entre Casablanca e Gaza assim que o aeroporto palestino &#233; aberto l&#225;.</t>
+	<h>Com a abertura do aeroporto palestino, Royal marroquino Airlines vai voar entre Casablanca e Gaza.</h>
+</pair>
+<pair id="1207" task="MT" value="TRUE">
+	<t>Eddeh reafirmou sua opini&#227;o de que o presidente Al-Hrawi deve ser restabelecido por mais tr&#234;s anos, alegando que o que ele "tem uma experi&#234;ncia consider&#225;vel na gest&#227;o do Estado, mas sua demiss&#227;o seria apropriada ap&#243;s a retirada das for&#231;as israelenses e s&#237;rios".</t>
+	<h>Eddeh pede uma extens&#227;o para a presid&#234;ncia de Al-Hrawi, dizendo que ele deveria renunciar ap&#243;s a retirada das for&#231;as de Israel e da S&#237;ria ".</h>
+</pair>
+<pair id="2101" task="MT" value="FALSE">
+	<t>Ambos os candidatos est&#227;o fazendo um grande impulso em Iowa.</t>
+	<h>Ambos os candidatos est&#227;o entregando um grande ataque em Iowa.</h>
+</pair>
+<pair id="2111" task="MT" value="FALSE">
+	<t>Slavkov, acusado no esc&#226;ndalo de Salt Lake, mas depois cancelou, disse ter sido abordado por Takatch.</t>
+	<h>Slavkov, r&#233;u no esc&#226;ndalo de Salt Lake, mas que mais tarde foi desculpado, na verdade disse que Takatch.</h>
+</pair>
+<pair id="1150" task="MT" value="FALSE">
+	<t>A organiza&#231;&#227;o humana, Caritas, citando sua filial no Iraque, anunciou hoje, na Alemanha, que v&#225;rios hospitais iraquianos, especialmente Saddam Hospital, que &#233; considerado o maior hospital no Iraque, foram atingidos no bombardeio americano-brit&#226;nica da capital iraquiana.</t>
+	<h>Caritas anunciou que v&#225;rios hospitais iraquianos, (excluindo Saddam Hospital,) foram atingidos no bombardeio de Bagd&#225;.</h>
+</pair>
+<pair id="2094" task="MT" value="FALSE">
+	<t>Foi como bater o jackpot.</t>
+	<h>Era como remover a loteria.</h>
+</pair>
+<pair id="1205" task="MT" value="TRUE">
+	<t>Israel controla uma &#225;rea de cerca de 850 quil&#244;metros quadrados no sul da Rep&#250;blica do L&#237;bano, enquanto a S&#237;ria tem cerca de 30 mil soldados ao longo de dois ter&#231;os do territ&#243;rio liban&#234;s.</t>
+	<h>S&#237;ria tem 30 mil soldados em 60% do L&#237;bano, e Israel controla uma &#225;rea no sul de 850 kms quadrados.</h>
+</pair>
+<pair id="1164" task="MT" value="TRUE">
+	<t>Ramadan disse a jornalistas na cerim&#244;nia da Exposi&#231;&#227;o Internacional de Bagd&#225; abertura: "N&#227;o coopera&#231;&#227;o e nenhuma inspe&#231;&#227;o ou acompanhamento pela Comiss&#227;o de espionagem sionista americano (a Comiss&#227;o Especial para desarmar armas proibidas do Iraque - UNSCOM). Antes sejam atendidas as demandas do Iraque"</t>
+	<h>Ramadan anunciou que o Iraque n&#227;o vai cooperar com os inspetores.</h>
+</pair>
+<pair id="1246" task="MT" value="TRUE">
+	<t>O ministro das Rela&#231;&#245;es Exteriores iraquiano, Mohammad Said Al-Sahaf, reuniu-se hoje com os novos embaixadores e informou-os "nas directivas da diplomacia iraquiana de escalada do movimento para o levantamento do bloqueio imposto ao Iraque e desenvolver as rela&#231;&#245;es com v&#225;rios pa&#237;ses do mundo."</t>
+	<h>Mohammed disse al-Sahaf se reuniu com os embaixadores e informou-os sobre as directivas diplomacia do Iraque.</h>
+</pair>
+<pair id="2110" task="MT" value="FALSE">
+	<t>Jornalistas da BBC escondido, que se fez passar por conselheiros de empres&#225;rios de Londres, pediu Slavkov.</t>
+	<h>BBC rep&#243;rteres disfar&#231;ados, posando como consultores para os empres&#225;rios que atuam Londres, pergunte Slavkov.</h>
+</pair>
+<pair id="1149" task="MT" value="FALSE">
+	<t>O Departamento de Estado americano anunciou que a R&#250;ssia lembrou seu embaixador para os Estados Unidos "para consulta" devido &#224;s opera&#231;&#245;es de bombardeio sobre o Iraque.</t>
+	<h>O Minist&#233;rio das Rela&#231;&#245;es Exteriores americano anunciou que a R&#250;ssia chamou os Estados Unidos sobre os atentados no Iraque.</h>
+</pair>
+<pair id="1148" task="MT" value="FALSE">
+	<t>O "A.B.C." rede de televis&#227;o americana citou fontes n&#227;o reveladas do Departamento de Defesa norte-americana hoje, quinta-feira, dizendo que as opera&#231;&#245;es de bombardeio intenso sobre o Iraque pode deixar at&#233; o final desta semana.</t>
+	<h>A rede de televis&#227;o "CNN", citando fontes do Minist&#233;rio da Defesa americano, revelou que o bombardeio do Iraque pode acabar esta semana.</h>
+</pair>
+<pair id="2098" task="MT" value="FALSE">
+	<t>Gastos do consumidor dos EUA mergulhou em junho.</t>
+	<h>O custo do consumidor dos Estados Unidos caiu em junho.</h>
+</pair>
+<pair id="1211" task="MT" value="TRUE">
+	<t>O croata vai enfrentar a concorr&#234;ncia, especialmente do americano de origem chinesa, Michael Chang, segunda-semeado no torneio. Os organizadores esperam que o torneio ir&#225; contribuir para o avan&#231;o de t&#234;nis em seus pa&#237;ses.</t>
+	<h>O croata eo asi&#225;tico-americano, Michael Chang (n&#250;mero dois) vai jogar um ao outro, e esperamos popularizar o jogo em seus pa&#237;ses de origem.</h>
+</pair>
+<pair id="1165" task="MT" value="TRUE">
+	<t>Aziz confirmou que as demandas do Iraque incluem "o levantamento do bloqueio ea reestrutura&#231;&#227;o da comiss&#227;o de espionagem, incluindo seu presidente, (Richard) Butler.</t>
+	<h>Iraque exige o levantamento do embargo e as mudan&#231;as no comit&#234;.</h>
+</pair>
+<pair id="1986" task="PP" value="FALSE">
+	<t>A menina foi encontrada em Drummondville.</t>
+	<h>Drummondville cont&#233;m a menina.</h>
+</pair>
+<pair id="1433" task="PP" value="TRUE">
+	<t>O relat&#243;rio cataloga 10 oportunidades perdidas dentro da CIA e do FBI para descobrir peda&#231;os da trama 11 de Setembro.</t>
+	<h>O relat&#243;rio analisa 10 oportunidades perdidas dentro da CIA e do FBI para descobrir peda&#231;os da trama 11 de Setembro.</h>
+</pair>
+<pair id="1970" task="PP" value="FALSE">
+	<t>A testemunha, em seguida, viu Rodriguez agachado atr&#225;s de um port&#227;o para a prote&#231;&#227;o.</t>
+	<h>A testemunha resgatado Rodriguez.</h>
+</pair>
+<pair id="1977" task="PP" value="TRUE">
+	<t>Sua fam&#237;lia tem firmemente negou as acusa&#231;&#245;es.</t>
+	<h>As acusa&#231;&#245;es foram negadas por sua fam&#237;lia.</h>
+</pair>
+<pair id="1429" task="PP" value="TRUE">
+	<t>&#193;lcool agora combust&#237;veis de 44 por cento de todos os crimes violentos e 70 por cento dos acidentes e interna&#231;&#245;es de emerg&#234;ncia nos hor&#225;rios de pico s&#227;o devido &#224; bebida.</t>
+	<h>O &#225;lcool tem um efeito sobre os crimes violentos.</h>
+</pair>
+<pair id="1435" task="PP" value="TRUE">
+	<t>Blair tem simpatia por qualquer um que perdeu a vida no Iraque.</t>
+	<h>Blair &#233; simp&#225;tico para quem perdeu a vida no Iraque.</h>
+</pair>
+<pair id="2051" task="PP" value="FALSE">
+	<t>Os manifestantes, muitos dos grupos pr&#243;-governo organizado, mas incluindo muitos cidad&#227;os comuns, carregavam cartazes anti-americanos e gritavam palavras de ordem que atacam o secret&#225;rio-geral da ONU, Kofi Annan, por seu estreito alinhamento com a pol&#237;tica dos EUA.</t>
+	<h>Manifestantes confiscados banners anti-americanas e gritavam palavras de ordem atacando secret&#225;rio-geral da ONU, Kofi Annan, por seu estreito alinhamento com a pol&#237;tica dos EUA.</h>
+</pair>
+<pair id="1434" task="PP" value="TRUE">
+	<t>O relat&#243;rio cataloga 10 oportunidades perdidas dentro da CIA e do FBI para descobrir peda&#231;os da trama 11 de Setembro.</t>
+	<h>Dez oportunidades perdidas dentro da CIA e do FBI s&#227;o descobertos no relat&#243;rio.</h>
+</pair>
+<pair id="1431" task="PP" value="TRUE">
+	<t>As ag&#234;ncias falhas relat&#243;rio de intelig&#234;ncia para uma "falta de imagina&#231;&#227;o" em n&#227;o antecipar que a Al Qaeda poderia atacar os Estados Unidos usando avi&#245;es seq&#252;estrados.</t>
+	<h>O relat&#243;rio acusa as ag&#234;ncias de intelig&#234;ncia.</h>
+</pair>
+<pair id="1438" task="PP" value="TRUE">
+	<t>Iraque teria sido, um pa&#237;s inseguro inseguro que fez uma amea&#231;a para o mundo.</t>
+	<h>Uma amea&#231;a para o mundo teria surgido a partir do Iraque.</h>
+</pair>
+<pair id="1972" task="PP" value="TRUE">
+	<t>Rodriguez disse aos detetives que ele nunca tocou a mochila em chamas, que estava carregado com tubos de pl&#225;stico cheios de p&#243;lvora e BBs.</t>
+	<h>A mochila queima continha tubos de pl&#225;stico cheios de p&#243;lvora e BBs.</h>
+</pair>
+<pair id="1436" task="PP" value="TRUE">
+	<t>Blair tem simpatia por qualquer um que perdeu a vida no Iraque.</t>
+	<h>Blair &#233; pena de algu&#233;m que perdeu a vida no Iraque.</h>
+</pair>
+<pair id="1993" task="PP" value="FALSE">
+	<t>Os lucros quase dobrou para quase US $ 1,8 bilh&#227;o.</t>
+	<h>Os lucros quase dobrou de cerca de US $ 1,8 bilh&#227;o.</h>
+</pair>
+<pair id="1437" task="PP" value="TRUE">
+	<t>Iraque teria sido, um pa&#237;s inseguro inseguro que fez uma amea&#231;a para o mundo.</t>
+	<h>Iraque teria constitu&#237;do uma amea&#231;a para o mundo.</h>
+</pair>
+<pair id="2050" task="PP" value="FALSE">
+	<t>Cinco outros soldados receberam ordens para enfrentar cortes marciais.</t>
+	<h>Cinco outros soldados foram se recusou a enfrentar cortes marciais.</h>
+</pair>
+<pair id="1439" task="PP" value="TRUE">
+	<t>O promotor disse ao tribunal que o incidente causou "sofrimento" para uma das crian&#231;as.</t>
+	<h>O promotor disse ao tribunal que "ang&#250;stia" em uma das crian&#231;as est&#225; associada com o incidente.</h>
+</pair>
+<pair id="1976" task="PP" value="FALSE">
+	<t>C&#227;es farejadores foram levados para Mulberry St. apartamento de Rodriguez.</t>
+	<h>C&#227;es farejadores foram estimados em Mulberry St. apartamento de Rodriguez.</h>
+</pair>
+<pair id="1965" task="PP" value="FALSE">
+	<t>As na&#231;&#245;es ricas e pobres fechou um acordo hist&#243;rico neste domingo para cortar bilh&#245;es de d&#243;lares em subs&#237;dios agr&#237;colas, criar mercados industriais mais abertas e reviver as negocia&#231;&#245;es comerciais paralisadas mundo que poderiam impulsionar o crescimento global.</t>
+	<h>As na&#231;&#245;es ricas e pobres caiu em um acordo hist&#243;rico neste domingo.</h>
+</pair>
+<pair id="1966" task="PP" value="TRUE">
+	<t>Familiares de uma mulher desaparecida e seu marido, disse na tarde de s&#225;bado que as novas informa&#231;&#245;es do marido levou-os a cancelar uma pesquisa volunt&#225;rio para a mulher.</t>
+	<h>Familiares de uma mulher desaparecida e seu marido cancelou uma busca volunt&#225;rios para a mulher.</h>
+</pair>
+<pair id="1959" task="PP" value="FALSE">
+	<t>Kerry Bush, bateu duro em sua conduta na guerra no Iraque.</t>
+	<h>Kerry tiro Bush.</h>
+</pair>
+<pair id="1975" task="PP" value="FALSE">
+	<t>Uma impress&#227;o digital correspondente foi descoberto na cinta.</t>
+	<h>Uma impress&#227;o digital correspondente foi escavado a partir da al&#231;a.</h>
+</pair>
+<pair id="34" task="PP" value="FALSE">
+	<t>A Ar&#225;bia Saudita, o maior produtor de petr&#243;leo do mundo, era uma vez um torcedor de Osama bin Laden e seus associados que liderou os ataques contra os Estados Unidos.</t>
+	<h>A Ar&#225;bia Saudita &#233; um aliado-chave dos EUA.</h>
+</pair>
+<pair id="1985" task="PP" value="FALSE">
+	<t>Quebec mulher e sua m&#227;e acusada de conspirar para matar uma menina de quatro anos de idade.</t>
+	<h>Quebec mulher assassinada uma menina de quatro anos de idade.</h>
+</pair>
+<pair id="1971" task="PP" value="FALSE">
+	<t>Rodriguez foi flagrado por uma testemunha fugindo da escada onde a mochila foi encontrada segundos antes que ele disparou.</t>
+	<h>Uma testemunha resgatado Rodriguez.</h>
+</pair>
+<pair id="2064" task="QA" value="FALSE">
+	<t>O Osaka World Trade Center &#233; o edif&#237;cio mais alto na regi&#227;o oeste do Jap&#227;o.</t>
+	<h>O Osaka World Trade Center &#233; o edif&#237;cio mais alto de Jap&#227;o.</h>
+</pair>
+<pair id="1490" task="QA" value="TRUE">
+	<t>"&#201; apenas um jogo" &#233; "Give My Regards to Broadway", um tributo de Terrence McNally leve ao teatro, como visto do ponto de vista elevado, mas limitado de artistas da Broadway que s&#227;o consumidos por hit / fracasso mentalidade de Nova York.</t>
+	<h>Broadway est&#225; em Nova York.</h>
+</pair>
+<pair id="647" task="QA" value="TRUE">
+	<t>Maced&#244;nio Milcho Manchevski de "Antes da Chuva" e de Taiwan Tsai Ming-liang de "Aiqing Wansui / Vive L'Amour" dividiu o pr&#234;mio Le&#227;o de Ouro de melhor filme.</t>
+	<h>"Antes da Chuva" e "Vive L'Amour" ganhou o Le&#227;o de Ouro.</h>
+</pair>
+<pair id="2086" task="QA" value="FALSE">
+	<t>Jigish Avalani, gerente de grupo de marketing do DNA do Windows na Microsoft, explica que o DNA do Windows refere-se &#224; arquitetura de aplicativo de Internet do Windows Distributed, lan&#231;ado pela Microsoft em outono de 1997.</t>
+	<h>Microsoft foi criada em outono de 1997.</h>
+</pair>
+<pair id="598" task="QA" value="TRUE">
+	<t>Depois de 1979 invas&#227;o sovi&#233;tica e da ocupa&#231;&#227;o, 3 milh&#245;es de afeg&#227;os fugiram para o Paquist&#227;o, que foi incentivado por ajuda ocidental pesado para lev&#225;-los dentro</t>
+	<h>Afeganist&#227;o foi invadido pela Uni&#227;o Sovi&#233;tica em 1979.</h>
+</pair>
+<pair id="2067" task="QA" value="FALSE">
+	<t>Andreessen, que ajudou a definir a revolu&#231;&#227;o da Internet como parte da equipe que criou o primeiro navegador de Internet (Mosaic) e seu co-fundador do Netscape, disse a uma sala lotada no San Francisco Marriott Hotel quinta-feira que &#233; "extremamente comprometido" com a sua startup Loudcloud .</t>
+	<h>O navegador de Internet Mosaic foi criado no San Francisco Marriott hotel.</h>
+</pair>
+<pair id="2084" task="QA" value="FALSE">
+	<t>Microsoft Israel foi fundada em 1989 e tornou-se um dos primeiros ramos da Microsoft fora dos EUA.</t>
+	<h>Microsoft foi criada em 1989.</h>
+</pair>
+<pair id="1494" task="QA" value="TRUE">
+	<t>As demandas sobre o governo do p&#243;s-guerra 53 da It&#225;lia s&#227;o aparentes, como s&#227;o o ressentimento e incertezas Berlusconi tem despertado na cabe&#231;a de um novo partido com o nome atraente Forza Italia (Go, It&#225;lia).</t>
+	<h>Silvio Berlusconi est&#225; na Forza Italia.</h>
+</pair>
+<pair id="637" task="QA" value="TRUE">
+	<t>Em 1969, mais de 500 milh&#245;es de pessoas ao redor do mundo sentou-se em frente dos aparelhos de televis&#227;o, assistindo imagens granuladas de dois homens em trajes espaciais volumosos brancos que plantam uma bandeira dos EUA sobre a paisagem lunar com seu horizonte negro.</t>
+	<h>Os astronautas da Apollo acenou a bandeira americana na Lua, em 1969.</h>
+</pair>
+<pair id="600" task="QA" value="TRUE">
+	<t>Assim come&#231;ou a viagem que levou Hannam, um 29-year-old jornalista free-lance, em uma busca internacional para resolver um dos maiores mist&#233;rios da &#193;sia: O que aconteceu com Lin Piao, o l&#237;der do Partido Comunista Chin&#234;s acusado de um enredo 1971 para derrubar o Presidente Mao.</t>
+	<h>Lin Piao foi o l&#237;der do Partido Comunista Chin&#234;s.</h>
+</pair>
+<pair id="2065" task="QA" value="FALSE">
+	<t>A torre esguia &#233; o segundo edif&#237;cio mais alto no Jap&#227;o.</t>
+	<h>A torre esguia &#233; o edif&#237;cio mais alto de Jap&#227;o.</h>
+</pair>
+<pair id="2059" task="QA" value="FALSE">
+	<t>Na Eurodisney, era uma vez &#233; agora, neste reino m&#225;gico onde as fantasias de inf&#226;ncia e faz de conta vir &#224; vida.</t>
+	<h>EuroDisney est&#225; localizado neste reino m&#225;gico.</h>
+</pair>
+<pair id="1456" task="QA" value="FALSE">
+	<t>Em sua lareira de carvalho s&#227;o um bebedouro do lago Turkana e uma caba&#231;a do Leste Africano, ambos os quais ele comprou em Nairobi, onde ele foi no outono de 1993 para visitar Kitum Cave, a suspeita local de acolhimento para o v&#237;rus de Marburg, que est&#225; intimamente relacionado ao Ebola.</t>
+	<h>O v&#237;rus Ebola foi encontrado no Zaire.</h>
+</pair>
+<pair id="2046" task="QA" value="FALSE">
+	<t>Diretor de Hoover se reporta diretamente ao presidente da Stanford.</t>
+	<h>Hoover &#233; o presidente da Universidade de Stanford.</h>
+</pair>
+<pair id="628" task="QA" value="TRUE">
+	<t>A esp&#233;cie humana pode ser mais de 100.000 anos de idade, mas a maior parte de seu crescimento num&#233;rico veio em apenas as &#250;ltimas d&#233;cadas: 2,6 bilh&#245;es de atuais 5,6 bilh&#245;es de pessoas j&#225; nasceram desde 1960.</t>
+	<h>A popula&#231;&#227;o mundial &#233; de 5,6 bilh&#245;es.</h>
+</pair>
+<pair id="2080" task="QA" value="FALSE">
+	<t>VCU School of the Arts, no Qatar est&#225; localizado em Doha, capital do Qatar.</t>
+	<h>Qatar est&#225; localizado em Doha.</h>
+</pair>
+<pair id="617" task="QA" value="TRUE">
+	<t>Em 1954, em um gesto de amizade para marcar o 300 &#186; anivers&#225;rio da uni&#227;o da Ucr&#226;nia com a R&#250;ssia, o premi&#234; sovi&#233;tico Nikita Khrushchev deu Crim&#233;ia para a Ucr&#226;nia.</t>
+	<h>Crim&#233;ia tornou-se parte da Ucr&#226;nia, em 1954.</h>
+</pair>
+<pair id="2060" task="QA" value="FALSE">
+	<t>Nesta viagem particular, Airbus, em coopera&#231;&#227;o com os seus parceiros, organizou uma viagem para 80 crian&#231;as com idades entre 9 e 16 anos a partir pr&#243;ximas Nacionais casas das crian&#231;as para visitar a EuroDisney por um dia.</t>
+	<h>EuroDisney est&#225; localizado nas proximidades Casas Crian&#231;as Nacional.</h>
+</pair>
+<pair id="1493" task="QA" value="TRUE">
+	<t>"N&#243;s nunca tivemos uma coisa n&#250;cleo (de neg&#243;cios)", fundador Richard Branson disse &#224; Reuters durante o lan&#231;amento neste m&#234;s de Virgin Vodka, que, com os computadores da Virgin Cola ea Virgin, s&#227;o as suas &#250;ltimas id&#233;ias brilhantes.</t>
+	<h>Cola de Richard Branson &#233; chamado Virgin Cola.</h>
+</pair>
+<pair id="2061" task="QA" value="FALSE">
+	<t>Embora Eurodisney &#233; um grande dia para a fam&#237;lia, visite tamb&#233;m os castelos na &#225;rea e os v&#225;rios parques e muito pequenas aldeias.</t>
+	<h>EuroDisney est&#225; localizado nos v&#225;rios parques.</h>
+</pair>
+<pair id="595" task="QA" value="TRUE">
+	<t>Brown rebateu uma amea&#231;a feita segunda-feira pelo seu colega, o ministro de Com&#233;rcio Exterior Wu Yi, que, se o esfor&#231;o da China para se juntar ao Acordo Geral sobre Tarifas e Com&#233;rcio (GATT) at&#233; o final do ano n&#227;o for bem sucedida, Pequim n&#227;o ser&#225; mais obrigado pelo com&#233;rcio anterior e compromissos econ&#244;micos.</t>
+	<h>Wu Yi &#233; o ministro de Com&#233;rcio Exterior da China.</h>
+</pair>
+<pair id="1454" task="QA" value="TRUE">
+	<t>Na verdade, Woolsey n&#227;o tinha experi&#234;ncia em primeira m&#227;o com o mundo dos espi&#245;es at&#233; que o presidente Bill Clinton nomeou-o diretor da CIA.</t>
+	<h>James Woolsey &#233; o diretor da CIA.</h>
+</pair>
+<pair id="622" task="QA" value="TRUE">
+	<t>Testemunhas de ataques de genoc&#237;dio contra a minoria tutsi em Ruanda est&#227;o sendo apontados para execu&#231;&#227;o por extremistas hutus em campos de refugiados no sudoeste do Ruanda, um porta-voz da ONU disse em Kigali, a capital.</t>
+	<h>Os grupos hutus e tutsis em Ruanda lutou.</h>
+</pair>
+<pair id="2089" task="QA" value="FALSE">
+	<t>Pr&#237;ncipe Charles foi anteriormente casado com a princesa Diana, que morreu em um acidente de carro em Paris, em agosto de 1997.</t>
+	<h>O pr&#237;ncipe Charles e da princesa Diana se casaram em agosto de 1997.</h>
+</pair>
+<pair id="1474" task="QA" value="TRUE">
+	<t>Para evitar mais manipula&#231;&#227;o de pre&#231;os, o Minist&#233;rio da Administra&#231;&#227;o P&#250;blica da Noruega anunciou que estava congelando os pre&#231;os de hospedagem, alimentos e bebidas na &#225;rea de Lillehammer, durante os Jogos Ol&#237;mpicos de Inverno.</t>
+	<h>Noruega sediou os Jogos Ol&#237;mpicos de Inverno.</h>
+</pair>
+<pair id="2057" task="QA" value="FALSE">
+	<t>O Hotel Moulin de Paris, em 2,5 km de dist&#226;ncia da Disneyland Paris, e est&#225; localizado na encantadora cidade de Magny-Le-Hongre.</t>
+	<h>EuroDisney est&#225; localizado na encantadora cidade de Magny-Le-Hongre.</h>
+</pair>
+<pair id="1453" task="QA" value="TRUE">
+	<t>O Conselho de Supervisores do Condado aceito mais de US $ 700.000 em subs&#237;dios do Estado ter&#231;a-feira para estender um programa que fornece o azidothymidine droga controversa - AZT - para moradores de baixa renda com doen&#231;as relacionadas com a SIDA ou AIDS.</t>
+	<h>AZT &#233; um tratamento da Aids.</h>
+</pair>
+<pair id="1486" task="QA" value="TRUE">
+	<t>Agora &#233; Rom&#233;nia-Argentina no Rose Bowl de hoje - e, com uma vit&#243;ria, &#233; para as quartas de final em Stanford, e uma vit&#243;ria l&#225; e Rom&#234;nia estar&#225; de volta em Pasadena para as semifinais e final da Copa do Mundo.</t>
+	<h>A final da Copa do Mundo foi realizada em Pasadena.</h>
+</pair>
+<pair id="2044" task="QA" value="FALSE">
+	<t>Jacqueline B. Wender &#233; assistente do presidente da Universidade de Stanford.</t>
+	<h>Jacqueline B. Wender &#233; o presidente da Universidade de Stanford.</h>
+</pair>
+<pair id="642" task="QA" value="TRUE">
+	<t>Por centenas de membros da fam&#237;lia escondido em um hotel n&#227;o muito longe do terminal de ferry de Estocolmo, onde o barco Est&#243;nia deveria ter atracado ontem de manh&#227; depois de uma viagem nocturna da capital estoniana de Tallinn, o esfor&#231;o de resgate suspenso foi apenas o mais recente em um dia relat&#243;rios de partir o cora&#231;&#227;o.</t>
+	<h>A Est&#243;nia partiu de Tallinn.</h>
+</pair>
+<pair id="663" task="QA" value="TRUE">
+	<t>Uma vers&#227;o remasterizada de "Bonequinha de Luxo", da Paramount, estrelado por Audrey Hepburn, tem lan&#231;amento previsto para 02 de novembro em US $ 40.</t>
+	<h>Audrey Hepburn estrelou em "Bonequinha de Luxo".</h>
+</pair>
+<pair id="2081" task="QA" value="FALSE">
+	<t>A principal pista de corrida no Qatar est&#225; localizado na Shahaniya, no Dukhan Road.</t>
+	<h>Qatar est&#225; localizado na Shahaniya.</h>
+</pair>
+<pair id="648" task="QA" value="TRUE">
+	<t>Yoko Ono, vi&#250;va do assassinado Beatles estrela John Lennon, foi rebocada na pequena cidade alem&#227; de Langenhagen com traseiros.</t>
+	<h>Yoko Ono era a esposa de John Lennon.</h>
+</pair>
+<pair id="643" task="QA" value="TRUE">
+	<t>Praticamente todas as arquiteto de estatura internacional disputavam a bonan&#231;a de projectos p&#250;blicos e privados - incluindo Renzo Piano, Peter Eisenman, Philip Johnson, Rafael Moneo, Helmut Jahn e Richard Rogers.</t>
+	<h>Renzo Piano &#233; um arquiteto.</h>
+</pair>
+<pair id="2068" task="QA" value="FALSE">
+	<t>H&#225; mais de 4.000 crian&#231;as de rua na capital de Ulan Bator.</t>
+	<h>A popula&#231;&#227;o de Ulan Bator &#233; 4.000.</h>
+</pair>
+<pair id="2078" task="QA" value="FALSE">
+	<t>Doze das luas de J&#250;piter s&#227;o relativamente pequenas e parecem ter sido mais prov&#225;vel capturado do que ter sido formados em &#243;rbita em torno de J&#250;piter.</t>
+	<h>J&#250;piter tem doze luas.</h>
+</pair>
+<pair id="2072" task="QA" value="FALSE">
+	<t>Em 1932, ele ingressou no Partido Comunista, em seguida, ilegal e erguida governo e as mensagens do partido a partir de 1942, tornando-se ministro do Interior em 1948, quando o Partido Comunista assumiu o controle na Hungria.</t>
+	<h>Controle comunista na Hungria terminou em 1948.</h>
+</pair>
+<pair id="2066" task="QA" value="FALSE">
+	<t>O edif&#237;cio mais alto de T&#243;quio eo segundo edif&#237;cio mais alto do Jap&#227;o, o TMGO foi concebido como um centro de alta tecnologia a partir do qual T&#243;quio poderia ser levado para o promissor do s&#233;culo XXI.</t>
+	<h>TMGO &#233; o edif&#237;cio mais alto de Jap&#227;o.</h>
+</pair>
+<pair id="2069" task="QA" value="FALSE">
+	<t>Pai enlutado Christopher Yavelow espera entregar um milh&#227;o de cartas para a rainha da Holanda para trazer seus filhos para casa.</t>
+	<h>Christopher Yavelow &#233; a rainha da Holanda.</h>
+</pair>
+<pair id="636" task="QA" value="TRUE">
+	<t>"Como &#233; que um pa&#237;s (Cidade do Vaticano), um pa&#237;s chamado, que &#233;, em ess&#234;ncia 800 hectares quadrados de espa&#231;o de escrit&#243;rio no centro de Roma, que tem uma cidadania que exclui as mulheres e as crian&#231;as, parece atrair mais a aten&#231;&#227;o na fala sobre a pol&#237;tica p&#250;blica que lida com mulheres e crian&#231;as? " ela exigiu.</t>
+	<h>A Cidade do Vaticano est&#225; em Roma.</h>
+</pair>
+<pair id="347" task="RC" value="TRUE">
+	<t>Protesto votos como os cidad&#227;os dos 25 pa&#237;ses da UE punidos seus governos.</t>
+	<h>A Uni&#227;o Europeia &#233; composta por 25 na&#231;&#245;es.</h>
+</pair>
+<pair id="988" task="RC" value="TRUE">
+	<t>Merrill Lynch &amp; Co. e Smith Barney, agora uma unidade do Citigroup, em 1998, se estabeleceu casos de discrimina&#231;&#227;o envolvendo centenas de trabalhadores do sexo feminino.</t>
+	<h>Merrill Lynch &amp; Co. e Smith Barney s&#227;o agora uma unidade do Citigroup.</h>
+</pair>
+<pair id="2188" task="RC" value="FALSE">
+	<t>Um segundo homem, de 24 anos, tecnicamente libertado ontem foi socorrida depois de ser interrogado sobre supostos documentos de identidade falsos, mas foi ainda detido em assuntos de imigra&#231;&#227;o, um porta-voz da Scotland Yard disse.</t>
+	<h>Um porta-voz da Scotland Yard foi libertado ontem.</h>
+</pair>
+<pair id="2131" task="RC" value="FALSE">
+	<t>EUA luz bruto foi negociado de forma irregular na New York Mercantile Exchange, atingindo 44,50 d&#243;lares o barril antes de aliviar um pouco para tr&#225;s para 44,10 d&#243;lares, ainda um ganho de US $ 1.27.</t>
+	<h>A luz crua dos EUA &#233; $ 1,27 por barril.</h>
+</pair>
+<pair id="925" task="RC" value="TRUE">
+	<t>Um ataque com foguetes matou dois israelenses, incluindo um menino de 3 anos de idade.</t>
+	<h>A tr&#234;s anos de idade, foi morto em um ataque com foguetes.</h>
+</pair>
+<pair id="245" task="RC" value="TRUE">
+	<t>Constatou-se que a bebedeira em mulheres com idades entre 18 e 44 anos aumentou nos Estados Unidos em 13 por cento entre 1999 e 2002.</t>
+	<h>Feminino bebedeira subiu 13 por cento em tr&#234;s anos.</h>
+</pair>
+<pair id="2182" task="RC" value="FALSE">
+	<t>Duas bombas plantadas perto de uma escola isl&#226;mica no Paquist&#227;o matou oito pessoas e feriu 42 outros ontem no mais recente surto de viol&#234;ncia segurando a porta do sul de Karachi.</t>
+	<h>Oito pessoas plantou duas bombas perto de uma escola isl&#226;mica no Paquist&#227;o.</h>
+</pair>
+<pair id="976" task="RC" value="TRUE">
+	<t>Harvey Weinstein, co-presidente da Miramax, que foi fundamental na populariza&#231;&#227;o tanto filmes independentes e estrangeiros com grandes audi&#234;ncias, concorda.</t>
+	<h>Harvey Weinstein &#233; o co-presidente da Miramax.</h>
+</pair>
+<pair id="242" task="RC" value="TRUE">
+	<t>Ao abrir estoque dia da Salesforce.com subiu 6,20 d&#243;lares para 17,20 d&#243;lares, um aumento de 56,4% em rela&#231;&#227;o ao pre&#231;o da oferta inicial de US $ 11.</t>
+	<h>Dia de abertura do estoque de Salesforce.com subiu 56,4% em rela&#231;&#227;o ao pre&#231;o da oferta inicial.</h>
+</pair>
+<pair id="198" task="RC" value="FALSE">
+	<t>Mesmo que o tapete foi arrancado de debaixo Lollapalooza esta semana, V&#237;cio frontman do Jane Perry Farrell est&#225; otimista de que o festival de m&#250;sica ecl&#233;tica que ele co-fundou em 1991 vai ressurgir e que poderia ser mais cedo do que voc&#234; pensa.</t>
+	<h>Perry Farrel espera encontrou outro festival de m&#250;sica.</h>
+</pair>
+<pair id="345" task="RC" value="TRUE">
+	<t>Ahern, que estava viajando para T&#243;quio para uma cimeira UE-Jap&#227;o de ontem, vai consultar outros l&#237;deres da UE, por telefone no final desta semana, em um esfor&#231;o para encontrar um candidato concordou.</t>
+	<h>A cimeira entre a Europa eo Jap&#227;o est&#225; ocorrendo na capital Japanise.</h>
+</pair>
+<pair id="930" task="RC" value="TRUE">
+	<t>Depois de dar cerca de 5.000 pessoas uma segunda chance na vida, os m&#233;dicos est&#227;o a celebrar o 25 &#186; anivers&#225;rio do primeiro transplante de cora&#231;&#227;o da Bretanha, que foi realizada no Papworth Hospital de Cambridgeshire, em 1979.</t>
+	<h>O primeiro transplante de cora&#231;&#227;o na Gr&#227;-Bretanha foi realizada em 1979.</h>
+</pair>
+<pair id="927" task="RC" value="TRUE">
+	<t>Mais de 150 golfinhos, tartarugas marinhas e baleias de bico t&#234;m sido lavado mortos nas praias em &#193;frica.</t>
+	<h>Golfinhos mortos, tartarugas e baleias foram encontradas nas praias africanas.</h>
+</pair>
+<pair id="1001" task="RC" value="TRUE">
+	<t>A chamada "hip&#243;tese da av&#243;", com base em estudos de grupos de ca&#231;adores-recolectores africanos, sugere que as mulheres inf&#233;rteis s&#227;o vitais para o sucesso da cria&#231;&#227;o dos filhos, apesar de ser incapaz de produzir as pr&#243;prias crian&#231;as.</t>
+	<h>A "hip&#243;tese da av&#243;" sugere que as mulheres inf&#233;rteis s&#227;o muito importantes para criar os filhos.</h>
+</pair>
+<pair id="2128" task="RC" value="FALSE">
+	<t>Os seq&#252;estradores querem que a empresa do Kuwait que emprega os homens para parar de fazer neg&#243;cios no Iraque e de pagar uma compensa&#231;&#227;o &#224;s v&#237;timas dos ataques norte-americanos em Falluja.</t>
+	<h>Os seq&#252;estradores pago uma indemniza&#231;&#227;o &#224;s v&#237;timas de os EUA</h>
+</pair>
+<pair id="348" task="RC" value="FALSE">
+	<t>Protesto votos como os cidad&#227;os dos 25 pa&#237;ses da UE punidos seus governos para tudo, de alta taxa de desemprego para o envolvimento no Iraque.</t>
+	<h>Cidad&#227;os das na&#231;&#245;es da UE protestar contra a puni&#231;&#227;o para o desemprego.</h>
+</pair>
+<pair id="194" task="RC" value="FALSE">
+	<t>Wal-Mart tem recebido muita publicidade negativa recentemente, incluindo alega&#231;&#245;es de que ele costumava trabalhadores ilegais e fizeram os funcion&#225;rios trabalham sem remunera&#231;&#227;o durante os intervalos de almo&#231;o, bem como reclama&#231;&#245;es que geralmente paga mal empregados.</t>
+	<h>Wal-Mart se queixa de publicidade negativa.</h>
+</pair>
+<pair id="238" task="RC" value="TRUE">
+	<t>Depois da tentativa de assassinato, em 1981, Reagan disse que sentiu que Deus o havia poupado para um prop&#243;sito, e ele pretendia dedicar o resto de sua vida em dedica&#231;&#227;o ao seu Deus e para essa finalidade.</t>
+	<h>Regan quase foi assassinado em 1981.</h>
+</pair>
+<pair id="2189" task="RC" value="FALSE">
+	<t>Abu al-Hindi Eisa foi dito ter sido envolvido em um plano para atacar o aeroporto de Heathrow, cujos detalhes foram supostamente descoberto no computador de Abu al-Hindi Eisa, 25, uma al-Qaeda suspeito preso recentemente no Paquist&#227;o.</t>
+	<h>Abu al-Hindi Eisa &#233; o pai de Abu al-Hindi Eisa.</h>
+</pair>
+<pair id="182" task="RC" value="TRUE">
+	<t>AT &amp; T Corp diz que vai parar de vender tradicional local e servi&#231;o residencial de longa dist&#226;ncia em sete estados, culpando o seu movimento em uma decis&#227;o judicial que ele diz que ir&#225; resultar em pre&#231;os mais elevados para o uso de redes regionais.</t>
+	<h>AT &amp; T acusa uma decis&#227;o judicial que far&#225; com que os pre&#231;os mais elevados.</h>
+</pair>
+<pair id="1003" task="RC" value="TRUE">
+	<t>As mulheres inf&#233;rteis s&#227;o vitais para o sucesso da cria&#231;&#227;o dos filhos, apesar de ser incapaz de produzir as pr&#243;prias crian&#231;as.</t>
+	<h>As mulheres inf&#233;rteis n&#227;o podem produzir filhos.</h>
+</pair>
+<pair id="1002" task="RC" value="TRUE">
+	<t>A chamada "hip&#243;tese da av&#243;", com base em estudos de grupos de ca&#231;adores-recolectores africanos, sugere que as mulheres inf&#233;rteis s&#227;o vitais para o sucesso da cria&#231;&#227;o dos filhos, apesar de ser incapaz de produzir as pr&#243;prias crian&#231;as.</t>
+	<h>As mulheres inf&#233;rteis s&#227;o vitais para o sucesso da cria&#231;&#227;o dos filhos, de acordo com a "hip&#243;tese da av&#243;".</h>
+</pair>
+<pair id="984" task="RC" value="TRUE">
+	<t>Cool, tempo &#250;mido domingo ajudou retardar o avan&#231;o de um inc&#234;ndio que causou a evacua&#231;&#227;o de centenas de resid&#234;ncias e empresas em Interior do Alasca.</t>
+	<h>Houve um inc&#234;ndio no Alasca.</h>
+</pair>
+<pair id="180" task="RC" value="TRUE">
+	<t>A nova regra de Valores Mobili&#225;rios da Comiss&#227;o de refor&#231;ar a independ&#234;ncia dos conselhos de fundos m&#250;tuos representa uma derrota ind&#250;stria.</t>
+	<h>Nova regra da SEC ir&#225; dar conselhos independ&#234;ncia.</h>
+</pair>
+<pair id="191" task="RC" value="TRUE">
+	<t>Os pre&#231;os do petr&#243;leo subiram hoje como empregadores noruegueses disseram que iriam responder a uma greve de bloqueio de todos os trabalhadores na pr&#243;xima semana, amea&#231;ando cortar quase toda a produ&#231;&#227;o de petr&#243;leo e g&#225;s.</t>
+	<h>Empregadores noruegueses fez os pre&#231;os do petr&#243;leo a subir.</h>
+</pair>
+<pair id="926" task="RC" value="TRUE">
+	<t>Nova pesquisa surpreendente em telefones celulares afirma que eles podem reduzir a contagem de esperma de um homem em at&#233; 30%.</t>
+	<h>A fertilidade masculina pode ser afetada pelo uso de um celular.</h>
+</pair>
+<pair id="346" task="RC" value="FALSE">
+	<t>Ahern, que estava viajando para T&#243;quio para uma cimeira UE-Jap&#227;o de ontem, vai consultar outros l&#237;deres da UE, por telefone no final desta semana, em um esfor&#231;o para encontrar um candidato concordou presid&#234;ncia da Comiss&#227;o Europeia.</t>
+	<h>Os l&#237;deres da UE chegaram a acordo sobre um candidato para o cargo de Presidente da Comiss&#227;o Europeia.</h>
+</pair>
+<pair id="921" task="RC" value="TRUE">
+	<t>Saginaw pol&#237;cia respondeu a uma queixa de viol&#234;ncia dom&#233;stica na casa errada e acabou atirando c&#227;o dos propriet&#225;rios.</t>
+	<h>Pol&#237;cia Saginaw engano foi para a casa errada em resposta a uma queixa.</h>
+</pair>
+<pair id="980" task="RC" value="FALSE">
+	<t>O presidente Bush voltou para o estado de montanha para comemorar o Dia da Independ&#234;ncia, contando uma multid&#227;o animada ontem que em seu 228 anivers&#225;rio da na&#231;&#227;o &#233; "avan&#231;ar com confian&#231;a e for&#231;a."</t>
+	<h>Dia da Independ&#234;ncia foi um filme popular.</h>
+</pair>
+<pair id="917" task="RC" value="FALSE">
+	<t>Medicare ir&#225; selecionar por sorteio de 10 por cento das pessoas que aplicam em 16 de agosto para come&#231;ar a receber benef&#237;cios a partir 01 de setembro.</t>
+	<h>Medicare vai escolher 10 por cento dos candidatos a receber benef&#237;cios em 16 de agosto.</h>
+</pair>
+<pair id="172" task="RC" value="TRUE">
+	<t>O terrorista &#233; suspeito de estar por tr&#225;s de v&#225;rios sequestros mortais e dezenas de ataques suicidas no Iraque.</t>
+	<h>O terrorista pode ter causado ataques suicidas e sequestros.</h>
+</pair>
+<pair id="918" task="RC" value="FALSE">
+	<t>Toshiba tem produzido uma c&#233;lula de combust&#237;vel, sem partes m&#243;veis.</t>
+	<h>Toshiba n&#227;o tem partes m&#243;veis.</h>
+</pair>
+<pair id="2180" task="RC" value="FALSE">
+	<t>Falando do lado de fora dos momentos de hospital depois de receber seu filho de volta, Ciancio disse que estava confiante o tempo todo que o beb&#234; seria encontrado.</t>
+	<h>Ciancio foi hospitalizado para falar com o beb&#234;.</h>
+</pair>
+<pair id="179" task="RC" value="FALSE">
+	<t>Nova regra da SEC para refor&#231;ar a independ&#234;ncia dos conselhos de fundos m&#250;tuos representa uma derrota ind&#250;stria.</t>
+	<h>Ind&#250;strias foram derrotados pela SEC.</h>
+</pair>
+<pair id="973" task="RC" value="TRUE">
+	<t>Os l&#237;deres pol&#237;ticos prometeram que a constru&#231;&#227;o da chamada Torre da Liberdade - que vai subir 1.776 p&#233;s no ar e ser o edif&#237;cio mais alto do mundo - ser&#225; conclu&#237;da dentro do cronograma at&#233; o final de 2008.</t>
+	<h>A Freedom Tower ser&#225; o edif&#237;cio mais alto do mundo.</h>
+</pair>
+<pair id="992" task="RC" value="FALSE">
+	<t>Wal-Mart Stores pediu a um tribunal federal de apela&#231;&#245;es dos EUA a rever a ordem de um juiz aprovar o status de a&#231;&#227;o coletiva para uma a&#231;&#227;o judicial sexo discrimina&#231;&#227;o.</t>
+	<h>O juiz aprova sexo discrimina&#231;&#227;o.</h>
+</pair>
+<pair id="349" task="RC" value="FALSE">
+	<t>Protesto votos como os cidad&#227;os dos 25 pa&#237;ses da UE punidos seus governos para tudo, de alta taxa de desemprego para o envolvimento no Iraque.</t>
+	<h>Os cidad&#227;os dos 25 pa&#237;ses da UE s&#227;o punidos por seus governos para tudo.</h>
+</pair>
+<pair id="2185" task="RC" value="FALSE">
+	<t>Os nove homens, com idades entre 19 e 32, est&#227;o sendo realizadas em Paddington esta&#231;&#227;o Verde policial de alta seguran&#231;a no centro de Londres.</t>
+	<h>entre 19 e 32 homens est&#227;o sendo mantidos em Paddington esta&#231;&#227;o Verde policial de alta seguran&#231;a no centro de Londres.</h>
+</pair>
+<pair id="923" task="RC" value="TRUE">
+	<t>A rede de televis&#227;o de l&#237;ngua &#225;rabe Al-Jazeera relata que recebeu um comunicado e uma fita de v&#237;deo de militantes.</t>
+	<h>Al-Jazeera &#233; uma rede de televis&#227;o em l&#237;ngua &#225;rabe.</h>
+</pair>
+<pair id="991" task="RC" value="TRUE">
+	<t>Wal-Mart Stores pediu a um tribunal federal de apela&#231;&#245;es dos EUA a rever a ordem de um juiz aprovar o status de a&#231;&#227;o coletiva para uma a&#231;&#227;o judicial sexo discrimina&#231;&#227;o.</t>
+	<h>A a&#231;&#227;o foi ajuizada contra a Wal-Mart.</h>
+</pair>
+<pair id="1005" task="RC" value="TRUE">
+	<t>Jessica Litman, professor de Direito da Wayne State University de Michigan, tem se especializado em direito autoral e direito Internet h&#225; mais de 20 anos.</t>
+	<h>Jessica Litman &#233; um professor de direito.</h>
+</pair>
+<pair id="2132" task="RC" value="FALSE">
+	<t>Ralph Fiennes, que jogou vil&#245;es memor&#225;veis &#8203;&#8203;em filmes como 'Red Dragon' e 'A Lista de Schindler ", &#233; retratar Voldemort, o bruxo malvado, no pr&#243;ximo filme de Harry Potter.</t>
+	<h>Ralph Fiennes vai jogar Harry Potter no pr&#243;ximo filme.</h>
+</pair>
+<pair id="2186" task="RC" value="FALSE">
+	<t>Um dos dois homens "lan&#231;ou" na manh&#227; de s&#225;bado Mohammed Dawoud, 19, de Willesden, no noroeste de Londres vai aparecer perante o tribunal dos magistrados Horseferry Estrada cobrado hoje com posse de documentos de identidade falsos, segundo a pol&#237;cia.</t>
+	<h>Willesden aparecer&#225; perante o tribunal dos magistrados Horseferry estrada hoje.</h>
+</pair>
+<pair id="2184" task="RC" value="FALSE">
+	<t>Scotland Yard foi concedido mais dois dias para questionar nove dos 13 homens presos em ataques anti-terroristas coordenados em todo o pa&#237;s na ter&#231;a-feira.</t>
+	<h>13 homens mortos em ataques anti-terroristas coordenados em todo o pa&#237;s na ter&#231;a-feira.</h>
+</pair>
+<pair id="928" task="RC" value="FALSE">
+	<t>Protetores solares destinados a crian&#231;as poderia oferecer menos prote&#231;&#227;o do que eles dizem sobre a garrafa.</t>
+	<h>Protetores solares destinados a crian&#231;as proteger ao n&#237;vel que anunciar.</h>
+</pair>
+<pair id="916" task="RC" value="FALSE">
+	<t>Medicare vai come&#231;ar a pagar no final deste ano para certos medicamentos contra o c&#226;ncer oral e drogas intravenosas que podem ser auto-administrado sob um projeto de demonstra&#231;&#227;o 500000000 $ revelado ontem.</t>
+	<h>Medicare come&#231;ar&#225; usu&#225;rios pagando US $ 500 milh&#245;es.</h>
+</pair>
+<pair id="2183" task="RC" value="FALSE">
+	<t>Um dos mortos era uma crian&#231;a, passando com seus pais, disse Iqrar Abbasi, um m&#233;dico do Hospital Civil de Karachi.</t>
+	<h>Um m&#233;dico foi morto por seus pais.</h>
+</pair>
+<pair id="908" task="RC" value="FALSE">
+	<t>Time Warner &#233; a maior empresa de m&#237;dia e Internet do mundo.</t>
+	<h>Time Warner &#233; a maior empresa do mundo.</h>
+</pair>
+<pair id="975" task="RC" value="TRUE">
+	<t>Depois de assistir fogos de artif&#237;cio na noite de ontem, em Cedar Rapids, Kerry foi para a fazenda Pittsburgh suburbana de sua esposa, onde ele era esperado para realizar um churrasco para os adeptos desta tarde.</t>
+	<h>Kerry assistiu fogos de artif&#237;cio.</h>
+</pair>
+<pair id="912" task="RC" value="TRUE">
+	<t>O vice-presidente Dick Cheney na ter&#231;a-feira lan&#231;ou uma obscenidade no plen&#225;rio do Senado para pontuar uma troca com raiva de Vermont senador Patrick Leahy como todos os senadores se reuniram para sua foto anual.</t>
+	<h>Cheney amaldi&#231;oado pelo senador Patrick Leahy.</h>
+</pair>
+<pair id="331" task="RC" value="FALSE">
+	<t>Chanceler Schroeder presidiu tr&#234;s anos de quase zero o crescimento da economia e uma taxa de desemprego que se mant&#233;m teimosamente acima de quatro milh&#245;es de pessoas.</t>
+	<h>Mais de quatro milh&#245;es de pessoas t&#234;m permanecido teimosamente desempregado nos &#250;ltimos tr&#234;s anos.</h>
+</pair>
+<pair id="2181" task="RC" value="FALSE">
+	<t>Duas bombas plantadas perto de uma escola isl&#226;mica no Paquist&#227;o matou oito pessoas e feriu 42 outros ontem no mais recente surto de viol&#234;ncia segurando a porta do sul de Karachi.</t>
+	<h>42 pessoas mortas em Karachi ataque a bomba.</h>
+</pair>
+</entailment-corpus>
