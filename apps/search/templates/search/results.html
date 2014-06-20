@@ -12,6 +12,32 @@
     {% endfor %}
 </div>
 
+
+{% if results %}
+    <div class="pagination">
+        <ul class="pager">
+            {% if has_previous %}
+                <li>
+                    <a href="#" onclick="sendPage({{ previous_page }})">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                </li>
+            {% endif %}
+            <span class="current">
+                Página {{ current_page }} de {{ pages }}
+            </span>
+
+            {% if has_next %}
+                <li>
+                    <a href="#" onclick="sendPage({{ next_page }})">                                                <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </li>
+            {% endif %}
+        </ul>
+    </div>
+{% endif %}
+
+<!--{#
 {% if results %}
     <div class="pagination">
         <ul class="pager">
@@ -36,3 +62,4 @@
         </ul>
     </div>
 {% endif %}
+#}-->

@@ -31,31 +31,52 @@ class SearchView(View):
         if request.is_ajax():
         
             query = request.POST.get('query')
-            
             query_parsed = parse(query)
-            searcher = get_searcher()
             
-            results = searcher.search(query_parsed)
-            min_scored_length = results.estimated_min_length()
-            
-            paginator = Paginator(results, 10)
-
             try:
                 page = request.POST.get('page')
+                if page is None: page = 1
+                page = int(page)
             except ValueError:
                 page = 1
 
-            try:
-                results = paginator.page(page)
-            except PageNotAnInteger:
-                results = paginator.page(1)
-            except EmptyPage:
-                results = paginator.page(paginator.num_pages)
+
+            searcher = get_searcher()
+            results = searcher.search_page(query_parsed, page, 10)
+            hits = len(results)
+            
+            pages = results.pagecount
+            current_page = page
+            has_previous = current_page > 1
+            has_next = current_page < pages
+            previous_page = current_page - 1 if has_previous else None
+            next_page = current_page + 1 if has_next else None
+            
+            paginator = {
+                    "pages" : pages,
+                    "current_page" : current_page,
+                    "has_previous" : has_previous,
+                    "has_next" : has_next,
+                    "previous_page" : previous_page,
+                    "next_page" : next_page,
+                }
+            
             
             data = {
-                    'hits' : min_scored_length,
+                    'hits' : hits,
                     'query' : query,
-                    'results': results
+                    'results': results,
                     }
+            data.update(paginator)
             
             return render(request, 'search/results.html', data)
+    
+        return redirect(reverse('search:search'))
+
+class StorylineView(View):
+
+    def get(self, request, *args, **kwargs):
+        
+        data = {'a' : kwargs.get('id')}
+        
+        return render(request, 'search/storyline.html', data)
