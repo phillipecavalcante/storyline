@@ -73,5 +73,9 @@ class FolhaSpider(CrawlSpider):
         
         content = ' '.join(sel.xpath(FOLHA_ARTICLE_CONTENT).extract())
         article['body'] = content if content else None 
-         
+        
+        
+        links = sel.xpath('//article//a/@href').extract()
+        article['links'] = links
+        
         return article
