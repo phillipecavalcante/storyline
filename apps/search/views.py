@@ -65,7 +65,7 @@ class SearchView(View):
             data = {
                     'hits' : hits,
                     'query' : query,
-                    'results': results,
+                    'results': results
                     }
             data.update(paginator)
             
@@ -77,6 +77,9 @@ class StorylineView(View):
 
     def get(self, request, *args, **kwargs):
         
-        data = {'a' : kwargs.get('id')}
+        doc = Article.objects.get(pk=kwargs.get('id'))
+        sl = storyline(doc)
+
+        data = {'storyline' : sl}
         
         return render(request, 'search/storyline.html', data)

@@ -1,6 +1,6 @@
 {% if query %}
     <p class="text-muted">
-        A consulta <strong>"{{ query }}"</strong> retornou <strong>{{ hits }}</strong> resultados.
+        <strong>{{ hits }}</strong> resultados para <strong>"{{ query }}"</strong>.
     </p>
 {% endif %}
 
@@ -11,7 +11,6 @@
     {% empty %}
     {% endfor %}
 </div>
-
 
 {% if results %}
     <div class="pagination">
