@@ -20,13 +20,13 @@ FOLHA_SPIDER_NAME = 'folha'
 FOLHA_DOMAIN = 'www1.folha.uol.com.br'
 FOLHA_START_URLS = [
                     'http://www1.folha.uol.com.br/poder',
-                    'http://www1.folha.uol.com.br/poder/poderepolitica'
+#                   'http://www1.folha.uol.com.br/poder/poderepolitica'
                     ]
 
 FOLHA_URL_PATTERN = YEAR_MONTH + ANY_CHAR_DIGIT_HYPHEN + DOT + ANY_CHAR_DIGIT
 
 FOLHA_PODER = re.compile('/poder/' + FOLHA_URL_PATTERN) 
-FOLHA_PODEREPOLITICA = re.compile('/poder/poderepolitica/' + FOLHA_URL_PATTERN)
+#FOLHA_PODEREPOLITICA = re.compile('/poder/poderepolitica/' + FOLHA_URL_PATTERN)
 
 
 FOLHA_ARTICLE_TITLE = '//h1/text()'
@@ -46,12 +46,12 @@ class FolhaSpider(CrawlSpider):
                                     callback='parse_item',
                                     follow=True,
                   ),
-             Rule(SgmlLinkExtractor(
-                                    allow=(FOLHA_PODEREPOLITICA),
-                                    ),
-                                    callback='parse_item',
-                                    follow=True,
-                  ),
+#             Rule(SgmlLinkExtractor(
+#                                    allow=(FOLHA_PODEREPOLITICA),
+#                                    ),
+#                                    callback='parse_item',
+#                                    follow=True,
+#                  ),
              ]
 
     
@@ -61,7 +61,7 @@ class FolhaSpider(CrawlSpider):
         
         article = ArticleItem()
         
-        article['source'] = FOLHA_SPIDER_NAME
+        article['source'] = 'Folha de S.Paulo'
         
         article['url'] = response.url
         
@@ -69,6 +69,8 @@ class FolhaSpider(CrawlSpider):
         article['title'] = title[0] if title else None
         
         pub_date = sel.xpath(FOLHA_ARTICLE_PUB_DATE).extract()[0]
+        print pub_date, " <<<<<<  aqui"
+
         article['pub_date'] = datetime.strptime(pub_date, "%Y-%m-%d %H:%M")
         
         content = ' '.join(sel.xpath(FOLHA_ARTICLE_CONTENT).extract())
@@ -76,6 +78,12 @@ class FolhaSpider(CrawlSpider):
         
         
         links = sel.xpath('//article//a/@href').extract()
+        links = list(set(links))
+        try:
+            links.remove('javascript:;')
+        except Exception:
+            pass
+            
         article['links'] = links
         
         return article
