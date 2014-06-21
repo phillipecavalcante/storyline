@@ -43,7 +43,10 @@ def add_docs(documents, index):
                             id = unicode(doc.id),
                             pub_date = doc.pub_date,
                             title = unicode(doc.title),
-                            body = unicode(doc.body)
+                            body = unicode(doc.body),
+                            source = unicode(doc.source),
+                            url = unicode(doc.url),
+                            links = unicode(doc.links)
                             )
     writer.commit()
 

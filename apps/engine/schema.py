@@ -23,6 +23,13 @@ except ImportError:
     print "Ocorreu um erro ao importar a biblioteca Whoosh."
     raise
 
+def analyze(texto, lang=languages[10]):
+    
+    la = LanguageAnalyzer(lang)
+    text_analyzed = ' '.join([token.text for token in la(texto)])
+    
+    return text_analyzed
+
 def get_schema(lang=languages[10]):
     """
     get_schema([lang="pt"])
@@ -84,8 +91,11 @@ def get_schema(lang=languages[10]):
     return Schema(
                   id = ID(unique=True, stored=True),
                   pub_date = DATETIME(stored=True),
+                  url = TEXT(stored=True),
+                  source = TEXT(stored=True),
                   title = TEXT(stored=True,
                                analyzer=LanguageAnalyzer(lang)),
                   body = TEXT(stored=True,
                                  analyzer=LanguageAnalyzer(lang)),
+                  links = TEXT(stored=True),
                   )

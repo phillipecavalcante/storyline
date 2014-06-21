@@ -14,7 +14,7 @@ except ImportError:
     print "Não foi possível importar o índice padrão."
     raise
 
-def get_searcher(index=INDEX, score_by="RTE"):
+def get_searcher(index=INDEX, score_by="BM25F"):
     """
     get_searcher([index=INDEX, score_by="RTE"])
     
@@ -40,18 +40,33 @@ def get_searcher(index=INDEX, score_by="RTE"):
     """
     
     try:
-        from scoring import RTE, BM25F, TF_IDF
+        from scoring import BM25F, TF_IDF
     except ImportError:
         print "Ocorreu um erro na importação da função de pontuação RTE."
     
     # Converte para MAIÚSCULO.    
     score_by = score_by.upper()
     # Escolha da função de pontuação.
-    if score_by == "RTE":
-        score_function = RTE()
-    elif score_by == "TFIDF":
+
+    if score_by == "TFIDF":
         score_function = TF_IDF()
     elif score_by == "BM25F":
         score_function = BM25F()
+    
+    return index.searcher(weighting=score_function)
+
+def get_searcher_doc(doc, index=INDEX, score_by="RTE"):
+    
+    try:
+        from scoring import RTE, BM25F, TF_IDF
+    except ImportError:
+        print "Ocorreu um erro na importação da função de pontuação RTE."
+
+    if score_by == "TFIDF":
+        score_function = RTE(doc)
+    elif score_by == "TFIDF":
+        score_function = TF_IDF(doc)
+    elif score_by == "BM25F":
+        score_function = BM25F(doc)
     
     return index.searcher(weighting=score_function)

@@ -18,14 +18,15 @@ class RTE(TF_IDF):
     
     use_final=True
     
+    def __init__(self, doc):
+        self.doc = doc
+    
     def final(self, searcher, docnum, score):
         
         text = searcher.stored_fields(docnum).get('title')
-        hyp = searcher.document()['title']
+        hyp = self.doc
         
         p = porte.PORTE()
         rte_value = p.rte(text, hyp)
-        
-        print rte_value
 
-        return 1
+        return rte_value
