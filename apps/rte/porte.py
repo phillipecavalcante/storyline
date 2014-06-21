@@ -12,6 +12,7 @@ import pasta
 import pickle
 from nltk.classify.rte_classify import ne
 from whoosh import lang
+from apps.engine.schema import analyze
 
 class PORTEFeatureExtractor(object):
     """
@@ -111,6 +112,10 @@ class PORTE:
         :type hyp: str
         :returns: True ou False
         """
+        
+        text = analyze(text)
+        hyp = analyze(hyp)
+
         rtepair = PORTEPair(text, hyp)
         return self.classifier.classify(rte_features(rtepair))
 
