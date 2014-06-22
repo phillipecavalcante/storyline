@@ -20,13 +20,13 @@ FOLHA_SPIDER_NAME = 'folha'
 FOLHA_DOMAIN = 'www1.folha.uol.com.br'
 FOLHA_START_URLS = [
                     'http://www1.folha.uol.com.br/poder',
-#                   'http://www1.folha.uol.com.br/poder/poderepolitica'
+                    'http://www1.folha.uol.com.br/poder/poderepolitica'
                     ]
 
 FOLHA_URL_PATTERN = YEAR_MONTH + ANY_CHAR_DIGIT_HYPHEN + DOT + ANY_CHAR_DIGIT
 
 FOLHA_PODER = re.compile('/poder/' + FOLHA_URL_PATTERN) 
-#FOLHA_PODEREPOLITICA = re.compile('/poder/poderepolitica/' + FOLHA_URL_PATTERN)
+FOLHA_PODEREPOLITICA = re.compile('/poder/poderepolitica/' + FOLHA_URL_PATTERN)
 
 
 FOLHA_ARTICLE_TITLE = '//h1/text()'
@@ -46,12 +46,12 @@ class FolhaSpider(CrawlSpider):
                                     callback='parse_item',
                                     follow=True,
                   ),
-#             Rule(SgmlLinkExtractor(
-#                                    allow=(FOLHA_PODEREPOLITICA),
-#                                    ),
-#                                    callback='parse_item',
-#                                    follow=True,
-#                  ),
+             Rule(SgmlLinkExtractor(
+                                    allow=(FOLHA_PODEREPOLITICA),
+                                    ),
+                                    callback='parse_item',
+                                    follow=True,
+                  ),
              ]
 
     
