@@ -1,0 +1,5 @@
+<a href="#" onclick="getArticle('{{ doc.id }}');">{{ doc.title }}</a><br>{% csrf_token %}
+<!--<small class="text-success">{{ doc.url }}</small><br>-->
+<!--<small class="text-justify">{{ doc.body|truncatewords_html:30|striptags|safe }}</small><br>-->
+<small><span class="text-muted pull-right">{{ doc.source }} - {{ doc.pub_date|date:"d/m/Y H:i" }}</span></small>
+<hr class="softlen">

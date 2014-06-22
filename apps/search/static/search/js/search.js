@@ -49,3 +49,12 @@ function search(query){
 
     send("/", data, searchSuccess);
 }
+
+function getArticle(id) {
+    data = {
+            "id": id,
+            "csrfmiddlewaretoken": $("input[name=csrfmiddlewaretoken]").val()
+            }
+
+    send("/article/", data, searchSuccess);
+}

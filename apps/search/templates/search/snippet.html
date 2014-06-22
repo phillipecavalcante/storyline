@@ -1,4 +1,4 @@
-<a href="{% url 'search:lineup' doc.id %}">{{ doc.title }}</a><br>
+<a href="{% url 'search:storyline' doc.id %}">{{ doc.title }}</a><br>
 <small class="text-success">{{ doc.url }}</small><br>
 <small class="text-justify">{{ doc.body|truncatewords_html:30|striptags|safe }}</small><br>
 <small><span class="text-muted pull-right">{{ doc.source }} - {{ doc.pub_date|date:"d/m/Y H:i" }}</span></small>

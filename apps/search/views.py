@@ -2,11 +2,13 @@
 from django.shortcuts import render, redirect
 from django.views.generic import View
 from django.core.paginator import Paginator, PageNotAnInteger, EmptyPage
+#from django.core.urlresolvers import reverse
 
 from apps.search.forms import SearchForm
 from apps.search.models import Topic, Article
 from apps.engine.query import parse
 from apps.engine.searcher import get_searcher
+from apps.engine.index import get_index
 
 # Create your views here.
 
@@ -77,9 +79,57 @@ class StorylineView(View):
 
     def get(self, request, *args, **kwargs):
         
-        doc = Article.objects.get(pk=kwargs.get('id'))
-        sl = storyline(doc)
-
-        data = {'storyline' : sl}
+        doc_id = kwargs.get('id')
         
-        return render(request, 'search/storyline.html', data)
+        initial = Article.objects.get(pk=doc_id)
+        
+        data = {
+                'initial' : initial,
+                'line' : 'storyline',
+                'meth' : 'rte'
+                }
+        
+        return render(request, 'search/lineup.html', data)
+
+class LineUpView(View):
+
+    def get(self, request, *args, **kwargs):
+        
+        line = kwargs.get('line')
+        meth = kwargs.get('meth')
+        doc_id = kwargs.get('id')
+
+
+        initial = Article.objects.get(pk=doc_id)
+
+        
+        searcher = get_searcher(score_by=meth)
+        docnum = searcher.document_number(id=doc_id)
+        results = searcher.more_like(docnum, 'title', top=9)
+        
+        data = {
+                'initial' : initial,
+                'line' : line,
+                'meth' : meth,
+                'results' : results,
+                }
+
+        return render(request, 'search/lineup.html', data)
+
+
+class ArticleView(View):
+
+    def post(self, request, *args, **kwargs):
+        
+        if request.is_ajax():
+        
+            data = {}
+            
+            try:
+                doc = Article.objects.get(pk=request.POST.get('id'))
+            except Article.DoesNotExist:
+                doc = None
+            else:
+                data.update({'doc' : doc})
+            
+            return render(request, 'search/article.html', data)
