@@ -6,27 +6,22 @@ Scoring
 
 """
 
-try:
-    # BM25F e TF_IDF são usados no módulo searcher.py.
-    from whoosh.scoring import BM25F, TF_IDF
-    from apps.rte import porte
-except ImportError:
-    print "Ocorreu um erro na importação do módulo scoring de Whoosh."
-    raise
+from searcher import get_searcher
+from apps.rte.porte import PORTE
 
-class RTE(TF_IDF):
-    
-    use_final=True
-    
-    def __init__(self, doc):
-        self.doc = doc
-    
-    def final(self, searcher, docnum, score):
-        
-        text = searcher.stored_fields(docnum).get('title')
-        hyp = self.doc
-        
-        p = porte.PORTE()
-        rte_value = p.rte(text, hyp)
+def score(text, hyp):
 
-        return rte_value
+    # RTE
+    porte = PORTE()
+    rte_score = porte.rte(text['title'], hyp['title'])
+
+    # DATE
+    pubdate_score = 1 if text['pub_date'] <= hyp['pub_date'] else 0
+
+    # LINKS
+    links_score = 1 if text['url'] in  hyp['links'] else 0
+
+    ## SCORE ##
+    score = rte_score * 2 + pubdate_score + links_score * 3
+
+    return score

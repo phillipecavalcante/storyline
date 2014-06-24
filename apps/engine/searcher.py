@@ -40,33 +40,28 @@ def get_searcher(index=INDEX, score_by="BM25F"):
     """
     
     try:
-        from scoring import BM25F, TF_IDF
+        from whoosh.scoring import BM25F, TF_IDF
     except ImportError:
-        print "Ocorreu um erro na importação da função de pontuação RTE."
+        print "Ocorreu um erro na importação das funções de pontuação."
     
     # Converte para MAIÚSCULO.    
     score_by = score_by.upper()
     # Escolha da função de pontuação.
 
-    if score_by == "TFIDF":
+    if score_by == "TF-IDF":
         score_function = TF_IDF()
     elif score_by == "BM25F":
         score_function = BM25F()
     
     return index.searcher(weighting=score_function)
 
-def get_searcher_doc(doc, index=INDEX, score_by="RTE"):
-    
-    try:
-        from scoring import RTE, BM25F, TF_IDF
-    except ImportError:
-        print "Ocorreu um erro na importação da função de pontuação RTE."
-
-    if score_by == "TFIDF":
-        score_function = RTE(doc)
-    elif score_by == "TFIDF":
-        score_function = TF_IDF(doc)
-    elif score_by == "BM25F":
-        score_function = BM25F(doc)
-    
-    return index.searcher(weighting=score_function)
+#def get_searcher_doc(doc, index=INDEX):
+#    
+#    try:
+#        from scoring import RTE
+#    except ImportError:
+#        print "Ocorreu um erro na importação da função de pontuação RTE."
+#
+#    score_function = RTE(doc)
+#    
+#    return index.searcher(weighting=score_function)

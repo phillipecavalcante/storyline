@@ -90,10 +90,11 @@ def get_schema(lang=languages[10]):
     """
     return Schema(
                   id = ID(unique=True, stored=True),
-                  pub_date = DATETIME(stored=True),
+                  pub_date = DATETIME(stored=True, sortable=True),
                   url = TEXT(stored=True),
                   source = TEXT(stored=True),
                   title = TEXT(stored=True,
+                               sortable=True,
                                analyzer=LanguageAnalyzer(lang)),
                   body = TEXT(stored=True,
                                  analyzer=LanguageAnalyzer(lang)),
