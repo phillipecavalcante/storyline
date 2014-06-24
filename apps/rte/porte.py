@@ -112,9 +112,6 @@ class PORTE:
         :type hyp: str
         :returns: True ou False
         """
-        
-        text = analyze(text)
-        hyp = analyze(hyp)
 
         rtepair = PORTEPair(text, hyp)
         return self.classifier.classify(rte_features(rtepair))
