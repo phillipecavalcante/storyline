@@ -4,6 +4,8 @@ from query import parse
 from searcher import get_searcher
 from scoring import score
 from query import parse
+from schema import analyze
+
 def implies(hyp, results):
     
     scoredresults = []
@@ -14,12 +16,17 @@ def implies(hyp, results):
     
     sortedresults = sorted(scoredresults, key=lambda h:h[1], reverse=True)
 
-    return sortedresults[2][0]
+    try:
+        text = sortedresults[1][0]
+    except IndexError:
+        text = hyp
+
+    return text
 
 def storyline(doc_id):
     
     results = lineup(doc_id, top=30)
-    
+
     hyp = results[0]
     
     max_docs = 10
@@ -41,12 +48,20 @@ def lineup(doc_id, line='relevance', meth='bm25f', top=10):
     initial = searcher.document(id=doc_id)
     
 #    results = searcher.more_like(docnum, 'title', top=top)
-    query = initial['title']
-    query_improved = u' '.join(query.strip().split()).replace(' ', ' OR ')
-    query_parsed = parse(query_improved)
-    results = searcher.search(query_parsed)
+    query = analyze(initial['title'])
 
-    results = results[1:top]
+    query_improved = u' '.join(query.strip().split()).replace(' ', ' OR ')
+
+    query_parsed = parse(query_improved)
+    
+    #query_parsed = parse(query)
+    results = searcher.search(query_parsed, limit=top)
+    
+    try:
+        results = results[1:]
+    except IndexError:
+        results = None
+
     results = list(results)
     
     if line == 'timeline':
