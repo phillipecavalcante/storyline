@@ -9,7 +9,8 @@ from apps.search.models import Topic, Article
 from apps.engine.query import parse
 from apps.engine.searcher import get_searcher
 from apps.engine.index import get_index
-
+from whoosh import sorting
+from apps.engine.chaining import lineup, storyline
 # Create your views here.
 
 class SearchView(View):
@@ -81,12 +82,13 @@ class StorylineView(View):
         
         doc_id = kwargs.get('id')
         
-        initial = Article.objects.get(pk=doc_id)
+        results = storyline(doc_id)
         
         data = {
-                'initial' : initial,
+                'initial' : results[0],
                 'line' : 'storyline',
-                'meth' : 'rte'
+                'meth' : 'rte',
+                'results' : results,
                 }
         
         return render(request, 'search/lineup.html', data)
@@ -98,17 +100,11 @@ class LineUpView(View):
         line = kwargs.get('line')
         meth = kwargs.get('meth')
         doc_id = kwargs.get('id')
-
-
-        initial = Article.objects.get(pk=doc_id)
-
         
-        searcher = get_searcher(score_by=meth)
-        docnum = searcher.document_number(id=doc_id)
-        results = searcher.more_like(docnum, 'title', top=9)
-        
+        results = lineup(doc_id, line, meth)
+
         data = {
-                'initial' : initial,
+                'initial' : results[0],
                 'line' : line,
                 'meth' : meth,
                 'results' : results,

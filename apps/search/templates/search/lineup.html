@@ -3,6 +3,27 @@
 
 {% block body %}
 
+<div class="row">
+    <div class="col-md-12 col-lg-12 col-md-offset-2 col-lg-offset-2">
+        <ul class="nav nav-pills">
+            <li class="{% if line == 'storyline' and meth == 'rte' %}active{% endif %}">
+                <a href="{% url 'search:storyline' id=initial.id %}">storyline / rte</a>
+            </li>
+            <li class="{% if line == 'relevance' and meth == 'tf-idf' %}active{% endif %}">
+                <a href="{% url 'search:lineup' id=initial.id line='relevance' meth='tf-idf'%}">relevance / tf-idf</a>
+            </li>
+            <li class="{% if line == 'relevance' and meth == 'bm25f' %}active{% endif %}">
+                <a href="{% url 'search:lineup' id=initial.id line='relevance' meth='bm25f'%}">relevance / bm25f</a>
+            </li>
+            <li class="{% if line == 'timeline' and meth == 'tf-idf' %}active{% endif %}">
+                <a href="{% url 'search:lineup' id=initial.id line='timeline' meth='tf-idf'%}">timeline / tf-idf</a>
+            </li>
+            <li class="{% if line == 'timeline' and meth == 'bm25f' %}active{% endif %}">
+                <a href="{% url 'search:lineup' id=initial.id line='timeline' meth='bm25f'%}">timeline / bm25f</a>
+            </li>
+        </ul>
+    </div>
+</div>
 
 <div class="row">
     <div class="col-md-7 col-lg-7">
@@ -13,26 +34,21 @@
     <div class="col-md-5 col-lg-5" style="padding-top:25px">
         <p class="lead">
             Notícias Relacionadas
-            (<small> {{ line }} / {{ meth }} </small>)
+            (<small> {{ line }} / {{ meth }} </small>)*
         </p>
-        {% include "search/snippet_lineup.html" with doc=initial %}
         {% for doc in results %}
             {% include "search/snippet_lineup.html" %}
         {% empty %}
         {% endfor %}
+        
     </div>
 </div>
 
 <div class="row">
-    <div class="col-md-12 col-lg-12 col-md-offset-2 col-lg-offset-2">
-        <ul class="list-inline">
-            Relacionar notícias por
-            <li><a href="{% url 'search:storyline' id=initial.id %}">storyline / rte</a></li>
-            <li><a href="{% url 'search:lineup' id=initial.id line='relevance' meth='tfidf'%}">relevance / tfidf</a></li>
-            <li><a href="{% url 'search:lineup' id=initial.id line='relevance' meth='bm25f'%}">relevance / bm25f</a></li>
-            <li><a href="{% url 'search:lineup' id=initial.id line='timeline' meth='tfidf'%}">timeline / tfidf</a></li>
-            <li><a href="{% url 'search:lineup' id=initial.id line='timeline' meth='bm25f'%}">timeline / bm25f</a></li>
-        </ul>
+    <div class="col-md-7 col-lg-7">
+    </div>
+    <div class="col-md-5 col-lg-5">
+        *<small>A primeira posição da lista sempre é ocupada com a notícia escolhida pelo usuário.</small>
     </div>
 </div>
 

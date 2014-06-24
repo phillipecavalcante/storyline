@@ -4,7 +4,7 @@ from apps.search.views import *
 
 DOC  = '(?P<id>\d+)'
 LINE = '(?P<line>(timeline|relevance))'
-METH = '(?P<meth>(tfidf|bm25f))'
+METH = '(?P<meth>(tf-idf|bm25f))'
 ART  = 'article'
 
 SEARCH    = '^' + '$'
