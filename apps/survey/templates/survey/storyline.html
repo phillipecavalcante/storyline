@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+
+
+<div class="row">
+    <div class="col-md-7 col-lg-7">
+        <div id="results">
+            {% include "search/article.html" with doc=initial.article %}
+        </div>
+    </div>
+    <div class="col-md-5 col-lg-5" style="padding-top:25px">
+        <p class="lead">
+            Notícias Relacionadas
+            (<small> {{ line }} / {{ meth }} </small>)*
+        </p>
+        {% for doc in results %}
+            {% include "search/snippet_lineup.html" with doc=doc.article %}
+        {% empty %}
+        {% endfor %}
+        
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-7 col-lg-7">
+    </div>
+    <div class="col-md-5 col-lg-5">
+        *<small>A primeira posição da lista sempre é ocupada com a notícia escolhida pelo usuário.</small>
+    </div>
+</div>
+
+{% endblock %}
+
+
+{% block js %}
+	<script src="{{ STATIC_URL }}search/js/search.js"></script>
+{% endblock %}

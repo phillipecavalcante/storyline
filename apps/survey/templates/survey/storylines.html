@@ -3,6 +3,19 @@
 {% block title %}Storylines{% endblock %}
 
 {% block body %}
-lista de storylines
-{{ user.id }}
+
+<div class="row">
+    <div class="col-md-7 col-md-offset-2 col-lg-7 col-lg-offset-2">
+        <p class="lead">
+            Escolha uma notícia para avaliação:<br>
+        </p>
+    </div>
+</div>
+
+<div class="col-md-7 col-md-offset-2 col-lg-7 col-lg-offset-2">
+    {% for doc in results %}
+        {% include "survey/snippet_story.html" %}
+    {% endfor %}
+</div>
+
 {% endblock %}

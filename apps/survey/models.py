@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from apps.search.models import Article
 
 # Create your models here.
 
@@ -62,9 +63,61 @@ class Profile(models.Model):
                             default=N
                             )
 
+    def __unicode__(self):
+        return self.user.username
+
 class Ticket(models.Model):
 
     email = models.EmailField()
     token = models.CharField(max_length=255)
 
 
+class Story(models.Model):
+
+    first = models.ForeignKey(Article)
+    users = models.ManyToManyField(User, through='UserStory')
+    
+    def first_story_id(self):
+        return str(self.first.id)
+    first_story_id.short_description = 'First Story ID'
+    
+    def __unicode__(self):
+        return self.first.title
+
+
+class StoryRank(models.Model):
+
+    story = models.ForeignKey(Story)
+    article = models.ForeignKey(Article)
+    rank = models.IntegerField()
+
+    def first_story_id(self):
+        return str(self.story.first.id)
+    first_story_id.short_description = 'First Story ID'
+    
+    def __unicode__(self):
+        return str(self.story.first.id)
+
+class UserStory(models.Model):
+
+    user = models.ForeignKey(User)
+    story = models.ForeignKey(Story)
+    
+    class Meta:
+        unique_together = (('user', 'story'),)
+
+    def __unicode__(self):
+        return "%s : %s" % (self.user.username, self.story.first.title)
+
+class UserStoryRank(models.Model):
+
+    userstory = models.ForeignKey(UserStory)
+    article = models.ForeignKey(Article)
+    rank = models.IntegerField()
+
+    def first_story_id(self):
+        return str(self.userstory.story.first.id)
+    first_story_id.short_description = 'First Story ID'
+    
+    def __unicode__(self):
+        return str(self.userstory.story.first.id)

@@ -13,7 +13,7 @@ from django.db import IntegrityError
 from passlib.hash import sha512_crypt
 
 from apps.survey.forms import SignUpForm, SignInForm, TicketForm
-from apps.survey.models import Profile, Ticket
+from apps.survey.models import *
 from project import settings
 
 import os
@@ -303,8 +303,34 @@ class StorylinesView(View):
         return super(StorylinesView, self).dispatch(*args, **kwargs)
     
     def get(self, request):
-        data = {}
+        
+        results = request.user.story_set.all()
+        
+        data = {'results': results}
+        
         return render(request, 'survey/storylines.html', data)
+
+class UserStoryView(View):
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(UserStoryView, self).dispatch(*args, **kwargs)
+
+    def get(self, request, id):
+        
+        line = 'storyline'
+        meth = 'rte'
+        story = Story.objects.get(id=id)
+        results = story.storyrank_set.all().order_by('rank')
+
+        data = {
+                'initial' : results[0],
+                'line' : line,
+                'meth' : meth,
+                'results' : results
+                }
+
+        return render(request, 'survey/storyline.html', data)
 
 class TermsView(View):
 
