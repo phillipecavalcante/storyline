@@ -47,7 +47,9 @@
         
         <div class="container">
             <ul class="list-inline">
-                <li><a href="{% url 'survey:ticket' %}">Participe do Survey</a></li>
+                {% if not user.is_authenticated %}
+                    <li><a href="{% url 'survey:ticket' %}">Participe do Survey</a></li>
+                {% endif%}
             </ul>
         </div>
         <!--JS-->
