@@ -9,7 +9,7 @@ class TopicAdmin(admin.ModelAdmin):
     list_editable = ['terms']
 
 class ArticleAdmin(admin.ModelAdmin):
-    pass
+    search_fields = ['title']
 
 admin.site.register(Topic, TopicAdmin)
 admin.site.register(Article, ArticleAdmin)
