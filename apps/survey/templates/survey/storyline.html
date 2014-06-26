@@ -1,34 +1,52 @@
 {% extends "base.html" %}
 
+{% block css %}
+    <link href="{{ STATIC_URL }}survey/css/survey.css" rel="stylesheet">
+{% endblock %}
 
 {% block body %}
-
 
 <div class="row">
     <div class="col-md-7 col-lg-7">
         <div id="results">
-            {% include "search/article.html" with doc=initial.article %}
+            {% include "survey/article_story.html" with doc=initial.article %}
         </div>
     </div>
     <div class="col-md-5 col-lg-5" style="padding-top:25px">
         <p class="lead">
             Notícias Relacionadas
-            (<small> {{ line }} / {{ meth }} </small>)*
+            (<small> {{ line }} / {{ meth }} </small>)
         </p>
+        <ul id="storyline" class="list-unstyled sortable">
         {% for doc in results %}
-            {% include "search/snippet_lineup.html" with doc=doc.article %}
+            <li id="{{ doc.article.id }}" {% if forloop.counter0 == 0 %}class="first ui-state-disabled"{% endif %}>
+                {% if forloop.counter0 > 0 %}<span class="glyphicon glyphicon-move pull-right"></span>{% endif %}
+                {% include "survey/snippet_lineup_story.html" with doc=doc.article %}
+            </li>
         {% empty %}
         {% endfor %}
+        </ul>
         
+        <form action="#" method="post" role="form">{% csrf_token %}
+            <input type="hidden" name="storyid" value="{{ results.0.story.id }}">
+            <input type="hidden" name="userstory" value="">
+            <input type="submit" onclick="getUserStory();" class="btn btn-block btn-success" value="Enviar Storyline">
+        </form>
+        <br>
+        <p class="lead">
+            Extra
+        </p>
+        <ul id="extra" class="list-unstyled sortable">
+            {% for s in suggestions %}
+                <li id="{{ s.id }}">
+                    <span class="glyphicon glyphicon-move pull-right"></span>
+                    {% include "survey/snippet_lineup_story.html" with doc=s%}
+                </li>
+            {% endfor %}
+        </ul>
     </div>
-</div>
-
-<div class="row">
-    <div class="col-md-7 col-lg-7">
-    </div>
-    <div class="col-md-5 col-lg-5">
-        *<small>A primeira posição da lista sempre é ocupada com a notícia escolhida pelo usuário.</small>
-    </div>
+    
+    
 </div>
 
 {% endblock %}
@@ -36,4 +54,6 @@
 
 {% block js %}
 	<script src="{{ STATIC_URL }}search/js/search.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="{{ STATIC_URL }}survey/js/survey.js"></script>
 {% endblock %}

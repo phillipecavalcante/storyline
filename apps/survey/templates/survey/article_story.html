@@ -1,0 +1,11 @@
+{% if doc %}
+    <h3>
+        <a href="{{ doc.url }}" target="_blank">{{ doc.title }}</a><br>
+    </h3>
+    <!--{#<small><span class="text-muted pull-right">{{ doc.source }} - {{ doc.pub_date|date:"d/m/Y H:i" }}</span></small>#}--><br>
+    <!--<small class="text-success">{{ doc.url }}</small><br>-->
+    <span class="text-justify">{{ doc.body|truncatewords_html:300|safe }}</span><br>
+    <small>Notícia completa em <a href="{{ doc.url }}" target="_blank"><strong>{{ doc.source }}</strong></a>.</small>
+{% else %}
+    <p class="text-center">Não foi possível recuperar este documento.</p>
+{% endif %}

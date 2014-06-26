@@ -14,7 +14,9 @@ from passlib.hash import sha512_crypt
 
 from apps.survey.forms import SignUpForm, SignInForm, TicketForm
 from apps.survey.models import *
+from apps.search.models import *
 from project import settings
+from apps.engine.chaining import lineup
 
 import os
 
@@ -320,17 +322,54 @@ class UserStoryView(View):
         
         line = 'storyline'
         meth = 'rte'
+        
         story = Story.objects.get(id=id)
         results = story.storyrank_set.all().order_by('rank')
 
+        # SUGGESTIONS TO IMPROVE THE STORYLINE
+        relevant_results = lineup(str(story.first.id), 'relevance', 'bm25f')
+        relevant_ids = set([rr['id'] for rr in relevant_results])
+        result_ids = set([str(r.article.id) for r in results])
+        suggestion_ids = relevant_ids - result_ids
+   
+        suggestions = [Article.objects.get(pk=s_id) for s_id in suggestion_ids]
+
+        
+        
         data = {
                 'initial' : results[0],
                 'line' : line,
                 'meth' : meth,
-                'results' : results
+                'results' : results,
+                'suggestions': suggestions
                 }
 
         return render(request, 'survey/storyline.html', data)
+
+    def post(self, request, id):
+        
+        storyid = request.POST.get('storyid')
+        userstory_ids = request.POST.get('userstory').split(',')
+        print storyid
+        print userstory_ids
+        story = Story.objects.get(id=storyid)
+
+        userstory = UserStory.objects.get(user=request.user, story=story)
+        try:
+            usr = UserStoryRank.objects.filter(userstory=userstory)
+        except:
+            pass
+        else:
+            usr.delete()
+        
+        for r, art_id in enumerate(userstory_ids):
+            art = Article.objects.get(pk=art_id)
+            UserStoryRank.objects.create(userstory=userstory, article=art, rank=r)
+        
+        messages.success(request, "Storyline criada com sucesso!")
+        return render(request, 'survey/storyline.html')
+
+
 
 class TermsView(View):
 

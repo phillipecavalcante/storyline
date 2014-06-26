@@ -49,7 +49,9 @@ class UserStoryAdmin(admin.ModelAdmin):
     list_display = ['user', 'story']
 
 class UserStoryRankAdmin(admin.ModelAdmin):
-    pass
+    search_fields = ['userstory', 'article']
+    list_display = ['first_story_id', 'userstory', 'rank', 'article']
+
 
 admin.site.unregister(User)
 admin.site.register(User, UserAdmin)

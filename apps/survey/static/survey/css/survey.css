@@ -1,13 +1,13 @@
 .ui-state-highlight {
-	height: 7em;
+	height: 4em;
 	background: #dddddd;
 }
 
 
-ul#storyline.sortable li {
+ul.sortable li {
 	cursor: move;
 }
 
-ul#storyline.sortable li.ui-state-disabled {
+ul.sortable li.ui-state-disabled {
 	cursor:auto;
 }
