@@ -128,4 +128,8 @@ class ArticleView(View):
             else:
                 data.update({'doc' : doc})
             
+            isSurvey = bool(int(request.POST.get('isSurvey')))
+            if isSurvey:
+                return render(request, 'survey/article_story.html', data)
+            
             return render(request, 'search/article.html', data)

@@ -50,8 +50,9 @@ function search(query){
     send("/", data, searchSuccess);
 }
 
-function getArticle(id) {
+function getArticle(id, isSurvey) {
     data = {
+            "isSurvey" : isSurvey,
             "id": id,
             "csrfmiddlewaretoken": $("input[name=csrfmiddlewaretoken]").val()
             }
