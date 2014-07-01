@@ -37,6 +37,7 @@
             {% if topics %}
             <section>
                 <h3>Tópicos</h3>
+                <p class="text-muted"><small>Alguns tópicos existentes aqui.</small></p>
                 <ul class="list-unstyled">
                     {% for topic in topics %}
                         <li><a href="#" onclick="searchTopic('{{ topic.terms }}');">{{ topic }}</a></li>
