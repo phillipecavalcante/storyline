@@ -3,6 +3,7 @@ from django import forms
 from django.forms import widgets
 
 from captcha.fields import ReCaptchaField
+from models import *
 
 class SignUpForm(forms.Form):
 
@@ -40,3 +41,19 @@ class TicketForm(forms.Form):
     
     email.widget.attrs['class'] = 'form-control text-center'
     email.widget.attrs['placeholder'] = 'seu_email@exemplo.com'
+
+
+class ProfileForm(forms.Form):
+
+    # profile
+    age = forms.ChoiceField(choices=Profile.AGE_CHOICES, label="Faixa etária")
+    edu = forms.ChoiceField(choices=Profile.EDU_CHOICES, label="Educação")
+    gender = forms.ChoiceField(choices=Profile.GENDER_CHOICES, label="Gênero")
+
+class EvalForm(forms.Form):
+    # user story
+
+    has_read = forms.BooleanField(label="Já li sobre este tópico antes.")
+    has_context = forms.BooleanField(label="A storyline contextualiza a primeira notícia.")
+    has_gap = forms.BooleanField(label="Sinto que falta alguma notícia na storyline.")
+    has_similar = forms.BooleanField(label="A storyline tem notícias similares.")

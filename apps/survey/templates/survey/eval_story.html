@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+
+
+{% block body %}
+
+<div class="row">
+    <div class="col-md-7 col-lg-7">
+        <ul class="list-unstyled">
+            {% for doc in results %}
+                <li>
+                    {% include "survey/snippet_lineup_story.html" with doc=doc.article %}
+                </li>
+            {% empty %}
+            {% endfor %}
+        </ul>
+        <div id="results"></div>
+    </div>
+    <div class="col-md-5 col-lg-5">
+         <p class="lead">
+            Avaliação
+        </p>
+        <p>
+            <small>
+                Por favor, avalie a storyline ao lado que foi gerada pelo mecanismo Storyline.<br>
+                <strong>
+                    (Esta não é a sua storyline.)
+                </strong>
+            </small>
+        </p>
+        
+        <form action="#" method="post" role="form">{% csrf_token %}
+            
+            {{ eval_form.as_p }}
+            
+            <p class="lead">
+                Perfil
+            </p>
+            <p><small>Por favor, complemente as informações do seu perfil de participante.</small></p>
+            
+            {{ profile_form.as_p }}
+            
+            <input type="submit" onclick="getUserStory();" class="btn btn-block btn-primary" value="Enviar">
+        </form>
+    </dvi>
+</div>
+
+{% endblock %}
+
+
+
+{% block js %}
+	<script src="{{ STATIC_URL }}search/js/search.js"></script>
+{% endblock %}

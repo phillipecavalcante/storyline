@@ -8,11 +8,6 @@ Ticket
 {% block body %}
 <div class="row">
     <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3">
-        <div class="form-group">
-            <p class="text-justify">
-                Leia os <a href="{% url 'survey:terms' %}">termos de participação</a> do survey antes de enviar o ticket para o seu e-mail.
-            </p>
-        </div>
         <form action="{% url 'survey:ticket' %}" method="post" role="form">{% csrf_token %}
             <div class="well">
                 {{ form.non_field_errors }}
@@ -28,11 +23,19 @@ Ticket
                 </div>
             </div>
             <div class="form-group">
+            <p class="text-justify">
+                Leia os <a href="{% url 'survey:terms' %}">termos de participação</a> do survey antes de enviar o ticket para o seu e-mail.
+            </p>
+            </div>
+            <div class="form-group">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2">
                     <input type="submit" class="btn btn-primary btn-block btn-lg" value="Enviar ticket" />
                 </div>
             </div>
+           
         </form>
+        
+
     </div>
 </div>
 {% endblock %}

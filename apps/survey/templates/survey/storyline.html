@@ -28,7 +28,7 @@
         </ul>
         
         <form action="#" method="post" role="form">{% csrf_token %}
-            <input type="hidden" name="storyid" value="{{ results.0.story.id }}">
+            <input type="hidden" name="storyid" value="{% if results.0.story.id %}{{ results.0.story.id }}{% else %}{{ results.0.userstory.story.id }}{% endif %}">
             <input type="hidden" name="userstory" value="">
             <input type="submit" onclick="getUserStory();" class="btn btn-block btn-success" value="Enviar Storyline">
         </form>

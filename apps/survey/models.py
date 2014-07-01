@@ -102,6 +102,12 @@ class UserStory(models.Model):
 
     user = models.ForeignKey(User)
     story = models.ForeignKey(Story)
+    # eval
+    
+    has_read = models.BooleanField(default=False)
+    has_context = models.BooleanField(default=False)
+    has_gap = models.BooleanField(default=False)
+    has_similar = models.BooleanField(default=False)
     
     class Meta:
         unique_together = (('user', 'story'),)

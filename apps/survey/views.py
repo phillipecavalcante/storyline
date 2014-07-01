@@ -12,7 +12,7 @@ from django.db import IntegrityError
 
 from passlib.hash import sha512_crypt
 
-from apps.survey.forms import SignUpForm, SignInForm, TicketForm
+from apps.survey.forms import *
 from apps.survey.models import *
 from apps.search.models import *
 from project import settings
@@ -296,7 +296,7 @@ class SignOutView(View):
     
         logout(request)
         
-        return redirect(reverse('survey:terms'))
+        return redirect(reverse('search:search'))
 
 class StorylinesView(View):
     
@@ -322,10 +322,25 @@ class UserStoryView(View):
         
         line = 'storyline'
         meth = 'rte'
-        
-        story = Story.objects.get(id=id)
-        results = story.storyrank_set.all().order_by('rank')
 
+
+        try:
+            story = Story.objects.get(id=id)
+        except Story.DoesNotExist:
+            msg = "Não foi possível obter a storyline. Escolha outra ou tente mais tarde."
+            messages.error(request, msg, extra_tags='danger')
+            return redirect(reverse('survey:storylines'))
+        
+        try:
+            user_story = UserStory.objects.get(user=request.user, story=story)
+        except UserStory.DoesNotExist:
+            pass
+            
+        results = user_story.userstoryrank_set.all().order_by('rank')
+        if not results:
+            results = story.storyrank_set.all().order_by('rank')
+        
+        
         # SUGGESTIONS TO IMPROVE THE STORYLINE
         relevant_results = lineup(str(story.first.id), 'relevance', 'bm25f')
         relevant_ids = set([rr['id'] for rr in relevant_results])
@@ -334,8 +349,6 @@ class UserStoryView(View):
    
         suggestions = [Article.objects.get(pk=s_id) for s_id in suggestion_ids]
 
-        
-        
         data = {
                 'initial' : results[0],
                 'line' : line,
@@ -349,9 +362,9 @@ class UserStoryView(View):
     def post(self, request, id):
         
         storyid = request.POST.get('storyid')
+
         userstory_ids = request.POST.get('userstory').split(',')
-        print storyid
-        print userstory_ids
+        
         story = Story.objects.get(id=storyid)
 
         userstory = UserStory.objects.get(user=request.user, story=story)
@@ -367,9 +380,52 @@ class UserStoryView(View):
             UserStoryRank.objects.create(userstory=userstory, article=art, rank=r)
         
         messages.success(request, "Storyline criada com sucesso!")
-        return render(request, 'survey/storyline.html')
+        return redirect(reverse('survey:evalstory', args=(id,)))
 
+class EvalStoryView(View):
 
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(EvalStoryView, self).dispatch(*args, **kwargs)
+
+    def get(self,request, id):
+        
+        try:
+            story = Story.objects.get(id=id)
+        except Story.DoesNotExist:
+            msg = "Não foi possível obter a storyline. Tente mais tarde."
+            messages.error(request, msg, extra_tags='danger')
+            return redirect(reverse('survey:storylines'))
+        else:
+            results = story.storyrank_set.all().order_by('rank')
+        
+        data = {
+                'eval_form' : EvalForm(),
+                'profile_form' : ProfileForm(),
+                'results' : results,
+                }
+        
+        return render(request, 'survey/eval_story.html', data)
+    def post(self, request, id):
+
+        eval_form = EvalForm(request.POST)
+        profile_form = ProfileForm(request.POST)
+        
+        data = {
+                'eval_form' : eval_form,
+                'profile_form' : profile_form,
+                }
+        
+        if eval_form.is_valid():
+            print "ok"
+
+        return redirect(reverse('survey:analysis'))
+
+class AnalysisView(View):
+
+    def get(self, request):
+        data = {}
+        return render(request, 'survey/analysis.html', data)
 
 class TermsView(View):
 
