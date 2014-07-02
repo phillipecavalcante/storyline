@@ -18,7 +18,7 @@ from apps.search.models import *
 from project import settings
 from apps.engine.chaining import lineup
 
-import os
+import os, json
 
 # Create your views here.
 
@@ -502,7 +502,17 @@ class ProfileInfoView(View):
 class AnalysisView(View):
 
     def get(self, request):
-        data = {}
+        
+        neither_other = Profile.objects.filter(gender='N').count()
+        male = Profile.objects.filter(gender='M').count()
+        female = Profile.objects.filter(gender='F').count()
+
+        gender = [['Gênero', 'Quantidade'],['Neither/Other', neither_other], ['Male', male], ['Female', female]]
+        
+        data = {
+                'gender' : json.dumps(gender),
+                }
+        
         return render(request, 'survey/analysis.html', data)
 
 class TermsView(View):

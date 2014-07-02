@@ -1,5 +1,14 @@
 {% extends "base.html" %}
 
 {% block body %}
-teste
+    <div id="gender"></div>
+    
+{% endblock %}
+
+{% block js %}
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="{{ STATIC_URL }}survey/js/analysis.js"></script>
+    <script>
+        pizza(id='gender', d={{ gender|safe }}, t='Gênero');
+    </script>
 {% endblock %}
