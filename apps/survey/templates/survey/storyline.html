@@ -6,6 +6,26 @@
 
 {% block body %}
 
+
+
+<div class="row">
+    <div class="col-md-7 col-lg-7">
+        <blockquote>
+        <p class="text-justify">
+        <strong>Hipótese:</strong> A storyline busca, recupera e ordena as notícias relacionadas à notícia inicial de modo que a 2&ordf; notícia explica/contextualiza a 1&ordf;, a 3&ordf; explica/contextualiza a 2&ordf;, assim por diante, e a última explica/contextualiza a penúltima.
+        </p>
+</blockquote>
+    </div>
+    <div class="col-md-5 col-lg-5">
+        <div class="well">
+        A storyline a seguir valida a hipótese?
+        Se sim, basta clicar no botão "Enviar Storyline".
+        Se não, altere a ordem da storyline atual ou
+        adicione novas notícias da seção Extra até que a hipótese seja atendida.
+        Ao final, clique em "Enviar Storyline".
+        </div>
+    </div>
+</div>
 <div class="row">
     <div class="col-md-7 col-lg-7">
         <div id="results">
@@ -17,6 +37,7 @@
             Notícias Relacionadas
             (<small> {{ line }} / {{ meth }} </small>)
         </p>
+        
         <ul id="storyline" class="list-unstyled sortable">
         {% for doc in results %}
             <li id="{{ doc.article.id }}" {% if forloop.counter0 == 0 %}class="first ui-state-disabled"{% endif %}>

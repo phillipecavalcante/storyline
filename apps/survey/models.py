@@ -47,12 +47,12 @@ class Profile(models.Model):
     agreed = models.BooleanField(default=False)
 
     gender = models.CharField(
-                            max_length=1,
+                            max_length=3,
                             choices=GENDER_CHOICES,
                             default=N
                             )
     edu = models.CharField(
-                            max_length=1,
+                            max_length=3,
                             choices=EDU_CHOICES,
                             default=N
                             )
@@ -99,15 +99,24 @@ class StoryRank(models.Model):
         return str(self.story.first.id)
 
 class UserStory(models.Model):
-
+    N = 'N'
+    YES = 'YES'
+    NO = 'NO'
+    
+    BOOLEAN_CHOICES = (
+        (N, 'Neither/Other'),
+        (YES,'Yes'),
+        (NO,'No')
+    )
+    
     user = models.ForeignKey(User)
     story = models.ForeignKey(Story)
     # eval
     
-    has_read = models.BooleanField(default=False)
-    has_context = models.BooleanField(default=False)
-    has_gap = models.BooleanField(default=False)
-    has_similar = models.BooleanField(default=False)
+    has_read = models.CharField(max_length=3,choices=BOOLEAN_CHOICES, default=N)
+    has_context = models.CharField(max_length=3,choices=BOOLEAN_CHOICES, default=N)
+    has_gap = models.CharField(max_length=3,choices=BOOLEAN_CHOICES, default=N)
+    has_similar = models.CharField(max_length=3,choices=BOOLEAN_CHOICES, default=N)
     
     class Meta:
         unique_together = (('user', 'story'),)

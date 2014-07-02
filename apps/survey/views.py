@@ -399,27 +399,71 @@ class EvalStoryView(View):
         else:
             results = story.storyrank_set.all().order_by('rank')
         
+        us = UserStory.objects.get(user=request.user, story=story)
+        u = request.user.profile
+        
         data = {
-                'eval_form' : EvalForm(),
-                'profile_form' : ProfileForm(),
+                'eval_form' : EvalForm(initial={'has_read': us.has_read,
+                                                'has_context': us.has_context,
+                                                'has_gap' : us.has_gap,
+                                                'has_similar': us.has_similar
+                                                }),
+                'profile_form' : ProfileForm(initial={
+                                            'edu' : u.edu,
+                                            'gender' : u.gender,
+                                            'age':u.age,
+                                            }),
                 'results' : results,
                 }
         
         return render(request, 'survey/eval_story.html', data)
-    def post(self, request, id):
 
+    def post(self, request, id):
+        
+        try:
+            story = Story.objects.get(id=id)
+        except Story.DoesNotExist:
+            msg = "Não foi possível obter a storyline. Tente mais tarde."
+            messages.error(request, msg, extra_tags='danger')
+            return redirect(reverse('survey:storylines'))
+        else:
+            results = story.storyrank_set.all().order_by('rank')
+        
         eval_form = EvalForm(request.POST)
         profile_form = ProfileForm(request.POST)
         
+        if  eval_form.is_valid():
+            
+            try:
+                userstory = UserStory.objects.get(user=request.user, story=story)
+            except:
+                msg = "Não foi possível salvar a informação. Tente mais tarde."
+                messages.error(request, msg, extra_tags='danger')
+            else:
+                userstory.has_read = request.POST.get('has_read')
+                userstory.has_context = request.POST.get('has_context')
+                userstory.has_gap = request.POST.get('has_gap')
+                userstory.has_similar = request.POST.get('has_similar')
+                userstory.save()
+                
+        if profile_form.is_valid():
+            u = request.user
+            p = u.profile
+            p.age = request.POST.get('edu')
+            p.edu = request.POST.get('age')
+            p.gender = request.POST.get('gender')
+            p.save()
+            u.save()
+                
         data = {
                 'eval_form' : eval_form,
                 'profile_form' : profile_form,
+                'results' : results,
                 }
         
-        if eval_form.is_valid():
-            print "ok"
+        print request.POST.get('has_read')
 
-        return redirect(reverse('survey:analysis'))
+        return render(request, 'survey/eval_story.html', data)
 
 class AnalysisView(View):
 

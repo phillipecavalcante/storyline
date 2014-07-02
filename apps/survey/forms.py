@@ -46,14 +46,14 @@ class TicketForm(forms.Form):
 class ProfileForm(forms.Form):
 
     # profile
-    age = forms.ChoiceField(choices=Profile.AGE_CHOICES, label="Faixa etária")
-    edu = forms.ChoiceField(choices=Profile.EDU_CHOICES, label="Educação")
-    gender = forms.ChoiceField(choices=Profile.GENDER_CHOICES, label="Gênero")
+    age = forms.ChoiceField(choices=Profile.AGE_CHOICES, label="Faixa etária", required=False)
+    edu = forms.ChoiceField(choices=Profile.EDU_CHOICES, label="Educação", required=False)
+    gender = forms.ChoiceField(choices=Profile.GENDER_CHOICES, label="Gênero", required=False)
 
 class EvalForm(forms.Form):
     # user story
 
-    has_read = forms.BooleanField(label="Já li sobre este tópico antes.")
-    has_context = forms.BooleanField(label="A storyline contextualiza a primeira notícia.")
-    has_gap = forms.BooleanField(label="Sinto que falta alguma notícia na storyline.")
-    has_similar = forms.BooleanField(label="A storyline tem notícias similares.")
+    has_read = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="Já leu sobre este tópico antes?")
+    has_context = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="A storyline satisfaz a hipótese?")
+    has_gap = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="Falta alguma notícia na storyline?")
+    has_similar = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="A storyline tem notícias similares?")
