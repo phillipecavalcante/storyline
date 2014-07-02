@@ -62,7 +62,12 @@ class Profile(models.Model):
                             choices=AGE_CHOICES,
                             default=N
                             )
-
+    
+    def is_filled(self):
+        if self.edu != self.N and self.gender != self.N and self.age != self.N:
+            return True
+        return False
+    
     def __unicode__(self):
         return self.user.username
 
@@ -111,8 +116,8 @@ class UserStory(models.Model):
     
     user = models.ForeignKey(User)
     story = models.ForeignKey(Story)
-    # eval
     
+    # eval
     has_read = models.CharField(max_length=3,choices=BOOLEAN_CHOICES, default=N)
     has_context = models.CharField(max_length=3,choices=BOOLEAN_CHOICES, default=N)
     has_gap = models.CharField(max_length=3,choices=BOOLEAN_CHOICES, default=N)

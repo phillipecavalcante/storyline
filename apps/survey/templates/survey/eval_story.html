@@ -7,10 +7,10 @@
 <div class="row">
     <div class="col-md-7 col-lg-7">
         <p class="lead">Storyline original<br>
-            <small><strong>Esta não é a sua storyline, mas sim aquela que foi apresentada incialmente.</strong></small>
+            <small><small>
+                <strong>Esta não é a sua storyline, mas sim aquela que foi apresentada incialmente.</strong>
+            </small></small>
         </p>
-        
-        
     </div>
     <div class="col-md-5 col-lg-5"></div>
 </div>
@@ -28,15 +28,13 @@
     </div>
     <div class="col-md-5 col-lg-5">
          <p class="lead">
-            Avaliação
-        </p>
-        <p>
-            <small>
-                Por favor, avalie a storyline ao lado que foi gerada pelo mecanismo Storyline.<br>
+            Avaliação<br>
+            <small><small>
+                Por favor, avalie a storyline ao lado.<br>
                 <strong>
-                    (Esta é a avaliação da storyline original!)
+                    (Você está avaliando a storyline original)
                 </strong>
-            </small>
+            </small></small>
         </p>
         
         <form action="#" method="post" role="form">{% csrf_token %}
@@ -44,15 +42,7 @@
             {{ eval_form.as_p }}
             
         
-        <p class="lead">
-            Perfil
-        </p>
-        <p><small>Por favor, complemente as informações do seu perfil de participante.</small></p>
-    
-        <form action="#" method="post" role="form">{% csrf_token %}
-            {{ profile_form.as_p }}
-            
-            <input type="submit" onclick="getUserStory();" class="btn btn-block btn-primary" value="Enviar">
+            <input type="submit" class="btn btn-block btn-primary" value="Enviar">
         </form>
     </dvi>
 </div>

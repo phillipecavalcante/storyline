@@ -12,20 +12,22 @@
     <div class="col-md-7 col-lg-7">
         <blockquote>
         <p class="text-justify">
-        <strong>Hipótese:</strong> A storyline busca, recupera e ordena as notícias relacionadas à notícia inicial de modo que a 2&ordf; notícia explica/contextualiza a 1&ordf;, a 3&ordf; explica/contextualiza a 2&ordf;, assim por diante, e a última explica/contextualiza a penúltima.
+        <strong>Hipótese:</strong> A storyline busca, recupera e ordena as notícias relacionadas à notícia inicial de modo que a 2&ordf; notícia contextualiza a 1&ordf;, a 3&ordf; contextualiza a 2&ordf; e a última notícia contextualiza a penúltima.
         </p>
 </blockquote>
     </div>
     <div class="col-md-5 col-lg-5">
         <div class="well">
-        A storyline a seguir valida a hipótese?
-        Se sim, basta clicar no botão "Enviar Storyline".
-        Se não, altere a ordem da storyline atual ou
-        adicione novas notícias da seção Extra até que a hipótese seja atendida.
-        Ao final, clique em "Enviar Storyline".
+        <strong>A storyline a seguir valida a hipótese?</strong><br>
+            <p class="text-justify">
+                Altere a ordem da storyline atual e/ou adicione notícias da
+                seção Extra, <u>se a storyline não valida a hipótese</u>.<br>
+                Clique em "Enviar" para enviar a storyline atual ou a modificada.
+            </p>
         </div>
     </div>
 </div>
+
 <div class="row">
     <div class="col-md-7 col-lg-7">
         <div id="results">
@@ -34,8 +36,7 @@
     </div>
     <div class="col-md-5 col-lg-5" style="padding-top:25px">
         <p class="lead">
-            Notícias Relacionadas
-            (<small> {{ line }} / {{ meth }} </small>)
+            Storyline
         </p>
         
         <ul id="storyline" class="list-unstyled sortable">
@@ -55,7 +56,8 @@
         </form>
         <br>
         <p class="lead">
-            Extra
+            Extra<br>
+            <small><small>Notícias relacionadas que não foram selecionadas para a storyline.</small></small>
         </p>
         <ul id="extra" class="list-unstyled sortable">
             {% for s in suggestions %}

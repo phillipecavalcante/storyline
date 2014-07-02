@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+
+{% block body %}
+
+<div class="row">
+
+<div class="col-md-5 col-lg-5">
+    <form action="#" method="post" role="form">{% csrf_token %}
+        <p class="lead">
+            Perfil<br>
+            <small><small>Por favor, complemente as informações do seu perfil de participante.</small></small>
+        </p>
+    
+        {{ profile_form.as_p }}
+        <input type="submit" class="btn btn-block btn-primary" value="Enviar">
+    </form>
+</div>
+</div>
+    
+{% endblock %}

@@ -379,7 +379,7 @@ class UserStoryView(View):
             art = Article.objects.get(pk=art_id)
             UserStoryRank.objects.create(userstory=userstory, article=art, rank=r)
         
-        messages.success(request, "Storyline criada com sucesso!")
+        messages.success(request, "Storyline enviada com sucesso!")
         return redirect(reverse('survey:evalstory', args=(id,)))
 
 class EvalStoryView(View):
@@ -399,20 +399,21 @@ class EvalStoryView(View):
         else:
             results = story.storyrank_set.all().order_by('rank')
         
-        us = UserStory.objects.get(user=request.user, story=story)
-        u = request.user.profile
-        
+        try:
+            userstory = UserStory.objects.get(user=request.user, story=story)
+        except UserStory.DoesNotExist:
+            eval_form = EvalForm()
+        else:
+            eval_form = EvalForm(
+                                initial={
+                                            'has_read': userstory.has_read,
+                                            'has_context': userstory.has_context,
+                                            'has_gap' : userstory.has_gap,
+                                            'has_similar': userstory.has_similar
+                                        })
+                
         data = {
-                'eval_form' : EvalForm(initial={'has_read': us.has_read,
-                                                'has_context': us.has_context,
-                                                'has_gap' : us.has_gap,
-                                                'has_similar': us.has_similar
-                                                }),
-                'profile_form' : ProfileForm(initial={
-                                            'edu' : u.edu,
-                                            'gender' : u.gender,
-                                            'age':u.age,
-                                            }),
+                'eval_form' : eval_form,
                 'results' : results,
                 }
         
@@ -430,7 +431,6 @@ class EvalStoryView(View):
             results = story.storyrank_set.all().order_by('rank')
         
         eval_form = EvalForm(request.POST)
-        profile_form = ProfileForm(request.POST)
         
         if  eval_form.is_valid():
             
@@ -445,25 +445,59 @@ class EvalStoryView(View):
                 userstory.has_gap = request.POST.get('has_gap')
                 userstory.has_similar = request.POST.get('has_similar')
                 userstory.save()
-                
-        if profile_form.is_valid():
-            u = request.user
-            p = u.profile
-            p.age = request.POST.get('edu')
-            p.edu = request.POST.get('age')
-            p.gender = request.POST.get('gender')
-            p.save()
-            u.save()
+                messages.success(request, "Avaliação enviada com sucesso!", extra_tags='success')
                 
         data = {
                 'eval_form' : eval_form,
-                'profile_form' : profile_form,
                 'results' : results,
                 }
         
-        print request.POST.get('has_read')
+        if Profile.objects.get(user=request.user).is_filled():
+            return redirect(reverse('survey:analysis'))
+        
+        return redirect(reverse('survey:profileinfo'))
 
-        return render(request, 'survey/eval_story.html', data)
+class ProfileInfoView(View):
+
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(ProfileInfoView, self).dispatch(*args, **kwargs)
+    
+    def get(self, request):
+        
+        try:
+            user = User.objects.get(id=request.user.id)
+            userprofile = user.profile
+        except Except:
+            profile_form = ProfileForm()
+        else:
+            profile_form = ProfileForm(
+                                initial={
+                                            'edu' : userprofile.edu,
+                                            'gender' : userprofile.gender,
+                                            'age':userprofile.age,
+                                        })
+
+        data = {
+                'profile_form' : profile_form,
+                }
+        
+        return render(request, 'survey/profile_info.html', data)
+
+    def post(self, request):
+        
+        profile_form = ProfileForm(request.POST)
+        
+        if profile_form.is_valid():
+
+            userprofile = Profile.objects.get(user=request.user)
+            userprofile.age = request.POST.get('age')
+            userprofile.edu = request.POST.get('edu')
+            userprofile.gender = request.POST.get('gender')
+            userprofile.save()
+            messages.success(request, "Perfil salvo com sucesso!", extra_tags='success')
+
+        return redirect(reverse('survey:analysis'))
 
 class AnalysisView(View):
 
