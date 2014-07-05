@@ -17,7 +17,13 @@ class SearchView(View):
 
     def get(self, request):
     
-        data = {'form' : SearchForm()}
+    
+        count_docs = Article.objects.all().count()
+        
+        data = {'form' : SearchForm(),
+                'countdocs' : count_docs}
+        
+        
         
         try:
             topics = Topic.objects.all().order_by('name')
