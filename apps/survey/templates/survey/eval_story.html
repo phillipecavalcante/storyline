@@ -5,17 +5,19 @@
 {% block body %}
 
 <div class="row">
-    <div class="col-md-7 col-lg-7">
+    <div class="col-md-6 col-lg-6">
         <p class="lead">Storyline original<br>
-            <small><small>
-                <strong>Esta não é a sua storyline, mas sim aquela que foi apresentada incialmente.</strong>
-            </small></small>
+        
         </p>
     </div>
-    <div class="col-md-5 col-lg-5"></div>
+    <div class="col-md-6 col-lg-6">
+    <p class="lead">Sua Storyline<br>
+    
+        </p>
+    </div>
 </div>
 <div class="row">
-    <div class="col-md-7 col-lg-7">
+    <div class="col-md-6 col-lg-6">
         <ul class="list-unstyled">
             {% for doc in results %}
                 <li>
@@ -24,11 +26,28 @@
             {% empty %}
             {% endfor %}
         </ul>
+    </div>
+    <div class="col-md-6 col-lg-6">
+    
+        <ul class="list-unstyled">
+            {% for doc in userresults %}
+                <li>
+                    {% include "survey/snippet_lineup_story.html" with doc=doc.article %}
+                </li>
+            {% empty %}
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<div class="row">
+
+    <div class="col-md-7 col-lg-7">
         <div id="results"></div>
     </div>
+    
     <div class="col-md-5 col-lg-5">
          <p class="lead">
-            Avaliação<br>
+            Avaliação da Storyline ORIGINAL<br>
             <small><small>
                 Por favor, avalie a storyline ao lado.<br>
                 <strong>
@@ -44,7 +63,8 @@
         
             <input type="submit" class="btn btn-block btn-primary" value="Enviar">
         </form>
-    </dvi>
+    </div>
+
 </div>
 
 {% endblock %}

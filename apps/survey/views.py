@@ -417,10 +417,18 @@ class EvalStoryView(View):
                                             'has_gap' : userstory.has_gap,
                                             'has_similar': userstory.has_similar
                                         })
-                
+        
+        try:
+            user_story = UserStory.objects.get(user=request.user, story=story)
+        except UserStory.DoesNotExist:
+            pass
+            
+        user_results = user_story.userstoryrank_set.all().order_by('rank')
+        
         data = {
                 'eval_form' : eval_form,
                 'results' : results,
+                'userresults' : user_results
                 }
         
         return render(request, 'survey/eval_story.html', data)
@@ -519,26 +527,8 @@ class AnalysisView(View):
         
         edu = graph_edu()
 
-        coefspearmanlist = []
-        stories = Story.objects.all()
-        for story in stories:
-            srank = story.storyrank_set.all().order_by('rank')
-            id_srank = [sr.article.id for sr in srank]
-            userstory_list = UserStory.objects.filter(story=story)
-            spearman_values = []
-            for us in userstory_list:
-                usrank = us.userstoryrank_set.all().order_by('rank')
-                id_usrank = [usr.article.id for usr in usrank]
-                i = min(len(id_srank), len(id_usrank))
-                c, p = spearmanr(id_srank[:i], id_usrank[:i])
-                spearman_values.append(c)
-            media = np.mean(spearman_values)
-            coefspearmanlist.append([story.first.title, media, round(media,3)])
-        
-        coefspearmanlist.insert(0, ['Story', 'CCSM',{ 'role':'annotation'}])
-        
-        spearman = coefspearmanlist
-        
+
+        spearman = graph_spearman()
         
         
         data = {
@@ -555,6 +545,8 @@ class TermsView(View):
     def get(self, request):
         return render(request, 'survey/terms.html')
 
+
+# RASCUNHO
 
 def graph_gender():
 
@@ -609,3 +601,37 @@ def graph_edu():
             ['Undergraduate', u],
             ['Graduate', g] ]
     return edu
+
+def graph_spearman():
+
+    spearman_mean_list = []
+    
+    stories = Story.objects.all()
+    
+    for story in stories:
+        
+        srank = story.storyrank_set.all().order_by('rank')
+        id_srank = [sr.article.id for sr in srank]
+    
+        storyline_spearman_list = []
+        
+        userstory_list = UserStory.objects.filter(story=story)
+        
+        for us in userstory_list:
+        
+            usrank = us.userstoryrank_set.all().order_by('rank')
+            id_usrank = [usr.article.id for usr in usrank]
+            
+            i = min(len(id_srank), len(id_usrank)) # compara apenas o tamanho min.
+            c, p = spearmanr(id_srank[:i], id_usrank[:i])
+            
+            if c: # n receber vazio...
+                storyline_spearman_list.append(c)
+        
+        media = np.mean(storyline_spearman_list)
+            
+        spearman_mean_list.append([story.first.title, media, round(media,3)])
+    
+    spearman_mean_list.insert(0, ['Story', 'CCSM',{ 'role':'annotation'}])
+        
+    return spearman_mean_list
