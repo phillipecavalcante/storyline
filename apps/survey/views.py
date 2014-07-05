@@ -17,6 +17,8 @@ from apps.survey.models import *
 from apps.search.models import *
 from project import settings
 from apps.engine.chaining import lineup
+from scipy.stats import spearmanr
+import numpy as np
 
 import os, json
 
@@ -232,6 +234,10 @@ class SignUpView(View):
                     user_profile.save()
                     messages.info(request, "Conta de participação criada com sucesso!", extra_tags='info')
                     
+                    stories = Story.objects.all()
+                    for story in stories:
+                        UserStory.objects.create(user=user_object, story=story)
+            
                     return redirect(reverse('survey:signin'))
         else:
         
@@ -501,16 +507,45 @@ class ProfileInfoView(View):
 
 class AnalysisView(View):
 
+    @method_decorator(login_required)
+    def dispatch(self, *args, **kwargs):
+        return super(AnalysisView, self).dispatch(*args, **kwargs)
+    
     def get(self, request):
-        
-        neither_other = Profile.objects.filter(gender='N').count()
-        male = Profile.objects.filter(gender='M').count()
-        female = Profile.objects.filter(gender='F').count()
 
-        gender = [['Gênero', 'Quantidade'],['Neither/Other', neither_other], ['Male', male], ['Female', female]]
+        gender = graph_gender()
+        
+        age = graph_age()
+        
+        edu = graph_edu()
+
+        coefspearmanlist = []
+        stories = Story.objects.all()
+        for story in stories:
+            srank = story.storyrank_set.all().order_by('rank')
+            id_srank = [sr.article.id for sr in srank]
+            userstory_list = UserStory.objects.filter(story=story)
+            spearman_values = []
+            for us in userstory_list:
+                usrank = us.userstoryrank_set.all().order_by('rank')
+                id_usrank = [usr.article.id for usr in usrank]
+                i = min(len(id_srank), len(id_usrank))
+                c, p = spearmanr(id_srank[:i], id_usrank[:i])
+                spearman_values.append(c)
+            media = np.mean(spearman_values)
+            coefspearmanlist.append([story.first.title, media, round(media,3)])
+        
+        coefspearmanlist.insert(0, ['Story', 'CCSM',{ 'role':'annotation'}])
+        
+        spearman = coefspearmanlist
+        
+        
         
         data = {
                 'gender' : json.dumps(gender),
+                'age' : json.dumps(age),
+                'edu' : json.dumps(edu),
+                'spearman' : json.dumps(spearman),
                 }
         
         return render(request, 'survey/analysis.html', data)
@@ -520,4 +555,57 @@ class TermsView(View):
     def get(self, request):
         return render(request, 'survey/terms.html')
 
+
+def graph_gender():
+
+    gender_n = Profile.objects.filter(gender='N').count()
+    male = Profile.objects.filter(gender='M').count()
+    female = Profile.objects.filter(gender='F').count()
+
+    gender = [  ['Gênero', 'Quantidade'],
+                ['Neither/Other', gender_n],
+                ['Male', male],
+                ['Female', female]  ]
+    return gender
+
+def graph_age():
+    # AGE
+    age_n = Profile.objects.filter(age='N').count()
+    one = Profile.objects.filter(age='ONE').count()
+    two = Profile.objects.filter(age='TWO').count()
+    thr = Profile.objects.filter(age='THR').count()
+    fou = Profile.objects.filter(age='FOU').count()
+    fiv = Profile.objects.filter(age='FIV').count()
+    six = Profile.objects.filter(age='SIX').count()
+    sev = Profile.objects.filter(age='SEV').count()
+    eig = Profile.objects.filter(age='EIG').count()
+    nin = Profile.objects.filter(age='NIN').count()
+    ten = Profile.objects.filter(age='TEN').count()
     
+    age = [ ['Idade', 'Anos'],
+            ['Neither/Other', age_n],
+            ['14 to 18', one],
+            ['19 to 23', two],
+            ['24 to 28', thr],
+            ['29 to 33', fou],
+            ['34 to 38', fiv],
+            ['39 to 43', six],
+            ['44 to 48', sev],
+            ['49 to 53', eig],
+            ['54 to 58', nin],
+            ['59 or more', ten] ]
+    return age
+
+def graph_edu():
+    # EDU
+    edu_n = Profile.objects.filter(edu='N').count()
+    h = Profile.objects.filter(edu='H').count()
+    u = Profile.objects.filter(edu='U').count()
+    g = Profile.objects.filter(edu='G').count()
+    
+    edu = [ ['Educação', 'Nível'],
+            ['Neither/Other', edu_n],
+            ['High School', h],
+            ['Undergraduate', u],
+            ['Graduate', g] ]
+    return edu

@@ -1,14 +1,42 @@
 {% extends "base.html" %}
 
 {% block body %}
-    <div id="gender"></div>
-    
+
+<p class="lead">
+    Storyline
+</p>
+
+        <div id="spearman"></div>
+        
+<p class="lead">
+    Perfil
+</p>
+<div class="row">
+    <div class="col-md-6 col-lg-6">
+        <div id="gender"></div>
+    </div>
+    <div class="col-md-6 col-lg-6">
+        <div id="age"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-lg-6">
+        <div id="edu"></div>
+    </div>
+    <div class="col-md-6 col-lg-6"></div>
+</div>
+
 {% endblock %}
 
 {% block js %}
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script src="{{ STATIC_URL }}survey/js/analysis.js"></script>
     <script>
-        pizza(id='gender', d={{ gender|safe }}, t='Gênero');
+        pizza(id='gender', d={{ gender | safe }}, t='Gênero');
+        pizza(id='age', d={{ age | safe }}, t='Idade');
+        pizza(id='edu', d={{ edu | safe }}, t='Educação');
+        barchart(id='spearman', d={{ spearman | safe }}, t='Coeficiente de Correlação de Spearman Médio (CCSM)')
+        
     </script>
 {% endblock %}

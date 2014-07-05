@@ -140,4 +140,4 @@ class UserStoryRank(models.Model):
     first_story_id.short_description = 'First Story ID'
     
     def __unicode__(self):
-        return str(self.userstory.story.first.id)
+        return str(self.article.id)
