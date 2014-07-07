@@ -482,7 +482,7 @@ class ProfileInfoView(View):
         try:
             user = User.objects.get(id=request.user.id)
             userprofile = user.profile
-        except Except:
+        except Exception:
             profile_form = ProfileForm()
         else:
             profile_form = ProfileForm(
