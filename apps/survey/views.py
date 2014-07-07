@@ -343,7 +343,9 @@ class UserStoryView(View):
             pass
             
         results = user_story.userstoryrank_set.all().order_by('rank')
+        evaluated = True
         if not results:
+            evaluated = False
             results = story.storyrank_set.all().order_by('rank')
         
         
@@ -360,7 +362,8 @@ class UserStoryView(View):
                 'line' : line,
                 'meth' : meth,
                 'results' : results,
-                'suggestions': suggestions
+                'suggestions': suggestions,
+                'evaluated' : evaluated
                 }
 
         return render(request, 'survey/storyline.html', data)
