@@ -14,7 +14,7 @@ class Article(models.Model):
     links = models.TextField()
 
     def __unicode__(self):
-        return self.title
+        return "%s - %s" % (self.id, self.title)
 
 class Topic(models.Model):
 
