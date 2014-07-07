@@ -37,6 +37,13 @@
     <div class="col-md-5 col-lg-5" style="padding-top:25px">
         <p class="lead">
             Storyline
+            {% if evaluated %}
+            <span class="label label-warning"> AVALIADA </span><br>
+            <small><small>A lista abaixo é a sua storyline.<br>
+            Para rever a avaliação, clique em "Enviar Storyline".</small></small>
+            {% else %}
+            <small><small>Leia, altere (se for preciso) e envie a storyline.</small></small>
+            {% endif %}
         </p>
         
         <ul id="storyline" class="list-unstyled sortable">
