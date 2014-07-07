@@ -111,7 +111,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp-mail.outlook.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'noreply-storyline@outlook.com'
-EMAIL_HOST_PASSWORD = '2RQ1swf2O325VD71'
+EMAIL_HOST_PASSWORD = '***********'
 
 LOGIN_URL = '/survey/signin'
 LOGIN_REDIRECT_URL = '/survey/storylines'
