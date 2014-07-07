@@ -2,12 +2,34 @@
 
 {% block body %}
 
+<a href="{% url 'survey:storylines' %}" class="btn btn-primary btn-lg pull-right">Avaliar outra storyline</a>
+
 <p class="lead">
     Storyline
 </p>
 
         <div id="spearman"></div>
-        
+
+<div class="row">
+
+    <div class="col-md-6 col-lg-6">
+            <div id="hasread"></div>
+    </div>
+    <div class="col-md-6 col-lg-6">
+        <div id="hascontext"></div>
+    </div>
+
+</div>
+
+<div class="row">
+    <div class="col-md-6 col-lg-6">
+        <div id="hasgap"></div>
+    </div>
+    <div class="col-md-6 col-lg-6">
+        <div id="hassimilar"></div>
+    </div>
+</div>
+
 <p class="lead">
     Perfil
 </p>
@@ -36,6 +58,10 @@
         pizza(id='gender', d={{ gender | safe }}, t='Gênero');
         pizza(id='age', d={{ age | safe }}, t='Idade');
         pizza(id='edu', d={{ edu | safe }}, t='Educação');
+        pizza(id='hasread', d={{ hasread | safe }}, t='Já Leu ou Ouviu Falar Sobre o Assunto ');
+        pizza(id='hascontext', d={{ hascontext | safe }}, t='De Uma Maneira Geral, a Storyline Atende a Hipótese');
+        pizza(id='hasgap', d={{ hasgap | safe }}, t='Teve a Impressão de que Faltam Notícias na Storyline');
+        pizza(id='hassimilar', d={{ hassimilar | safe }}, t='Existem Notícias Similares');
         barchart(id='spearman', d={{ spearman | safe }}, t='Coeficiente de Correlação de Spearman Médio (CCSM)')
         
     </script>

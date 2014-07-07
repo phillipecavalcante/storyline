@@ -53,7 +53,7 @@ class ProfileForm(forms.Form):
 class EvalForm(forms.Form):
     # user story
 
-    has_read = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="Já leu sobre este tópico antes?")
-    has_context = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="A storyline satisfaz a hipótese?")
-    has_gap = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="Falta alguma notícia na storyline?")
+    has_read = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="Já leu ou ouviu falar sobre este tópico antes?")
+    has_context = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="De uma maneira geral, a storyline satisfaz a hipótese?")
+    has_gap = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="Há a impressão de que falta alguma notícia na storyline?")
     has_similar = forms.ChoiceField(choices=UserStory.BOOLEAN_CHOICES, required=False,label="A storyline tem notícias similares?")

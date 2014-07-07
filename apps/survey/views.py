@@ -526,7 +526,12 @@ class AnalysisView(View):
         age = graph_age()
         
         edu = graph_edu()
-
+    
+    
+        has_read = graph_has_read()
+        has_context = graph_has_context()
+        has_gap = graph_has_gap()
+        has_similar = graph_has_similar()
 
         spearman = graph_spearman()
         
@@ -536,6 +541,10 @@ class AnalysisView(View):
                 'age' : json.dumps(age),
                 'edu' : json.dumps(edu),
                 'spearman' : json.dumps(spearman),
+                'hasread' : has_read,
+                'hascontext' : has_context,
+                'hasgap' : has_gap,
+                'hassimilar' : has_similar,
                 }
         
         return render(request, 'survey/analysis.html', data)
@@ -635,3 +644,52 @@ def graph_spearman():
     spearman_mean_list.insert(0, ['Story', 'CCSM',{ 'role':'annotation'}])
         
     return spearman_mean_list
+
+
+def graph_has_read():
+
+    has_read_n = UserStory.objects.filter(has_read='N').count()
+    has_read_yes = UserStory.objects.filter(has_read='YES').count()
+    has_read_no = UserStory.objects.filter(has_read='NO').count()
+    
+    has_read = [  ['Has read', 'Quantidade'],
+                ['Neither/Other', has_read_n],
+                ['Yes', has_read_yes],
+                ['No', has_read_no]  ]
+    return has_read
+
+def graph_has_context():
+
+    has_context_n = UserStory.objects.filter(has_context='N').count()
+    has_context_yes = UserStory.objects.filter(has_context='YES').count()
+    has_context_no = UserStory.objects.filter(has_context='NO').count()
+    
+    has_context = [  ['Has context', 'Quantidade'],
+                ['Neither/Other', has_context_n],
+                ['Yes', has_context_yes],
+                ['No', has_context_no]  ]
+    return has_context
+
+def graph_has_similar():
+
+    has_similar_n = UserStory.objects.filter(has_similar='N').count()
+    has_similar_yes = UserStory.objects.filter(has_similar='YES').count()
+    has_similar_no = UserStory.objects.filter(has_similar='NO').count()
+    
+    has_similar = [  ['Has similar', 'Quantidade'],
+                ['Neither/Other', has_similar_n],
+                ['Yes', has_similar_yes],
+                ['No', has_similar_no]  ]
+    return has_similar
+
+def graph_has_gap():
+
+    has_gap_n = UserStory.objects.filter(has_gap='N').count()
+    has_gap_yes = UserStory.objects.filter(has_gap='YES').count()
+    has_gap_no = UserStory.objects.filter(has_gap='NO').count()
+    
+    has_gap = [  ['Has Gap', 'Quantidade'],
+                ['Neither/Other', has_gap_n],
+                ['Yes', has_gap_yes],
+                ['No', has_gap_no]  ]
+    return has_gap
