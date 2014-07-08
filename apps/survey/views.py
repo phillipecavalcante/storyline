@@ -632,6 +632,8 @@ def graph_spearman():
         for us in userstory_list:
         
             usrank = us.userstoryrank_set.all().order_by('rank')
+            if not usrank:
+                continue
             id_usrank = [usr.article.id for usr in usrank]
             
             i = min(len(id_srank), len(id_usrank)) # compara apenas o tamanho min.
