@@ -1,0 +1,1 @@
+/Applications/pgAdmin3.app/Contents/SharedSupport/psql --host localhost --port 5432 --username "phillipe" --dbname "storyline" --no-password  < /Users/phillipe/Downloads/dump.sql
