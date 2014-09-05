@@ -7,7 +7,7 @@ Constants
 Constantes do pacote engine.
 """
 
-INDEXDIR = "index"
+INDEXDIR = "/Users/phillipe/Projects/storyline/index"
 """
 INDEXDIR
 
