@@ -3,7 +3,7 @@ loadfonts(quiet=T)
 
 eval_graph = function(){
   eval = read.csv("~/Projects/storyline/apps/graphs/csv/eval_table.csv", header=F)
-  names(eval) = c("story", "question", "Nenhum/Outro", "Sim", "N\u00E3o")
+  names(eval) = c("story", "question", "N\u00E3o informou", "Sim", "N\u00E3o")
   
   eval_has_read = eval[eval$question == "has_read",]
   eval_has_context = eval[eval$question == "has_context",]
@@ -37,19 +37,19 @@ profile_graph = function(){
   names(profile) = c("gender", "age", "edu")
   par(mar = c(5.1, 4.1, 4.1, 6.1), xpd=TRUE)
 
-#   gender_label = c("Nenhum/Outro", "Masculino", "Feminino")
-#   gender = c( length(profile$gender[profile$gender == "Neither/Other"]),
-#               length(profile$gender[profile$gender == "Male"]),
-#               length(profile$gender[profile$gender == "Female"]))
-#   
-#   percent_label = round(gender / sum(gender) * 100, 1)
-#   percent_label <- paste(gender_label, ' (', percent_label, ' %)', sep='')
-#   
-#   pdf("~/Projects/storyline/apps/graphs/gender.pdf", family="CMU Serif", width=6, height=4)
-#   pie(gender, labels=percent_label, col = gray(seq(0.7, 1.0, length=3)))
-#   dev.off()
+  gender_label = c("N\u00E3o informou", "Masculino", "Feminino")
+  gender = c( length(profile$gender[profile$gender == "Neither/Other"]),
+              length(profile$gender[profile$gender == "Male"]),
+              length(profile$gender[profile$gender == "Female"]))
   
-#   edu_label = c("Nenhum/Outro", "Ensino M\u00E9dio", "Gradua\u00E7\u00E3o", "P\u00F3s-Gradua\u00E7\u00E3o")
+  percent_label = round(gender / sum(gender) * 100, 1)
+  percent_label <- paste(gender_label, ' (', percent_label, ' %)', sep='')
+  
+  pdf("~/Projects/storyline/apps/graphs/gender.pdf", family="CMU Serif", width=6, height=4)
+  pie(gender, labels=percent_label, col = gray(seq(0.7, 1.0, length=3)))
+  dev.off()
+  
+#   edu_label = c("N\u00E3o informou", "Ensino M\u00E9dio", "Gradua\u00E7\u00E3o", "P\u00F3s-Gradua\u00E7\u00E3o")
 #   edu = c(length(profile$edu[profile$edu == "Neither/Other"]),
 #           length(profile$edu[profile$edu == "High School"]),
 #           length(profile$edu[profile$edu == "Undergraduate"]),
@@ -63,22 +63,22 @@ profile_graph = function(){
 #   pie(edu, labels=percent_label, col = gray(seq(0.6, 1.0, length=4)))
 #   dev.off()
   
-  age_label = c("Nenhum/Outro", "19 a 23", "24 a 28", "29 a 33", "34 a 38", "39 a 43", "44 a 48")
-  age = c(
-    length(profile$age[profile$age == "Neither/Other"]),
-    length(profile$age[profile$age == "19 to 23"]),
-    length(profile$age[profile$age == "24 to 28"]),
-    length(profile$age[profile$age == "29 to 33"]),
-    length(profile$age[profile$age == "34 to 38"]),
-    length(profile$age[profile$age == "39 to 43"]),
-    length(profile$age[profile$age == "44 to 48"])
-    )
-  percent_label = round(age / sum(age) * 100, 1)
-  percent_label <- paste(age_label, ' (', percent_label, ' %)', sep='')
-  
-  pdf("~/Projects/storyline/apps/graphs/age.pdf", family="CMU Serif", width=6, height=4)
-  pie(age, labels=percent_label, col = gray(seq(0.4, 1.0, length=6)))
-  dev.off()
+#   age_label = c("N\u00E3o informou", "19 a 23", "24 a 28", "29 a 33", "34 a 38", "39 a 43", "44 a 48")
+#   age = c(
+#     length(profile$age[profile$age == "Neither/Other"]),
+#     length(profile$age[profile$age == "19 to 23"]),
+#     length(profile$age[profile$age == "24 to 28"]),
+#     length(profile$age[profile$age == "29 to 33"]),
+#     length(profile$age[profile$age == "34 to 38"]),
+#     length(profile$age[profile$age == "39 to 43"]),
+#     length(profile$age[profile$age == "44 to 48"])
+#     )
+#   percent_label = round(age / sum(age) * 100, 1)
+#   percent_label <- paste(age_label, ' (', percent_label, ' %)', sep='')
+#   
+#   pdf("~/Projects/storyline/apps/graphs/age.pdf", family="CMU Serif", width=6, height=4)
+#   pie(age, labels=percent_label, col = gray(seq(0.4, 1.0, length=6)))
+#   dev.off()
 
 }
 
