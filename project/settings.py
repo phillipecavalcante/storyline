@@ -17,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = ')#n4s6h8_#4ql2602_t7j8siduv%j2^c=atjq0x07ls5pdf2k3'
+SECRET_KEY = ''
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -103,8 +103,8 @@ TEMPLATE_DIRS = (
     os.path.join(BASE_DIR, 'templates'),
 )
 
-RECAPTCHA_PUBLIC_KEY = '6LdOrPQSAAAAAFkys695MjBfX_9WGMtu-w74uyn3'
-RECAPTCHA_PRIVATE_KEY = '6LdOrPQSAAAAAJ31TyU0qKER1FlQEh8oTbKcnXGj'
+RECAPTCHA_PUBLIC_KEY = ''
+RECAPTCHA_PRIVATE_KEY = ''
 RECAPTCHA_USE_SSL = True
 
 EMAIL_USE_TLS = True
